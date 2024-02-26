@@ -1,3 +1,4 @@
+import numpy.random as rand
 import numpy as np
 
 from bugs import Plankton
@@ -19,21 +20,30 @@ def init_plankton(n: int):
 
 
 def run_simulation(n: int, iterations: int, L_max: float):
-    plankton = init_plankton(n)
-
+    #rng = rand.default_rng()
     positions = np.zeros((n, 2, iterations))
 
-    delta = 0.1
-
+    delta = 10**(-3)
+    k = 2*np.pi/L_max
+    U_tot = 0.1 #Utot_list = [0.0, 0.1, 0.5,2.5]
+    
+    plankton = init_plankton(n)
+    
     for i in range(iterations):
-
+        # Compute the phase in x and y for the turbulent flow from Pierrehumbert. 
+        # These phases are common to each particle as they correspond to a unique flow.
+        phi = rand.uniform()*2*np.pi
+        theta = rand.uniform()*2*np.pi
+        
         for j, p in enumerate(plankton):
+            # Step 1. Reproduction
+            
 
             # Step 2. Diffusion
             p.diffusion(L_max, delta)
 
             # Step 3. Advection
-            # p.advection()
+            p.advection(U_tot, k, phi, theta, L_max)
 
             positions[j, :, i] = p.get_coords()
 
