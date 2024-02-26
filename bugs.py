@@ -3,12 +3,13 @@ import numpy as np
 
 class Plankton:
 
-    def __init__(self, p: float, q: float, x: float, y: float):
+    def __init__(self, p: float, q: float, x: float, y: float, y_0 = None):
         """
         p: reproduction rate.
         q: death rate.
         x: initial x position.
         y: initial y position.
+        y_0: colour position of offspring.
         """
         # Probability of reproduction.
         self.p = p
@@ -22,7 +23,7 @@ class Plankton:
 
         # Record the initial y position for plotting.
         self.x_0 = x
-        self.y_0 = y
+        self.y_0 = y if y_0 is None else y_0
 
         self.rand = rand.default_rng() 
 

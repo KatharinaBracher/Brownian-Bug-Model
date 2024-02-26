@@ -21,13 +21,14 @@ def init_plankton(n: int):
 
 def run_simulation(n: int, iterations: int, L_max: float):
     #rng = rand.default_rng()
-    positions = np.zeros((n, 2, iterations))
+    #positions = np.zeros((n, 2, iterations))
 
     delta = 10**(-3)
     k = 2*np.pi/L_max
     U_tot = 0.1 #Utot_list = [0.0, 0.1, 0.5,2.5]
     
-    plankton = init_plankton(n)
+    initial_plankton = init_plankton(n)
+    plankton = initial_plankton
     
     for i in range(iterations):
         # Compute the phase in x and y for the turbulent flow from Pierrehumbert. 
@@ -35,19 +36,39 @@ def run_simulation(n: int, iterations: int, L_max: float):
         phi = rand.uniform()*2*np.pi
         theta = rand.uniform()*2*np.pi
         
+        new_plankton = []
+
         for j, p in enumerate(plankton):
             # Step 1. Reproduction
-            
+            reproduction_outcome = p.reproduction()
 
-            # Step 2. Diffusion
-            p.diffusion(L_max, delta)
+            if reproduction_outcome == 1:
+                offspring = Plankton(p.p, p.q, p.x, p.y, p.y_0)
+                
+                # Step 2. Diffusion
+                p.diffusion(L_max, delta)
+                offspring.diffusion(L_max, delta)
+                
+                # Step 3. Advection
+                p.advection(U_tot, k, phi, theta, L_max)
+                offspring.advection(U_tot, k, phi, theta, L_max)
+                
+                new_plankton.append(offspring)
+                new_plankton.append(p)
 
-            # Step 3. Advection
-            p.advection(U_tot, k, phi, theta, L_max)
+            elif reproduction_outcome == 0:
+                # Step 2. Diffusion
+                p.diffusion(L_max, delta)
 
-            positions[j, :, i] = p.get_coords()
+                # Step 3. Advection
+                p.advection(U_tot, k, phi, theta, L_max)
 
-    return plankton, positions
+                new_plankton.append(p)
+
+            #positions[j, :, i] = p.get_coords()
+        plankton = new_plankton
+
+    return plankton, initial_plankton
 
 
 def pair_distance(p1: Plankton, p2: Plankton) -> float:
