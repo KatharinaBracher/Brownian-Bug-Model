@@ -19,7 +19,7 @@ def init_plankton(n: int):
     return plankton
 
 
-def run_simulation(n: int, iterations: int, L_max: float):
+def run_simulation(n: int, iterations: int, L_max: float, reproduction=True):
     #rng = rand.default_rng()
     #positions = np.zeros((n, 2, iterations))
 
@@ -29,6 +29,7 @@ def run_simulation(n: int, iterations: int, L_max: float):
     
     initial_plankton = init_plankton(n)
     plankton = initial_plankton
+    reproduction_outcome = 0
     
     for i in range(iterations):
         # Compute the phase in x and y for the turbulent flow from Pierrehumbert. 
@@ -40,7 +41,8 @@ def run_simulation(n: int, iterations: int, L_max: float):
 
         for j, p in enumerate(plankton):
             # Step 1. Reproduction
-            reproduction_outcome = p.reproduction()
+            if reproduction:
+                reproduction_outcome = p.reproduction()
 
             if reproduction_outcome == 1:
                 offspring = Plankton(p.p, p.q, p.x, p.y, p.y_0)
