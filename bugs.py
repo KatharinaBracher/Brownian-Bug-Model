@@ -41,9 +41,11 @@ class Plankton:
     def advection(self, U_tot: float, k: float, phi: float, theta: float, L_max: float):
         """Pierre-Humbert Flow."""
         d_x = U_tot*np.cos(k*self.y+phi)
-        d_y = U_tot*np.cos(k*self.x+theta)
         self.x += d_x
+
+        d_y = U_tot*np.cos(k*self.x+theta)
         self.y += d_y
+        
         self.check_boundaries(L_max)
 
     def diffusion(self, L_max: float, delta: float):

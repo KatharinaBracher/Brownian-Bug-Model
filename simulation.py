@@ -19,6 +19,14 @@ def init_plankton(n: int):
     return plankton
 
 
+def compute_distances(plankton: list[Plankton]):
+    pass
+
+
+def pair_distance(p1: Plankton, p2: Plankton) -> float:
+    return (p1.x - p2.x)**2 + (p1.y - p2.y)**2
+
+
 def run_simulation(n: int, iterations: int, L_max: float, reproduction=True):
     #rng = rand.default_rng()
     #positions = np.zeros((n, 2, iterations))
@@ -71,7 +79,3 @@ def run_simulation(n: int, iterations: int, L_max: float, reproduction=True):
         plankton = new_plankton
 
     return plankton, initial_plankton
-
-
-def pair_distance(p1: Plankton, p2: Plankton) -> float:
-    return (p1.x - p2.x)**2 + (p1.y - p2.y)**2
