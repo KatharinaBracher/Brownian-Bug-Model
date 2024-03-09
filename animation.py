@@ -5,14 +5,14 @@ from copy import deepcopy
 from bugs import Plankton
 from simulation import init_plankton
 
-def get_pos(plankton):
-    x = [p.x_0 for p in plankton]
-    y = [p.y_0 for p in plankton]
-    starting_positions_0 = [p.y_0 for p in plankton]
+def get_pos(plankton_obj):
+    x = [p.x for p in plankton_obj]
+    y = [p.y for p in plankton_obj]
+    starting_positions_0 = [p.y_0 for p in plankton_obj]
     return x,y,starting_positions_0
 
-def append_pos(x_pos, y_pos, starting_pos, plankton):
-    x,y,starting_positions_0 = get_pos(plankton)
+def append_pos(x_pos, y_pos, starting_pos, plankton_obj):
+    x,y,starting_positions_0 = get_pos(plankton_obj)
     x_pos.append(x)
     y_pos.append(y)
     starting_pos.append(starting_positions_0)
@@ -22,7 +22,7 @@ def run_simulation_animation(n: int, iterations: int, L_max: float, reproduction
     #positions = np.zeros((n, 2, iterations))
     x_pos = []
     y_pos = []
-    startin_pos = []
+    starting_pos = []
 
     delta = 10**(-3)
     k = 2*np.pi/L_max
