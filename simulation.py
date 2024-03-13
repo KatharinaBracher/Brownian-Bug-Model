@@ -4,27 +4,16 @@ import numpy as np
 from bugs import Plankton
 
 
-def init_plankton(n: int):
+def init_plankton(n: int, p: float = 0.5, q:float = 0.5):
     x_lim = 1
     y_lim = 1
 
     x_init_positions = np.random.rand(n) * x_lim
     y_init_positions = np.random.rand(n) * y_lim
 
-    p = 0.5
-    q = 0.5
-
     plankton = [Plankton(p, q, x_init_positions[i], y_init_positions[i]) for i in range(n)]
 
     return plankton
-
-
-def compute_distances(plankton: list[Plankton]):
-    pass
-
-
-def pair_distance(p1: Plankton, p2: Plankton) -> float:
-    return (p1.x - p2.x)**2 + (p1.y - p2.y)**2
 
 
 def run_simulation(n: int, iterations: int, L_max: float, reproduction=True):
