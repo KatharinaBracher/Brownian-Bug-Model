@@ -39,7 +39,7 @@ def run_simulation(n: int, iterations: int, L_max: float, reproduction=True):
         for j, p in enumerate(plankton):
             # Step 1. Reproduction
             if reproduction:
-                reproduction_outcome = p.reproduction()
+                reproduction_outcome = p.reproduction() #either 1 or -1
 
             if reproduction_outcome == 1:
                 offspring = Plankton(p.p, p.q, p.x, p.y, p.y_0)
@@ -54,7 +54,9 @@ def run_simulation(n: int, iterations: int, L_max: float, reproduction=True):
                 
                 new_plankton.append(offspring)
                 new_plankton.append(p)
+            #if reproduction_outcome == -1 the plankton has died
 
+            # no reproduction
             elif reproduction_outcome == 0:
                 # Step 2. Diffusion
                 p.diffusion(L_max, delta)
