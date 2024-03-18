@@ -39,7 +39,7 @@ def run_simulation_trajectory(n: int, iterations: int, L_max: float, reproductio
     plankton_dict = init_dict(initial_plankton)
     id_list = list(range(n))
     
-    for i in range(iterations):
+    for i in range(1,iterations+1):
         # Compute the phase in x and y for the turbulent flow from Pierrehumbert. 
         # These phases are common to each particle as they correspond to a unique flow.
         phi = rand.uniform()*2*np.pi
