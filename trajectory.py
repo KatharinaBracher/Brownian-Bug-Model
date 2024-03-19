@@ -14,7 +14,7 @@ def init_dict(initial_plankton):
 
 def append_dict(plankton_dict, p, new, id, timestep):
     
-    if new: # new position dict with id n_count 
+    if new: # new position dict with id n_count
         position_dict = {'x': [p.x], 'y': [p.y], 'y0': p.y_0, 't': [timestep]}
         plankton_dict[id] = position_dict
         
