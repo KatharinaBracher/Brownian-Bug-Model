@@ -1,5 +1,4 @@
 import numpy as np
-
 from bugs import Plankton
 
 
@@ -31,11 +30,12 @@ def pair_distance(p1: Plankton, p2: Plankton, L_max: float) -> float:
     return distance
 
 
-def PairDens(p, dp, L_max, plankton):
+def PairDens(pow_min, pow_max, dp, L_max, plankton):
     """Function that computes pair densities within a population of plankton.
     
     INPUTS:
-        p: base 10 logarithm of the starting radius for which we want to calculate the pair density.
+        pow_min: base 10 logarithm of the starting radius for which we want to calculate the pair density.
+        pow_max: base 10 logarithm of the final radius for which we want to calculate the pair density.
         dp: increment in the power of 10 to define the range (or "bin") for the distances over which to calculate the pair density.
         L_max: size of one side of the square domain.
         plankton: list containing all the current plankton.
@@ -45,40 +45,59 @@ def PairDens(p, dp, L_max, plankton):
         pcf_dp: measure of pair density normalised in a different way.
     """
 
-    # We calculate the starting radius.
-    xi = 10 ** p
-
-    # We calculate the width of the annular area that will be incrementing our radius.
-    dxi = 10 ** (p + dp) - xi
+    # We calculate the edges of the bins for the histogram.
+    edges = 10 ** np.arange(pow_min, pow_max + dp, dp)
 
     # We initialise the count of particle pairs.
-    count = 0
+    counts = np.zeros(len(edges) - 1)
     
+    # We initialise a list to store all pairwise distances.
+    distances = []
+
     # We iterate over all unique pairs of plankton. We take (i + 1) in the second loop to avoid repetitions.
     for i in range(len(plankton)):
         for j in range(i + 1, len(plankton)):
             # We calculate the distance between the pair.
             distance = pair_distance(plankton[i], plankton[j], L_max)
 
-            # If the particle is in the annular area, we add one to the total count of particle pairs.
-            if xi < distance <= xi + dxi:
-                count += 1
+            # We append the computed distance to our list of distances.
+            distances.append(distance)
                 
-                
-    # We compute the area of the annulus in order to normalise the count of the pairs.
-    annular_area = np.pi * ((xi + dxi) ** 2 - xi ** 2)
+    # We convert our list of distances into an array.
+    distances = np.array(distances)
 
-    # We calculate the concentration of plankton in the given annulus.
-    pcf_dx = count / annular_area
+    # We assign each distance to a specific bin.
+    bins = np.digitize(distances, edges)
 
-    # We calculate the concentration of plankton for logarithmic scaling.
-    pcf_dp = count / (2 * np.pi * xi * dxi * np.log(10))
+    # We count the number of occurrences in each bin.
+    for index in bins:
+        if 0 < index < len(edges):
+            counts[index - 1] += 1
     
-    return pcf_dx, pcf_dp
+    pcf_dx_list = []
+    pcf_dp_list = []
+
+    for i in range(len(counts)):
+        xi = edges[i]
+        dxi = edges[i + 1] - xi
+
+        # We compute the area of the annulus in order to normalise the count of the pairs.
+        annular_area = np.pi * ((xi + dxi) ** 2 - xi ** 2)
+
+        # We calculate the concentration of plankton in the given annulus.
+        pcf_dx = counts[i] / annular_area
+
+        # We calculate the concentration of plankton for logarithmic scaling.
+        pcf_dp = counts[i] / (2 * np.pi * xi * dxi * np.log(10))
+
+        pcf_dx_list.append(pcf_dx)
+        pcf_dp_list.append(pcf_dp)
+    
+    return edges[:-1], pcf_dx_list, pcf_dp_list
+
+
 
 # Theoretical value of g
-
-
 n = 500
 C_0 = n/10
 gamma = 0.0264
@@ -94,4 +113,4 @@ def g_theoretical(gamma, rDelta, C_0):
         tmax = iters*tau
         tmp = 2*lamda/C_0 * (scipy.special.exp1((np.array(rDelta)*Delta)**2/(8*tmax*D))/(8*np.pi*D))
         
-    return tmp   
+    return tmp
