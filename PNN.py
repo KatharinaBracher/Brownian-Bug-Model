@@ -57,6 +57,20 @@ with open(MODEL_DIR + r"Yscaler.pkl", "wb") as file:
 
 # --- BUILD MODEL ---
 
+# mirrored_strategy = tf.distribute.MirroredStrategy()
+# with mirrored_strategy.scope():
+#     model = tf.keras.Sequential(
+#         [tfkl.Dense(256, activation='tanh'),
+#          tfkl.Dense(256, activation='tanh'),
+#          tfkl.Dense(256, activation='tanh'),
+#          tfkl.Dense(256, activation='tanh'),
+#          tfkl.Dense(512, activation='tanh'),
+#          tfkl.Dense(512, activation='tanh'),
+#          tfkl.Dense(N_C * 6, activation=None),
+#          tfpl.MixtureSameFamily(N_C, tfpl.MultivariateNormalTriL(2))])
+    
+# --- LIGHTWEIGHT MODEL FOR TESTING ---
+    
 mirrored_strategy = tf.distribute.MirroredStrategy()
 with mirrored_strategy.scope():
     model = tf.keras.Sequential(

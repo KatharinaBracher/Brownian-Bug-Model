@@ -1,6 +1,5 @@
 import numpy.random as rand
 import numpy as np
-from copy import deepcopy
 
 from bugs import Plankton
 from simulation import init_plankton

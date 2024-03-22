@@ -5,16 +5,23 @@ used to test your installation of the relevant libraries.
 import numpy as np
 import tensorflow as tf
 import tensorflow_probability as tfp
-from tensorflow.keras import callbacks as cb
+# from tensorflow.keras import callbacks as cb
+
 tfkl = tf.keras.layers
 tfpl = tfp.layers
 tfd = tfp.distributions
 print("Loaded the libraries.")
-
 print(tf.config.list_physical_devices())
 MODEL_DIR = "./test_model/"
 
 # Generate random data
+
+
+data = np.load("data/training_data.npy")
+print(data.shape)
+
+print(data[:, 0:2, :].shape)
+
 
 X = np.random.randn(500, 2)
 Y = np.random.randn(500, 2)
