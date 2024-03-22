@@ -16,11 +16,10 @@ def init_plankton(n: int, p: float = 0.5, q:float = 0.5):
     return plankton
 
 
-def run_simulation(n: int, iterations: int, L_max: float, reproduction=True):
+def run_simulation(n: int, iterations: int, L_max: float, reproduction=True, delta=10**(-3)):
     #rng = rand.default_rng()
     #positions = np.zeros((n, 2, iterations))
-
-    delta = 10**(-3)
+    
     k = 2*np.pi/L_max
     U_tot = 0.1 #Utot_list = [0.0, 0.1, 0.5,2.5]
     
