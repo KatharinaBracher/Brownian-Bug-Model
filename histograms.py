@@ -163,8 +163,10 @@ def g_theoretical(gamma, rDelta, C_0):
     tau = 1
     lamda = 0.5
     Delta = 10**(-7)
-    if gamma >0: # assuming advection U>0
+    
+    if gamma > 0: # assuming advection U>0
         tmp = -1*lamda*tau/(2*np.pi*C_0*Delta**2)*(np.log(gamma)-np.log(1/(tau*np.array(rDelta)**2)+gamma))
+
     else: # case without advection
         D = Delta**2/(2*tau)
         tmax = iters*tau
