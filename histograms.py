@@ -1,4 +1,5 @@
 import numpy as np
+import numpy.random as rand
 from bugs import Plankton
 
 
@@ -16,15 +17,11 @@ def pair_distance(p1: Plankton, p2: Plankton, L_max: float) -> float:
         The minimum distance between p1 and p2 considering periodic boundaries.
     """
 
-    # We calculate the distance between two individual plankton
-    dx = np.abs(p1.x - p2.x)
-    dy = np.abs(p1.y - p2.y)
-
-    # We account for the periodic boundary conditions
+    # We calculate the distance between two individual plankton, accounting for the periodic boundary conditions.
     dx = min(np.abs(p1.x - p2.x), L_max - np.abs(p1.x - p2.x))
     dy = min(np.abs(p1.y - p2.y), L_max - np.abs(p1.y - p2.y))
 
-    # We compute the Euclidean distance between the two plankton
+    # We compute the Euclidean distance between the two plankton.
     distance = np.sqrt(dx**2 + dy**2)
 
     return distance
@@ -95,6 +92,66 @@ def PairDens(pow_min, pow_max, dp, L_max, plankton):
     
     return edges[:-1], pcf_dx_list, pcf_dp_list
 
+
+def run_simulation(n: int, iterations: int, L_max: float, delta: float, U_tot, reproduction=True):
+    # Compute the phase in x and y for the turbulent flow from Pierrehumbert. 
+    # These phases are common to each particle as they correspond to a unique flow.
+    phi_theta = np.random.uniform(0, 2 * np.pi, (iterations, 2))
+    
+    k = 2*np.pi
+    
+    plankton = init_plankton(n, L_max)
+    reproduction_outcome = 0
+    
+    for i in range(iterations):
+        phi, theta = phi_theta[i]
+        
+        new_plankton = []
+
+        for p in plankton:
+            # Step 1. Reproduction
+            if reproduction:
+                reproduction_outcome = p.reproduction() #either 1 or -1
+
+            if reproduction_outcome == 1:
+                offspring = Plankton(p.p, p.q, p.x, p.y, p.y_0)
+                
+                # Step 2. Diffusion
+                p.diffusion(L_max, delta)
+                offspring.diffusion(L_max, delta)
+                
+                # Step 3. Advection
+                p.advection(U_tot, k, phi, theta, 1)
+                offspring.advection(U_tot, k, phi, theta, 1)
+                
+                new_plankton.append(offspring)
+                new_plankton.append(p)
+
+            # no reproduction
+            elif reproduction_outcome == 0:
+                # Step 2. Diffusion
+                p.diffusion(L_max, delta)
+
+                # Step 3. Advection
+                p.advection(U_tot, k, phi, theta, 1)
+
+                new_plankton.append(p)
+
+        plankton = new_plankton
+
+    return plankton
+
+
+def init_plankton(n: int, L_max: float, p: float = 0.5, q:float = 0.5):
+    x_lim = L_max
+    y_lim = L_max
+
+    x_init_positions = np.random.rand(n) * x_lim
+    y_init_positions = np.random.rand(n) * y_lim
+
+    plankton = [Plankton(p, q, x_init_positions[i], y_init_positions[i]) for i in range(n)]
+
+    return plankton
 
 
 # Theoretical value of g
