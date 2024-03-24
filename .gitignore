@@ -2,3 +2,5 @@ __pycache__
 .ipynb_checkpoints
 data
 training_data.npy
+no_reproduction_plots
+reproduction_plots
