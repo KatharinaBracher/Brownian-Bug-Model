@@ -1,6 +1,6 @@
 import numpy as np
-import numpy.random as rand
 from bugs import Plankton
+from scipy.special import expi
 
 
 def pair_distance(p1: Plankton, p2: Plankton, L_max: float) -> float:
@@ -41,6 +41,9 @@ def PairDens(pow_min, pow_max, dp, L_max, plankton):
         pcf_dx: measure of pair density.
         pcf_dp: measure of pair density normalised in a different way.
     """
+
+    area = L_max**2
+    C = len(plankton)/area
 
     # We calculate the edges of the bins for the histogram.
     edges = 10 ** np.arange(pow_min, pow_max + dp, dp)
@@ -83,9 +86,11 @@ def PairDens(pow_min, pow_max, dp, L_max, plankton):
 
         # We calculate the concentration of plankton in the given annulus.
         pcf_dx = counts[i] / annular_area
+        pcf_dx = pcf_dx / C**2
 
         # We calculate the concentration of plankton for logarithmic scaling.
         pcf_dp = counts[i] / (2 * np.pi * xi * dxi * np.log(10))
+        pcf_dp = pcf_dp / C**2
 
         pcf_dx_list.append(pcf_dx)
         pcf_dp_list.append(pcf_dp)
@@ -154,22 +159,17 @@ def init_plankton(n: int, L_max: float, p: float = 0.5, q:float = 0.5):
     return plankton
 
 
-# Theoretical value of g
-n = 500
-C_0 = n/10
-gamma = 0.0264
-
-def g_theoretical(gamma, rDelta, C_0):
+def g_theoretical(gamma, rDelta, C_0, iters):
     tau = 1
     lamda = 0.5
     Delta = 10**(-7)
+    rDelta = np.array(rDelta)
     
-    if gamma > 0: # assuming advection U>0
-        tmp = -1*lamda*tau/(2*np.pi*C_0*Delta**2)*(np.log(gamma)-np.log(1/(tau*np.array(rDelta)**2)+gamma))
-
-    else: # case without advection
-        D = Delta**2/(2*tau)
-        tmax = iters*tau
-        tmp = 2*lamda/C_0 * (scipy.special.exp1((np.array(rDelta)*Delta)**2/(8*tmax*D))/(8*np.pi*D))
+    if gamma > 0:  # Assuming advection U > 0
+        tmp = -1 * lamda * tau / (2 * np.pi * C_0 * Delta**2) * (np.log(gamma) - np.log(1 / (tau * rDelta**2) + gamma))
+    else:  # Case U = 0, no advection
+        D = Delta**2 / (2 * tau)
+        tmax = iters * tau
+        tmp = 2 * lamda / C_0 * (-expi((-(rDelta * Delta)**2) / (8 * tmax * D))) / (8 * np.pi * D)
         
     return tmp
