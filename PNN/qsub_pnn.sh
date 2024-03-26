@@ -1,10 +1,10 @@
-s#!/bin/sh
+#!/bin/sh
 # Grid Engine options (lines prefixed with #$)
 
 # Name of job
 #$ -N j_leadbetter
 # Directory in which to run code (-cwd or -wd <path-to-wd>)
-#$ -cwd
+#$ -wd /home/s2603968/Brownian-Bug-Model
 # Requested runtime allowance
 #$ -l h_rt=00:20:00
 # Requested memory (per core)
@@ -16,6 +16,8 @@ s#!/bin/sh
 # Option to request resource reservation
 #$ -R y
 
+#$ -o model.out
+
 # Initialise the environment modules
 . /etc/profile.d/modules.sh
 
@@ -25,4 +27,4 @@ module load anaconda
 conda activate plankton
 
 # Run the program
-python Brownian-Bug-Model/PNN/model_training.py
+python PNN/model_training.py

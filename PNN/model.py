@@ -2,6 +2,8 @@
 Script for constructing and training MDN model of transition density.
 """
 
+print("Importing packages")
+
 import pickle
 from pathlib import Path
 import numpy as np
@@ -76,10 +78,10 @@ mirrored_strategy = tf.distribute.MirroredStrategy()
 with mirrored_strategy.scope():
     model = tf.keras.Sequential(
         [tfkl.Dense(256, activation='tanh'),
-        #  tfkl.Dense(256, activation='tanh'),
-        #  tfkl.Dense(256, activation='tanh'),
-        #  tfkl.Dense(256, activation='tanh'),
-        #  tfkl.Dense(512, activation='tanh'),
+         tfkl.Dense(256, activation='tanh'),
+         tfkl.Dense(256, activation='tanh'),
+         tfkl.Dense(256, activation='tanh'),
+         tfkl.Dense(512, activation='tanh'),
          tfkl.Dense(512, activation='tanh'),
          tfkl.Dense(N_C * 2, activation=None),
          tfpl.MixtureSameFamily(2, tfpl.MultivariateNormalTriL(4))])
@@ -103,7 +105,7 @@ def nll(data_point, tf_distribution):
 LOSS = nll
 BATCH_SIZE = 8192
 LEARNING_RATE = 5e-5
-EPOCHS = 10
+EPOCHS = 1000
 # EPOCHS = 100000
 OPTIMISER = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
 VALIDATION_SPLIT = 0.2
