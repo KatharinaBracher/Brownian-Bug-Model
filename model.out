@@ -1,3 +1,41 @@
 /tmp/hostfile_41910268.undefined
 /tmp/hostfile_41910282.undefined
 /tmp/hostfile_41910508.undefined
+/tmp/hostfile_41927301.undefined
+Importing packages
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+Loaded N = 10000 datapoints
+Built the model.
+Epoch 1/11
+1/1 - 6s - loss: 6.7532 - val_loss: 5.7326 - 6s/epoch - 6s/step
+Epoch 2/11
+1/1 - 1s - loss: 6.4468 - val_loss: 5.5384 - 1s/epoch - 1s/step
+Epoch 3/11
+1/1 - 1s - loss: 6.1813 - val_loss: 5.3707 - 1s/epoch - 1s/step
+Epoch 4/11
+1/1 - 1s - loss: 5.9481 - val_loss: 5.2229 - 992ms/epoch - 992ms/step
+Epoch 5/11
+1/1 - 1s - loss: 5.7410 - val_loss: 5.0903 - 1s/epoch - 1s/step
+Epoch 6/11
+1/1 - 1s - loss: 5.5555 - val_loss: 4.9700 - 1s/epoch - 1s/step
+Epoch 7/11
+1/1 - 1s - loss: 5.3886 - val_loss: 4.8601 - 1s/epoch - 1s/step
+Epoch 8/11
+1/1 - 1s - loss: 5.2381 - val_loss: 4.7592 - 1s/epoch - 1s/step
+Epoch 9/11
+1/1 - 1s - loss: 5.1024 - val_loss: 4.6667 - 1s/epoch - 1s/step
+Epoch 10/11
+
+Epoch 10: saving model to models/GDP_4day_NC15/checkpoint_epoch_10/weights
+1/1 - 1s - loss: 4.9804 - val_loss: 4.5823 - 1s/epoch - 1s/step
+Epoch 11/11
+1/1 - 1s - loss: 4.8708 - val_loss: 4.5056 - 1s/epoch - 1s/step
+Trained the model.
+/tmp/hostfile_41927387.undefined
+Importing packages
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+Loaded N = 3000000 datapoints
+Built the model.
+Epoch 1/11

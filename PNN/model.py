@@ -105,7 +105,7 @@ def nll(data_point, tf_distribution):
 LOSS = nll
 BATCH_SIZE = 8192
 LEARNING_RATE = 5e-5
-EPOCHS = 1000
+EPOCHS = 11
 # EPOCHS = 100000
 OPTIMISER = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
 VALIDATION_SPLIT = 0.2

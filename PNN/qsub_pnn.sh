@@ -10,7 +10,7 @@
 # Requested memory (per core)
 #$ -l h_vmem=4G
 # Requested number of cores in parallel environment
-#$ -pe sharedmem 2
+#$ -pe sharedmem 16
 # Email address for notifications
 #$ -M s2603968@ed.ac.uk
 # Option to request resource reservation
@@ -27,4 +27,4 @@ module load anaconda
 conda activate plankton
 
 # Run the program
-python PNN/model_training.py
+python PNN/model.py
