@@ -3,3 +3,5 @@ __pycache__
 data
 training_data.npy
 j_leadbetter.*
+no_reproduction_plots
+reproduction_plots
