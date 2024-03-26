@@ -1,0 +1,8 @@
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+Importing packages
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+Loaded N = 3000000 datapoints
+Built the model.
+Epoch 1/11

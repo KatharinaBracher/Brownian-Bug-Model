@@ -39,3 +39,38 @@ Loaded the libraries.
 Loaded N = 3000000 datapoints
 Built the model.
 Epoch 1/11
+293/293 - 286s - loss: 4.4076 - val_loss: 4.0603 - 286s/epoch - 976ms/step
+Epoch 2/11
+293/293 - 286s - loss: 3.8104 - val_loss: 4.2265 - 286s/epoch - 976ms/step
+Epoch 3/11
+293/293 - 289s - loss: 3.1273 - val_loss: 4.3134 - 289s/epoch - 988ms/step
+Epoch 4/11
+293/293 - 293s - loss: 2.7573 - val_loss: 4.1285 - 293s/epoch - 998ms/step
+Epoch 5/11
+/tmp/hostfile_41927637.undefined
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 0
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+Importing packages
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+Loaded N = 3000000 datapoints
+Built the model.
+Epoch 1/11
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+Importing packages
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+Loaded N = 3000000 datapoints
+Built the model.
+Epoch 1/11

@@ -1,0 +1,96 @@
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+Could not find conda environment: ml
+You can list all discoverable environments with `conda info --envs`.
+
+  File "<fstring>", line 1
+    (N = )
+       ^
+SyntaxError: invalid syntax
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-26 15:09:49.179323: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-26 15:09:49.986029: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-26 15:09:49.986158: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-26 15:09:49.991806: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-26 15:09:50.279721: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-26 15:10:04.302487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79087 MB memory:  -> device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:e3:00.0, compute capability: 8.0
+2024-03-26 15:10:04.392944: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 77.23GiB (82928992256 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.392998: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 69.51GiB (74636091392 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393015: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 62.56GiB (67172478976 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393029: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 56.30GiB (60455231488 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393043: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 50.67GiB (54409707520 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393057: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 45.61GiB (48968736768 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393071: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 41.04GiB (44071862272 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393085: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 36.94GiB (39664676864 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393099: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 33.25GiB (35698208768 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393113: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 29.92GiB (32128387072 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393127: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 26.93GiB (28915548160 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393679: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 24.24GiB (26023993344 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393698: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 21.81GiB (23421593600 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393713: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 19.63GiB (21079433216 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393727: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 17.67GiB (18971490304 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393741: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 15.90GiB (17074340864 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393754: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 14.31GiB (15366906880 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393768: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 12.88GiB (13830215680 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393782: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 11.59GiB (12447194112 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393796: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 10.43GiB (11202473984 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393810: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 9.39GiB (10082226176 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393825: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 8.45GiB (9074002944 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:10:04.393839: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 7.61GiB (8166602240 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+LLVM ERROR: out of memory
+/var/spool/gridscheduler/execd/node3c02/job_scripts/41929485: line 43: 52134 Aborted                 (core dumped) python PNN/model.py
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-26 15:14:25.548524: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-26 15:14:25.613287: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-26 15:14:25.613343: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-26 15:14:25.613384: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-26 15:14:25.627732: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-26 15:14:37.825638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79087 MB memory:  -> device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:e3:00.0, compute capability: 8.0
+2024-03-26 15:14:37.857219: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 77.23GiB (82928992256 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857272: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 69.51GiB (74636091392 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857290: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 62.56GiB (67172478976 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857304: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 56.30GiB (60455231488 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857319: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 50.67GiB (54409707520 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857333: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 45.61GiB (48968736768 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857348: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 41.04GiB (44071862272 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857362: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 36.94GiB (39664676864 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857376: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 33.25GiB (35698208768 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857390: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 29.92GiB (32128387072 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857405: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 26.93GiB (28915548160 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:14:37.857419: I tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:746] failed to allocate 24.24GiB (26023993344 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+LLVM ERROR: pthread_create failed: Resource temporarily unavailable
+/var/spool/gridscheduler/execd/node3c02/job_scripts/41929594: line 43: 52774 Aborted                 (core dumped) python PNN/model.py
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-26 15:18:03.582560: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-26 15:18:03.648726: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-26 15:18:03.648780: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-26 15:18:03.648820: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-26 15:18:03.662819: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-26 15:18:14.929189: E tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:18:14.931239: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:168] retrieving CUDA diagnostic information for host: node3c02.ecdf.ed.ac.uk
+2024-03-26 15:18:14.931268: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:175] hostname: node3c02.ecdf.ed.ac.uk
+2024-03-26 15:18:14.931343: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:199] libcuda reported version is: 535.104.12
+2024-03-26 15:18:14.931400: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:203] kernel reported version is: 535.104.12
+2024-03-26 15:18:14.931415: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:309] kernel version seems to match DSO: 535.104.12
+2024-03-26 15:18:16.449214: W tensorflow/core/framework/dataset.cc:959] Input of GeneratorDatasetOp::Dataset will not be optimized because the dataset does not implement the AsGraphDefInternal() method needed to apply optimizations.
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-26 15:19:30.549073: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-26 15:19:30.614531: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-26 15:19:30.614589: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-26 15:19:30.614628: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-26 15:19:30.628889: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-26 15:19:41.742649: E tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2024-03-26 15:19:41.742734: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:168] retrieving CUDA diagnostic information for host: node3c02.ecdf.ed.ac.uk
+2024-03-26 15:19:41.742751: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:175] hostname: node3c02.ecdf.ed.ac.uk
+2024-03-26 15:19:41.742825: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:199] libcuda reported version is: 535.104.12
+2024-03-26 15:19:41.742878: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:203] kernel reported version is: 535.104.12
+2024-03-26 15:19:41.742893: I tensorflow/compiler/xla/stream_executor/cuda/cuda_diagnostics.cc:309] kernel version seems to match DSO: 535.104.12
+2024-03-26 15:19:43.133853: W tensorflow/core/framework/dataset.cc:959] Input of GeneratorDatasetOp::Dataset will not be optimized because the dataset does not implement the AsGraphDefInternal() method needed to apply optimizations.

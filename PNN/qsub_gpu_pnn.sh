@@ -15,7 +15,7 @@
 #$ -pe gpu-a100 1
 #
 # Requested memory per core
-#$ -l h_vmem=16G
+#$ -l h_vmem=4G
 #
 # Email address for notifications
 #$ -M s2603968@ed.ac.uk
@@ -24,7 +24,8 @@
 #$ -R y
 #
 # Where to pipe the python output to.
-#$ -o model.out
+#$ -o model_gpu.out
+#$ -e model_gpu_err.out
 
 # Initialise the environment modules
 . /etc/profile.d/modules.sh
@@ -36,7 +37,7 @@ module load anaconda
 module load cuda/11.0.2
 
 # Activate conda environment
-source activate ml
+source activate plankton
 
 # Run the program
 python PNN/model.py
