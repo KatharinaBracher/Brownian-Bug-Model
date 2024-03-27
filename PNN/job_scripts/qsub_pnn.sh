@@ -15,8 +15,9 @@
 #$ -M s2603968@ed.ac.uk
 # Option to request resource reservation
 #$ -R y
-
-#$ -o model.out
+# Where to pipe the python output to.
+#$ -o pnn/model.out
+#$ -e pnn/model.err
 
 # Initialise the environment modules
 . /etc/profile.d/modules.sh
