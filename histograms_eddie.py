@@ -2,6 +2,7 @@
 This file implements the histogram modelling process and is intended to be used for running on Eddie.
 """
 
+import time
 import numpy as np
 from histograms import PairDens, run_simulation, g_theoretical
 from concurrent.futures import ProcessPoolExecutor
@@ -22,6 +23,8 @@ dp = 0.25
 
 def simulation_for_Utot(U_tot_gamma):
     U_tot, gamma = U_tot_gamma
+    print(f"Running simulation for {U_tot = }, {gamma = }")
+
     plankton = run_simulation(n, iters, L_max, delta, U_tot, True)
     print(f"Number of plankton after the simulation for {U_tot}: {len(plankton)}.")
     
@@ -35,6 +38,14 @@ def simulation_for_Utot(U_tot_gamma):
     
     return radii, pcf_dx, pcf_dp, g_test
 
-with ProcessPoolExecutor() as executor:
-    results = list(executor.map(simulation_for_Utot, Utot_gamma_pairs))
-    np.save("results_histograms.npy", results)
+if __name__ == "__main__":
+    data_file_path = "data/histogram_results.npy"
+
+    start_time = time.time()
+
+    with ProcessPoolExecutor() as executor:
+        results = list(executor.map(simulation_for_Utot, Utot_gamma_pairs))
+        np.save(data_file_path, results)
+
+    elapsed_time = round(time.time() - start_time, 4)
+    print(f"{elapsed_time = } s")
