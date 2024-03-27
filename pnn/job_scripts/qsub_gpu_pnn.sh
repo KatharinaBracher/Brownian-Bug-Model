@@ -7,8 +7,8 @@
 # Directory in which to run code (-cwd or -wd <path-to-wd>)
 #$ -wd /home/s2603968/Brownian-Bug-Model
 #
-# Requested runtime allowance (of 1 hour)
-#$ -l h_rt=01:00:00
+# Requested runtime allowance.
+#$ -l h_rt=24:00:00
 #
 # Request one GPU in the gpu queue:
 #$ -q gpu 
@@ -40,5 +40,5 @@ module load cuda/11.0.2
 source activate plankton
 
 # Run the program
-python PNN/model.py
+python -u pnn/model.py
 

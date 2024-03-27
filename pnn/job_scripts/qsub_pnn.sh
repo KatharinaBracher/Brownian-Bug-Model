@@ -6,7 +6,7 @@
 # Directory in which to run code (-cwd or -wd <path-to-wd>)
 #$ -wd /home/s2603968/Brownian-Bug-Model
 # Requested runtime allowance
-#$ -l h_rt=00:20:00
+#$ -l h_rt=24:00:00
 # Requested memory (per core)
 #$ -l h_vmem=4G
 # Requested number of cores in parallel environment
@@ -28,4 +28,4 @@ module load anaconda
 conda activate plankton
 
 # Run the program
-python PNN/model.py
+python -u pnn/model.py

@@ -28,4 +28,4 @@ module load anaconda
 conda activate plankton
 
 # Run the program
-python histograms_eddie.py
+python -u histograms_eddie.py
