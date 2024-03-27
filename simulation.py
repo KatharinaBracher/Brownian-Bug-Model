@@ -21,7 +21,7 @@ def run_simulation(n: int, iterations: int, L_max: float, reproduction=True, del
     #positions = np.zeros((n, 2, iterations))
     
     k = 2*np.pi/L_max
-    U_tot = 0.1 #Utot_list = [0.0, 0.1, 0.5,2.5]
+    U_tot = 0 #Utot_list = [0.0, 0.1, 0.5,2.5]
     
     initial_plankton = init_plankton(n)
     plankton = initial_plankton
