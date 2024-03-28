@@ -51,17 +51,20 @@ def create_training_data(n,iters, min_len, outputfile):
     plankton_dict = run_simulation_trajectory(n, iters, L_max, False)
     write_training_data(plankton_dict, min_len, outputfile)
 
-def load_training_data(file):
-    data = []
+def load_training_data(file, N=np.inf):
+    data = np.empty([4, 2])
     with open(file, 'rb') as f:
         while True:
             try:
                 # Load the next array and append it to the list
-                
                 loaded_array = np.load(f)
-                data.append(loaded_array)
+                data = np.row_stack((data,loaded_array))
                 print('load', loaded_array.shape)
+                if data.shape[0]>=N:
+                    break
             except EOFError:
                 # End of file reached
                 break
+    if N<np.inf: 
+        data = data[:N]
     return data
