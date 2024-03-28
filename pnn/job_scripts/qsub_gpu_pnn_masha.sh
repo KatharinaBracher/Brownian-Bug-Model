@@ -15,7 +15,7 @@
 #$ -pe gpu-a100 1
 #
 # Requested memory per core
-#$ -l h_vmem=4G
+#$ -l h_vmem=512G
 #
 # Email address for notifications
 #$ -M s2445937@ed.ac.uk

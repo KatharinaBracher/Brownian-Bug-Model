@@ -11,7 +11,7 @@ import tensorflow as tf
 import tensorflow_probability as tfp
 from tensorflow.keras import callbacks as cb
 from preprocessing import Scaler  # noqa: E402
-from utils import load_training_data
+from preprocessing import load_training_data
 
 
 tfkl = tf.keras.layers

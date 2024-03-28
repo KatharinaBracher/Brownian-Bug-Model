@@ -5,6 +5,24 @@ Data preprocessing tools.
 import numpy as np
 
 
+def load_training_data(file, N=np.inf):
+    data = np.empty([4, 2])
+    with open(file, 'rb') as f:
+        while True:
+            try:
+                # Load the next array and append it to the list
+                loaded_array = np.load(f)
+                data = np.row_stack((data,loaded_array))
+                print('load', loaded_array.shape)
+                if data.shape[0]>=N:
+                    break
+            except EOFError:
+                # End of file reached
+                break
+    if N<np.inf: 
+        data = data[:N]
+    return data
+
 class Scaler:
     """
     Class for scaling data by standardisation. Includes methods for inverting
@@ -34,3 +52,5 @@ class Scaler:
 
     def invert_standardisation_cov(self, cov):
         return cov * (self.std[:, None] @ self.std[None, :])
+
+
