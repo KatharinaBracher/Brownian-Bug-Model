@@ -12,3 +12,27 @@ Traceback (most recent call last):
   File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/utils.py", line 10, in <module>
     import matplotlib.pyplot as plt
 ModuleNotFoundError: No module named 'matplotlib'
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-28 21:55:28.957641: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-28 21:55:28.957769: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-28 21:55:28.963043: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+Traceback (most recent call last):
+  File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/model_masha.py", line 45, in <module>
+    data = load_training_data(DATA_DIR + DATA_FILE, N=100000)  
+  File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/preprocessing.py", line 15, in load_training_data
+    data = np.row_stack((data,loaded_array))
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/numpy/core/shape_base.py", line 289, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+ValueError: all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 1 has 3 dimension(s)
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-29 17:35:14.657982: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-29 17:35:15.344119: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-29 17:35:15.344275: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-29 17:35:15.356746: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-29 17:35:15.600149: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/numpy/core/_methods.py:176: RuntimeWarning: overflow encountered in multiply
+  x = um.multiply(x, x, out=x)
+2024-03-29 17:35:32.616298: W tensorflow/core/framework/dataset.cc:959] Input of GeneratorDatasetOp::Dataset will not be optimized because the dataset does not implement the AsGraphDefInternal() method needed to apply optimizations.

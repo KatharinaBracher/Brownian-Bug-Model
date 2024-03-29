@@ -1,2 +1,38 @@
 Importing packages
 /tmp/hostfile_41976187.undefined
+Importing packages
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+/tmp/hostfile_41977724.undefined
+Importing packages
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+load (3000000, 4, 2)
+Loaded N = 100000 datapoints
+Built the model.
+Epoch 1/11
+10/10 - 6s - loss: 2.9057 - val_loss: 2.6963 - 6s/epoch - 640ms/step
+Epoch 2/11
+10/10 - 2s - loss: 2.2846 - val_loss: 2.3119 - 2s/epoch - 184ms/step
+Epoch 3/11
+10/10 - 2s - loss: 1.6023 - val_loss: 1.8228 - 2s/epoch - 181ms/step
+Epoch 4/11
+10/10 - 2s - loss: 0.6570 - val_loss: 1.2661 - 2s/epoch - 179ms/step
+Epoch 5/11
+10/10 - 2s - loss: -3.3721e-02 - val_loss: 0.9953 - 2s/epoch - 186ms/step
+Epoch 6/11
+10/10 - 2s - loss: -3.1446e-01 - val_loss: 0.6976 - 2s/epoch - 185ms/step
+Epoch 7/11
+10/10 - 2s - loss: -8.2916e-01 - val_loss: 0.3295 - 2s/epoch - 184ms/step
+Epoch 8/11
+10/10 - 2s - loss: -1.4326e+00 - val_loss: -1.3873e-01 - 2s/epoch - 183ms/step
+Epoch 9/11
+10/10 - 2s - loss: -1.0341e+00 - val_loss: -5.0672e-01 - 2s/epoch - 182ms/step
+Epoch 10/11
+
+Epoch 10: saving model to models/masha/GDP_4day_NC15/checkpoint_epoch_10/weights
+10/10 - 2s - loss: 1.5885 - val_loss: -6.8390e-02 - 2s/epoch - 197ms/step
+Epoch 11/11
+10/10 - 2s - loss: 2.0346 - val_loss: -7.1758e-01 - 2s/epoch - 183ms/step
+Trained the model.
+/tmp/hostfile_42014648.undefined
