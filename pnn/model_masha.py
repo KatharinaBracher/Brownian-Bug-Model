@@ -12,6 +12,7 @@ import tensorflow_probability as tfp
 from tensorflow.keras import callbacks as cb
 from preprocessing import Scaler  # noqa: E402
 from preprocessing import load_training_data
+from preprocessing import transform_to_dx
 
 
 tfkl = tf.keras.layers
@@ -45,6 +46,8 @@ DATA_FILE = "training_data.npy"
 data = load_training_data(DATA_DIR + DATA_FILE, N=100000)  
 N = data.shape[0]
 print(f"Loaded {N = } datapoints")
+
+data = transform_to_dx(data)
 
 X = data[:, 0:2, :].reshape(N, 4)
 Y = data[:, 2:4, :].reshape(N, 4)

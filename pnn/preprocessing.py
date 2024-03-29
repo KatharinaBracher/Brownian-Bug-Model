@@ -3,16 +3,24 @@ Data preprocessing tools.
 """
 
 import numpy as np
-
+def transform_to_dx(d):
+    '''
+    input format of data: x and y coordiantes a1, b1, a2, b2 
+    '''
+    # claculate dx for particle A
+    d[:,2] = abs(d[:, 0]-d[:, 2])
+    # claculate dx for particle B
+    d[:,3] = abs(d[:, 1]-d[:, 3])
+    return d
 
 def load_training_data(file, N=np.inf):
-    data = np.empty([4, 2])
+    data = np.empty([1, 4, 2])
     with open(file, 'rb') as f:
         while True:
             try:
                 # Load the next array and append it to the list
                 loaded_array = np.load(f)
-                data = np.row_stack((data,loaded_array))
+                data = np.vstack((data,loaded_array))
                 print('load', loaded_array.shape)
                 if data.shape[0]>=N:
                     break

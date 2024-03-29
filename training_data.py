@@ -52,13 +52,13 @@ def create_training_data(n,iters, min_len, outputfile):
     write_training_data(plankton_dict, min_len, outputfile)
 
 def load_training_data(file, N=np.inf):
-    data = np.empty([4, 2])
+    data = np.empty([1, 4, 2])
     with open(file, 'rb') as f:
         while True:
             try:
                 # Load the next array and append it to the list
                 loaded_array = np.load(f)
-                data = np.row_stack((data,loaded_array))
+                data = np.vstack((data,loaded_array))
                 print('load', loaded_array.shape)
                 if data.shape[0]>=N:
                     break
