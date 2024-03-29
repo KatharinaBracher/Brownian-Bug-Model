@@ -2,7 +2,7 @@
 # Grid Engine options (lines prefixed with #$)
 
 # Name of job
-#$ -N j_leadbetter
+#$ -N j_leadbetter_gpu_pnn
 #
 # Directory in which to run code (-cwd or -wd <path-to-wd>)
 #$ -wd /home/s2603968/Brownian-Bug-Model
@@ -15,7 +15,7 @@
 #$ -pe gpu-a100 1
 #
 # Requested memory per core
-#$ -l h_vmem=4G
+#$ -l h_vmem=256G
 #
 # Email address for notifications
 #$ -M s2603968@ed.ac.uk
@@ -24,8 +24,8 @@
 #$ -R y
 #
 # Where to pipe the python output to.
-#$ -o pnn/model_gpu.out
-#$ -e pnn/model_gpu.err
+#$ -o models/james/model_gpu.out
+#$ -e models/james/model_gpu.err
 
 # Initialise the environment modules
 . /etc/profile.d/modules.sh
