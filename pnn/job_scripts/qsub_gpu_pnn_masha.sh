@@ -8,7 +8,7 @@
 #$ -wd /home/s2445937/Brownian-Bug-Model
 #
 # Requested runtime allowance.
-#$ -l h_rt=24:00:00
+#$ -l h_rt=30:00:00
 #
 # Request one GPU in the gpu queue:
 #$ -q gpu 

@@ -43,7 +43,11 @@ DATA_FILE = "training_data.npy"
 # DATA_DIR = f"data/GDP/{DT:.0f}day/"
 
 
+<<<<<<< HEAD
 data = load_training_data(DATA_DIR + DATA_FILE, N=1000000)  
+=======
+data = load_training_data(DATA_DIR + DATA_FILE, N=10000000)  
+>>>>>>> 8192a4b9fedbbd4c2153730ac5e6c5e98d063c0e
 N = data.shape[0]
 print(f"Loaded {N = } datapoints")
 
@@ -110,7 +114,7 @@ def nll(data_point, tf_distribution):
 LOSS = nll
 BATCH_SIZE = 8192
 LEARNING_RATE = 5e-5
-EPOCHS = 11
+EPOCHS = 500
 # EPOCHS = 100000
 OPTIMISER = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
 VALIDATION_SPLIT = 0.2
