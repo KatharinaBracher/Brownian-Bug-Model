@@ -43,7 +43,7 @@ DATA_FILE = "training_data.npy"
 # DATA_DIR = f"data/GDP/{DT:.0f}day/"
 
 
-data = load_training_data(DATA_DIR + DATA_FILE, N=100000)  
+data = load_training_data(DATA_DIR + DATA_FILE, N=1000000)  
 N = data.shape[0]
 print(f"Loaded {N = } datapoints")
 
