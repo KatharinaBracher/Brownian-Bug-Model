@@ -169,3 +169,30 @@ Detected at node Adam/update_0_12/StatefulPartitionedCall defined at (most recen
 	 [[{{node Adam/update_0_12/StatefulPartitionedCall}}]]
 0 successful operations.
 0 derived errors ignored. [Op:__inference_train_function_5720]
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+Traceback (most recent call last):
+  File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/model_masha.py", line 8, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-31 21:17:07.076902: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-31 21:17:07.644696: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-31 21:17:07.644824: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-31 21:17:07.651135: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-31 21:17:07.876438: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-31 21:17:27.472876: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79087 MB memory:  -> device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2024-03-31 21:17:34.513982: I tensorflow/core/util/cuda_solvers.cc:179] Creating GpuSolver handles for stream 0x556daaf30810
+2024-03-31 21:17:35.734939: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2b5e82192740 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-03-31 21:17:35.734993: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100 80GB PCIe, Compute Capability 8.0
+2024-03-31 21:17:35.763592: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-03-31 21:17:35.809339: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:442] Loaded cuDNN version 8700
+2024-03-31 21:17:35.948410: I ./tensorflow/compiler/jit/device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-03-31 21:17:36.198795: I tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:328] ptxas warning : Registers are spilled to local memory in function 'fusion', 8 bytes spill stores, 8 bytes spill loads
+
+Traceback (most recent call last):
+  File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/model_masha.py", line 137, in <module>
+    df = pd.DataFrame(history.history)
+NameError: name 'history' is not defined. Did you mean: 'History'?
