@@ -5,3 +5,4 @@ training_data.npy
 j_leadbetter.*
 no_reproduction_plots
 reproduction_plots
+models/james/GDP_4day_NC15/*

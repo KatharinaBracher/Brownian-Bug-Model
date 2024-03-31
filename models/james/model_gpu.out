@@ -6,3 +6,2117 @@ Loaded the libraries.
 Loaded N = 3000000 datapoints
 Built the model.
 Epoch 1/11
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 2
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+load (3000000, 4, 2)
+Loaded N = 100000 datapoints
+Built the model.
+Epoch 1/20
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 1
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+load (3000000, 4, 2)
+Loaded N = 100000 datapoints
+Built the model.
+Epoch 1/20
+10/10 - 12s - loss: 8.6556 - val_loss: 9.2589 - 12s/epoch - 1s/step
+Epoch 2/20
+10/10 - 0s - loss: 8.4850 - val_loss: 9.0666 - 171ms/epoch - 17ms/step
+Epoch 3/20
+10/10 - 0s - loss: 8.3273 - val_loss: 8.8920 - 170ms/epoch - 17ms/step
+Epoch 4/20
+10/10 - 0s - loss: 8.1790 - val_loss: 8.7342 - 169ms/epoch - 17ms/step
+Epoch 5/20
+10/10 - 0s - loss: 8.0413 - val_loss: 8.5937 - 172ms/epoch - 17ms/step
+Epoch 6/20
+10/10 - 0s - loss: 7.9126 - val_loss: 8.4651 - 170ms/epoch - 17ms/step
+Epoch 7/20
+10/10 - 0s - loss: 7.7924 - val_loss: 8.3466 - 170ms/epoch - 17ms/step
+Epoch 8/20
+10/10 - 0s - loss: 7.6798 - val_loss: 8.2378 - 169ms/epoch - 17ms/step
+Epoch 9/20
+10/10 - 0s - loss: 7.5748 - val_loss: 8.1366 - 172ms/epoch - 17ms/step
+Epoch 10/20
+
+Epoch 10: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_10/weights
+10/10 - 0s - loss: 7.4762 - val_loss: 8.0420 - 326ms/epoch - 33ms/step
+Epoch 11/20
+10/10 - 0s - loss: 7.3834 - val_loss: 7.9528 - 181ms/epoch - 18ms/step
+Epoch 12/20
+10/10 - 0s - loss: 7.2954 - val_loss: 7.8693 - 171ms/epoch - 17ms/step
+Epoch 13/20
+10/10 - 0s - loss: 7.2126 - val_loss: 7.7904 - 182ms/epoch - 18ms/step
+Epoch 14/20
+10/10 - 0s - loss: 7.1333 - val_loss: 7.7162 - 175ms/epoch - 17ms/step
+Epoch 15/20
+10/10 - 0s - loss: 7.0589 - val_loss: 7.6452 - 174ms/epoch - 17ms/step
+Epoch 16/20
+10/10 - 0s - loss: 6.9873 - val_loss: 7.5767 - 169ms/epoch - 17ms/step
+Epoch 17/20
+10/10 - 0s - loss: 6.9189 - val_loss: 7.5120 - 171ms/epoch - 17ms/step
+Epoch 18/20
+10/10 - 0s - loss: 6.8539 - val_loss: 7.4487 - 120ms/epoch - 12ms/step
+Epoch 19/20
+10/10 - 0s - loss: 6.7918 - val_loss: 7.3881 - 111ms/epoch - 11ms/step
+Epoch 20/20
+
+Epoch 20: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_20/weights
+10/10 - 0s - loss: 6.7320 - val_loss: 7.3295 - 141ms/epoch - 14ms/step
+Trained the model.
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 2
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+load (3000000, 4, 2)
+Loaded N = 100000 datapoints
+Built the model.
+Epoch 1/500
+10/10 - 9s - loss: 8.0865 - val_loss: 7.7990 - 9s/epoch - 924ms/step
+Epoch 2/500
+10/10 - 0s - loss: 7.9542 - val_loss: 7.7106 - 112ms/epoch - 11ms/step
+Epoch 3/500
+10/10 - 0s - loss: 7.8305 - val_loss: 7.6248 - 108ms/epoch - 11ms/step
+Epoch 4/500
+10/10 - 0s - loss: 7.7160 - val_loss: 7.5426 - 107ms/epoch - 11ms/step
+Epoch 5/500
+10/10 - 0s - loss: 7.6079 - val_loss: 7.4624 - 109ms/epoch - 11ms/step
+Epoch 6/500
+10/10 - 0s - loss: 7.5078 - val_loss: 7.3854 - 108ms/epoch - 11ms/step
+Epoch 7/500
+10/10 - 0s - loss: 7.4137 - val_loss: 7.3109 - 108ms/epoch - 11ms/step
+Epoch 8/500
+10/10 - 0s - loss: 7.3249 - val_loss: 7.2393 - 107ms/epoch - 11ms/step
+Epoch 9/500
+10/10 - 0s - loss: 7.2420 - val_loss: 7.1719 - 108ms/epoch - 11ms/step
+Epoch 10/500
+
+Epoch 10: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_10/weights
+10/10 - 0s - loss: 7.1621 - val_loss: 7.1068 - 188ms/epoch - 19ms/step
+Epoch 11/500
+10/10 - 0s - loss: 7.0867 - val_loss: 7.0437 - 111ms/epoch - 11ms/step
+Epoch 12/500
+10/10 - 0s - loss: 7.0144 - val_loss: 6.9836 - 114ms/epoch - 11ms/step
+Epoch 13/500
+10/10 - 0s - loss: 6.9448 - val_loss: 6.9264 - 108ms/epoch - 11ms/step
+Epoch 14/500
+10/10 - 0s - loss: 6.8782 - val_loss: 6.8717 - 108ms/epoch - 11ms/step
+Epoch 15/500
+10/10 - 0s - loss: 6.8143 - val_loss: 6.8185 - 109ms/epoch - 11ms/step
+Epoch 16/500
+10/10 - 0s - loss: 6.7525 - val_loss: 6.7676 - 107ms/epoch - 11ms/step
+Epoch 17/500
+10/10 - 0s - loss: 6.6932 - val_loss: 6.7189 - 113ms/epoch - 11ms/step
+Epoch 18/500
+10/10 - 0s - loss: 6.6359 - val_loss: 6.6719 - 109ms/epoch - 11ms/step
+Epoch 19/500
+10/10 - 0s - loss: 6.5800 - val_loss: 6.6269 - 107ms/epoch - 11ms/step
+Epoch 20/500
+
+Epoch 20: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_20/weights
+10/10 - 0s - loss: 6.5264 - val_loss: 6.5832 - 150ms/epoch - 15ms/step
+Epoch 21/500
+10/10 - 0s - loss: 6.4743 - val_loss: 6.5411 - 110ms/epoch - 11ms/step
+Epoch 22/500
+10/10 - 0s - loss: 6.4239 - val_loss: 6.5005 - 108ms/epoch - 11ms/step
+Epoch 23/500
+10/10 - 0s - loss: 6.3753 - val_loss: 6.4612 - 109ms/epoch - 11ms/step
+Epoch 24/500
+10/10 - 0s - loss: 6.3280 - val_loss: 6.4228 - 107ms/epoch - 11ms/step
+Epoch 25/500
+10/10 - 0s - loss: 6.2822 - val_loss: 6.3860 - 107ms/epoch - 11ms/step
+Epoch 26/500
+10/10 - 0s - loss: 6.2382 - val_loss: 6.3502 - 108ms/epoch - 11ms/step
+Epoch 27/500
+10/10 - 0s - loss: 6.1952 - val_loss: 6.3160 - 108ms/epoch - 11ms/step
+Epoch 28/500
+10/10 - 0s - loss: 6.1537 - val_loss: 6.2822 - 109ms/epoch - 11ms/step
+Epoch 29/500
+10/10 - 0s - loss: 6.1131 - val_loss: 6.2500 - 110ms/epoch - 11ms/step
+Epoch 30/500
+
+Epoch 30: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_30/weights
+10/10 - 0s - loss: 6.0740 - val_loss: 6.2183 - 132ms/epoch - 13ms/step
+Epoch 31/500
+10/10 - 0s - loss: 6.0358 - val_loss: 6.1878 - 109ms/epoch - 11ms/step
+Epoch 32/500
+10/10 - 0s - loss: 5.9991 - val_loss: 6.1585 - 107ms/epoch - 11ms/step
+Epoch 33/500
+10/10 - 0s - loss: 5.9634 - val_loss: 6.1297 - 107ms/epoch - 11ms/step
+Epoch 34/500
+10/10 - 0s - loss: 5.9287 - val_loss: 6.1018 - 108ms/epoch - 11ms/step
+Epoch 35/500
+10/10 - 0s - loss: 5.8952 - val_loss: 6.0748 - 109ms/epoch - 11ms/step
+Epoch 36/500
+10/10 - 0s - loss: 5.8627 - val_loss: 6.0486 - 107ms/epoch - 11ms/step
+Epoch 37/500
+10/10 - 0s - loss: 5.8313 - val_loss: 6.0227 - 108ms/epoch - 11ms/step
+Epoch 38/500
+10/10 - 0s - loss: 5.8006 - val_loss: 5.9976 - 108ms/epoch - 11ms/step
+Epoch 39/500
+10/10 - 0s - loss: 5.7710 - val_loss: 5.9730 - 110ms/epoch - 11ms/step
+Epoch 40/500
+
+Epoch 40: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_40/weights
+10/10 - 0s - loss: 5.7421 - val_loss: 5.9489 - 133ms/epoch - 13ms/step
+Epoch 41/500
+10/10 - 0s - loss: 5.7141 - val_loss: 5.9255 - 109ms/epoch - 11ms/step
+Epoch 42/500
+10/10 - 0s - loss: 5.6866 - val_loss: 5.9023 - 108ms/epoch - 11ms/step
+Epoch 43/500
+10/10 - 0s - loss: 5.6599 - val_loss: 5.8799 - 107ms/epoch - 11ms/step
+Epoch 44/500
+10/10 - 0s - loss: 5.6339 - val_loss: 5.8578 - 108ms/epoch - 11ms/step
+Epoch 45/500
+10/10 - 0s - loss: 5.6084 - val_loss: 5.8364 - 107ms/epoch - 11ms/step
+Epoch 46/500
+10/10 - 0s - loss: 5.5835 - val_loss: 5.8154 - 109ms/epoch - 11ms/step
+Epoch 47/500
+10/10 - 0s - loss: 5.5592 - val_loss: 5.7946 - 111ms/epoch - 11ms/step
+Epoch 48/500
+10/10 - 0s - loss: 5.5353 - val_loss: 5.7743 - 110ms/epoch - 11ms/step
+Epoch 49/500
+10/10 - 0s - loss: 5.5120 - val_loss: 5.7544 - 109ms/epoch - 11ms/step
+Epoch 50/500
+
+Epoch 50: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_50/weights
+10/10 - 0s - loss: 5.4890 - val_loss: 5.7347 - 129ms/epoch - 13ms/step
+Epoch 51/500
+10/10 - 0s - loss: 5.4665 - val_loss: 5.7153 - 109ms/epoch - 11ms/step
+Epoch 52/500
+10/10 - 0s - loss: 5.4443 - val_loss: 5.6962 - 108ms/epoch - 11ms/step
+Epoch 53/500
+10/10 - 0s - loss: 5.4226 - val_loss: 5.6774 - 109ms/epoch - 11ms/step
+Epoch 54/500
+10/10 - 0s - loss: 5.4012 - val_loss: 5.6587 - 108ms/epoch - 11ms/step
+Epoch 55/500
+10/10 - 0s - loss: 5.3803 - val_loss: 5.6403 - 109ms/epoch - 11ms/step
+Epoch 56/500
+10/10 - 0s - loss: 5.3597 - val_loss: 5.6215 - 107ms/epoch - 11ms/step
+Epoch 57/500
+10/10 - 0s - loss: 5.3395 - val_loss: 5.6028 - 107ms/epoch - 11ms/step
+Epoch 58/500
+10/10 - 0s - loss: 5.3197 - val_loss: 5.5844 - 107ms/epoch - 11ms/step
+Epoch 59/500
+10/10 - 0s - loss: 5.3002 - val_loss: 5.5660 - 109ms/epoch - 11ms/step
+Epoch 60/500
+
+Epoch 60: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_60/weights
+10/10 - 0s - loss: 5.2811 - val_loss: 5.5480 - 131ms/epoch - 13ms/step
+Epoch 61/500
+10/10 - 0s - loss: 5.2624 - val_loss: 5.5300 - 108ms/epoch - 11ms/step
+Epoch 62/500
+10/10 - 0s - loss: 5.2441 - val_loss: 5.5123 - 107ms/epoch - 11ms/step
+Epoch 63/500
+10/10 - 0s - loss: 5.2262 - val_loss: 5.4953 - 107ms/epoch - 11ms/step
+Epoch 64/500
+10/10 - 0s - loss: 5.2086 - val_loss: 5.4781 - 107ms/epoch - 11ms/step
+Epoch 65/500
+10/10 - 0s - loss: 5.1914 - val_loss: 5.4616 - 109ms/epoch - 11ms/step
+Epoch 66/500
+10/10 - 0s - loss: 5.1748 - val_loss: 5.4453 - 107ms/epoch - 11ms/step
+Epoch 67/500
+10/10 - 0s - loss: 5.1584 - val_loss: 5.4294 - 108ms/epoch - 11ms/step
+Epoch 68/500
+10/10 - 0s - loss: 5.1424 - val_loss: 5.4138 - 107ms/epoch - 11ms/step
+Epoch 69/500
+10/10 - 0s - loss: 5.1268 - val_loss: 5.3988 - 108ms/epoch - 11ms/step
+Epoch 70/500
+
+Epoch 70: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_70/weights
+10/10 - 0s - loss: 5.1115 - val_loss: 5.3841 - 131ms/epoch - 13ms/step
+Epoch 71/500
+10/10 - 0s - loss: 5.0966 - val_loss: 5.3697 - 110ms/epoch - 11ms/step
+Epoch 72/500
+10/10 - 0s - loss: 5.0819 - val_loss: 5.3556 - 108ms/epoch - 11ms/step
+Epoch 73/500
+10/10 - 0s - loss: 5.0676 - val_loss: 5.3422 - 108ms/epoch - 11ms/step
+Epoch 74/500
+10/10 - 0s - loss: 5.0536 - val_loss: 5.3286 - 107ms/epoch - 11ms/step
+Epoch 75/500
+10/10 - 0s - loss: 5.0398 - val_loss: 5.3155 - 107ms/epoch - 11ms/step
+Epoch 76/500
+10/10 - 0s - loss: 5.0263 - val_loss: 5.3027 - 107ms/epoch - 11ms/step
+Epoch 77/500
+10/10 - 0s - loss: 5.0130 - val_loss: 5.2903 - 109ms/epoch - 11ms/step
+Epoch 78/500
+10/10 - 0s - loss: 5.0000 - val_loss: 5.2779 - 108ms/epoch - 11ms/step
+Epoch 79/500
+10/10 - 0s - loss: 4.9872 - val_loss: 5.2658 - 108ms/epoch - 11ms/step
+Epoch 80/500
+
+Epoch 80: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_80/weights
+10/10 - 0s - loss: 4.9747 - val_loss: 5.2538 - 163ms/epoch - 16ms/step
+Epoch 81/500
+10/10 - 0s - loss: 4.9623 - val_loss: 5.2421 - 110ms/epoch - 11ms/step
+Epoch 82/500
+10/10 - 0s - loss: 4.9501 - val_loss: 5.2308 - 108ms/epoch - 11ms/step
+Epoch 83/500
+10/10 - 0s - loss: 4.9382 - val_loss: 5.2196 - 110ms/epoch - 11ms/step
+Epoch 84/500
+10/10 - 0s - loss: 4.9264 - val_loss: 5.2085 - 107ms/epoch - 11ms/step
+Epoch 85/500
+10/10 - 0s - loss: 4.9148 - val_loss: 5.1978 - 108ms/epoch - 11ms/step
+Epoch 86/500
+10/10 - 0s - loss: 4.9034 - val_loss: 5.1873 - 108ms/epoch - 11ms/step
+Epoch 87/500
+10/10 - 0s - loss: 4.8922 - val_loss: 5.1769 - 107ms/epoch - 11ms/step
+Epoch 88/500
+10/10 - 0s - loss: 4.8811 - val_loss: 5.1666 - 107ms/epoch - 11ms/step
+Epoch 89/500
+10/10 - 0s - loss: 4.8701 - val_loss: 5.1563 - 110ms/epoch - 11ms/step
+Epoch 90/500
+
+Epoch 90: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_90/weights
+10/10 - 0s - loss: 4.8594 - val_loss: 5.1461 - 133ms/epoch - 13ms/step
+Epoch 91/500
+10/10 - 0s - loss: 4.8487 - val_loss: 5.1363 - 109ms/epoch - 11ms/step
+Epoch 92/500
+10/10 - 0s - loss: 4.8382 - val_loss: 5.1265 - 108ms/epoch - 11ms/step
+Epoch 93/500
+10/10 - 0s - loss: 4.8278 - val_loss: 5.1168 - 107ms/epoch - 11ms/step
+Epoch 94/500
+10/10 - 0s - loss: 4.8176 - val_loss: 5.1074 - 107ms/epoch - 11ms/step
+Epoch 95/500
+10/10 - 0s - loss: 4.8075 - val_loss: 5.0979 - 232ms/epoch - 23ms/step
+Epoch 96/500
+10/10 - 0s - loss: 4.7975 - val_loss: 5.0886 - 110ms/epoch - 11ms/step
+Epoch 97/500
+10/10 - 0s - loss: 4.7877 - val_loss: 5.0795 - 108ms/epoch - 11ms/step
+Epoch 98/500
+10/10 - 0s - loss: 4.7779 - val_loss: 5.0706 - 111ms/epoch - 11ms/step
+Epoch 99/500
+10/10 - 0s - loss: 4.7683 - val_loss: 5.0617 - 108ms/epoch - 11ms/step
+Epoch 100/500
+
+Epoch 100: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_100/weights
+10/10 - 0s - loss: 4.7587 - val_loss: 5.0528 - 129ms/epoch - 13ms/step
+Epoch 101/500
+10/10 - 0s - loss: 4.7493 - val_loss: 5.0441 - 110ms/epoch - 11ms/step
+Epoch 102/500
+10/10 - 0s - loss: 4.7400 - val_loss: 5.0354 - 108ms/epoch - 11ms/step
+Epoch 103/500
+10/10 - 0s - loss: 4.7307 - val_loss: 5.0269 - 108ms/epoch - 11ms/step
+Epoch 104/500
+10/10 - 0s - loss: 4.7216 - val_loss: 5.0184 - 108ms/epoch - 11ms/step
+Epoch 105/500
+10/10 - 0s - loss: 4.7126 - val_loss: 5.0102 - 108ms/epoch - 11ms/step
+Epoch 106/500
+10/10 - 0s - loss: 4.7036 - val_loss: 5.0019 - 107ms/epoch - 11ms/step
+Epoch 107/500
+10/10 - 0s - loss: 4.6948 - val_loss: 4.9938 - 110ms/epoch - 11ms/step
+Epoch 108/500
+10/10 - 0s - loss: 4.6861 - val_loss: 4.9856 - 107ms/epoch - 11ms/step
+Epoch 109/500
+10/10 - 0s - loss: 4.6774 - val_loss: 4.9776 - 107ms/epoch - 11ms/step
+Epoch 110/500
+
+Epoch 110: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_110/weights
+10/10 - 0s - loss: 4.6688 - val_loss: 4.9697 - 130ms/epoch - 13ms/step
+Epoch 111/500
+10/10 - 0s - loss: 4.6604 - val_loss: 4.9619 - 108ms/epoch - 11ms/step
+Epoch 112/500
+10/10 - 0s - loss: 4.6519 - val_loss: 4.9542 - 109ms/epoch - 11ms/step
+Epoch 113/500
+10/10 - 0s - loss: 4.6436 - val_loss: 4.9466 - 109ms/epoch - 11ms/step
+Epoch 114/500
+10/10 - 0s - loss: 4.6354 - val_loss: 4.9388 - 107ms/epoch - 11ms/step
+Epoch 115/500
+10/10 - 0s - loss: 4.6272 - val_loss: 4.9313 - 107ms/epoch - 11ms/step
+Epoch 116/500
+10/10 - 0s - loss: 4.6192 - val_loss: 4.9237 - 109ms/epoch - 11ms/step
+Epoch 117/500
+10/10 - 0s - loss: 4.6111 - val_loss: 4.9164 - 108ms/epoch - 11ms/step
+Epoch 118/500
+10/10 - 0s - loss: 4.6032 - val_loss: 4.9090 - 108ms/epoch - 11ms/step
+Epoch 119/500
+10/10 - 0s - loss: 4.5954 - val_loss: 4.9017 - 109ms/epoch - 11ms/step
+Epoch 120/500
+
+Epoch 120: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_120/weights
+10/10 - 0s - loss: 4.5876 - val_loss: 4.8945 - 131ms/epoch - 13ms/step
+Epoch 121/500
+10/10 - 0s - loss: 4.5799 - val_loss: 4.8873 - 108ms/epoch - 11ms/step
+Epoch 122/500
+10/10 - 0s - loss: 4.5723 - val_loss: 4.8801 - 108ms/epoch - 11ms/step
+Epoch 123/500
+10/10 - 0s - loss: 4.5647 - val_loss: 4.8730 - 107ms/epoch - 11ms/step
+Epoch 124/500
+10/10 - 0s - loss: 4.5573 - val_loss: 4.8660 - 107ms/epoch - 11ms/step
+Epoch 125/500
+10/10 - 0s - loss: 4.5499 - val_loss: 4.8591 - 109ms/epoch - 11ms/step
+Epoch 126/500
+10/10 - 0s - loss: 4.5426 - val_loss: 4.8521 - 107ms/epoch - 11ms/step
+Epoch 127/500
+10/10 - 0s - loss: 4.5353 - val_loss: 4.8453 - 107ms/epoch - 11ms/step
+Epoch 128/500
+10/10 - 0s - loss: 4.5281 - val_loss: 4.8384 - 107ms/epoch - 11ms/step
+Epoch 129/500
+10/10 - 0s - loss: 4.5210 - val_loss: 4.8316 - 108ms/epoch - 11ms/step
+Epoch 130/500
+
+Epoch 130: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_130/weights
+10/10 - 0s - loss: 4.5140 - val_loss: 4.8249 - 130ms/epoch - 13ms/step
+Epoch 131/500
+10/10 - 0s - loss: 4.5070 - val_loss: 4.8184 - 109ms/epoch - 11ms/step
+Epoch 132/500
+10/10 - 0s - loss: 4.5001 - val_loss: 4.8118 - 107ms/epoch - 11ms/step
+Epoch 133/500
+10/10 - 0s - loss: 4.4933 - val_loss: 4.8054 - 107ms/epoch - 11ms/step
+Epoch 134/500
+10/10 - 0s - loss: 4.4865 - val_loss: 4.7990 - 108ms/epoch - 11ms/step
+Epoch 135/500
+10/10 - 0s - loss: 4.4798 - val_loss: 4.7927 - 108ms/epoch - 11ms/step
+Epoch 136/500
+10/10 - 0s - loss: 4.4732 - val_loss: 4.7862 - 107ms/epoch - 11ms/step
+Epoch 137/500
+10/10 - 0s - loss: 4.4666 - val_loss: 4.7798 - 109ms/epoch - 11ms/step
+Epoch 138/500
+10/10 - 0s - loss: 4.4601 - val_loss: 4.7733 - 112ms/epoch - 11ms/step
+Epoch 139/500
+10/10 - 0s - loss: 4.4537 - val_loss: 4.7670 - 108ms/epoch - 11ms/step
+Epoch 140/500
+
+Epoch 140: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_140/weights
+10/10 - 0s - loss: 4.4474 - val_loss: 4.7609 - 130ms/epoch - 13ms/step
+Epoch 141/500
+10/10 - 0s - loss: 4.4411 - val_loss: 4.7548 - 109ms/epoch - 11ms/step
+Epoch 142/500
+10/10 - 0s - loss: 4.4349 - val_loss: 4.7489 - 108ms/epoch - 11ms/step
+Epoch 143/500
+10/10 - 0s - loss: 4.4287 - val_loss: 4.7430 - 112ms/epoch - 11ms/step
+Epoch 144/500
+10/10 - 0s - loss: 4.4226 - val_loss: 4.7371 - 107ms/epoch - 11ms/step
+Epoch 145/500
+10/10 - 0s - loss: 4.4166 - val_loss: 4.7311 - 107ms/epoch - 11ms/step
+Epoch 146/500
+10/10 - 0s - loss: 4.4106 - val_loss: 4.7251 - 107ms/epoch - 11ms/step
+Epoch 147/500
+10/10 - 0s - loss: 4.4047 - val_loss: 4.7194 - 107ms/epoch - 11ms/step
+Epoch 148/500
+10/10 - 0s - loss: 4.3989 - val_loss: 4.7136 - 108ms/epoch - 11ms/step
+Epoch 149/500
+10/10 - 0s - loss: 4.3931 - val_loss: 4.7080 - 109ms/epoch - 11ms/step
+Epoch 150/500
+
+Epoch 150: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_150/weights
+10/10 - 0s - loss: 4.3874 - val_loss: 4.7025 - 129ms/epoch - 13ms/step
+Epoch 151/500
+10/10 - 0s - loss: 4.3818 - val_loss: 4.6968 - 108ms/epoch - 11ms/step
+Epoch 152/500
+10/10 - 0s - loss: 4.3762 - val_loss: 4.6912 - 107ms/epoch - 11ms/step
+Epoch 153/500
+10/10 - 0s - loss: 4.3707 - val_loss: 4.6859 - 107ms/epoch - 11ms/step
+Epoch 154/500
+10/10 - 0s - loss: 4.3653 - val_loss: 4.6803 - 107ms/epoch - 11ms/step
+Epoch 155/500
+10/10 - 0s - loss: 4.3599 - val_loss: 4.6752 - 109ms/epoch - 11ms/step
+Epoch 156/500
+10/10 - 0s - loss: 4.3546 - val_loss: 4.6698 - 107ms/epoch - 11ms/step
+Epoch 157/500
+10/10 - 0s - loss: 4.3493 - val_loss: 4.6647 - 107ms/epoch - 11ms/step
+Epoch 158/500
+10/10 - 0s - loss: 4.3441 - val_loss: 4.6595 - 108ms/epoch - 11ms/step
+Epoch 159/500
+10/10 - 0s - loss: 4.3390 - val_loss: 4.6544 - 107ms/epoch - 11ms/step
+Epoch 160/500
+
+Epoch 160: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_160/weights
+10/10 - 0s - loss: 4.3340 - val_loss: 4.6495 - 131ms/epoch - 13ms/step
+Epoch 161/500
+10/10 - 0s - loss: 4.3289 - val_loss: 4.6444 - 110ms/epoch - 11ms/step
+Epoch 162/500
+10/10 - 0s - loss: 4.3240 - val_loss: 4.6395 - 108ms/epoch - 11ms/step
+Epoch 163/500
+10/10 - 0s - loss: 4.3191 - val_loss: 4.6347 - 107ms/epoch - 11ms/step
+Epoch 164/500
+10/10 - 0s - loss: 4.3143 - val_loss: 4.6300 - 106ms/epoch - 11ms/step
+Epoch 165/500
+10/10 - 0s - loss: 4.3096 - val_loss: 4.6255 - 107ms/epoch - 11ms/step
+Epoch 166/500
+10/10 - 0s - loss: 4.3049 - val_loss: 4.6209 - 107ms/epoch - 11ms/step
+Epoch 167/500
+10/10 - 0s - loss: 4.3002 - val_loss: 4.6161 - 108ms/epoch - 11ms/step
+Epoch 168/500
+10/10 - 0s - loss: 4.2956 - val_loss: 4.6115 - 107ms/epoch - 11ms/step
+Epoch 169/500
+10/10 - 0s - loss: 4.2911 - val_loss: 4.6071 - 107ms/epoch - 11ms/step
+Epoch 170/500
+
+Epoch 170: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_170/weights
+10/10 - 0s - loss: 4.2867 - val_loss: 4.6029 - 130ms/epoch - 13ms/step
+Epoch 171/500
+10/10 - 0s - loss: 4.2823 - val_loss: 4.5986 - 111ms/epoch - 11ms/step
+Epoch 172/500
+10/10 - 0s - loss: 4.2779 - val_loss: 4.5943 - 109ms/epoch - 11ms/step
+Epoch 173/500
+10/10 - 0s - loss: 4.2736 - val_loss: 4.5901 - 109ms/epoch - 11ms/step
+Epoch 174/500
+10/10 - 0s - loss: 4.2694 - val_loss: 4.5859 - 108ms/epoch - 11ms/step
+Epoch 175/500
+10/10 - 0s - loss: 4.2652 - val_loss: 4.5819 - 107ms/epoch - 11ms/step
+Epoch 176/500
+10/10 - 0s - loss: 4.2611 - val_loss: 4.5779 - 107ms/epoch - 11ms/step
+Epoch 177/500
+10/10 - 0s - loss: 4.2571 - val_loss: 4.5742 - 107ms/epoch - 11ms/step
+Epoch 178/500
+10/10 - 0s - loss: 4.2531 - val_loss: 4.5703 - 107ms/epoch - 11ms/step
+Epoch 179/500
+10/10 - 0s - loss: 4.2492 - val_loss: 4.5665 - 110ms/epoch - 11ms/step
+Epoch 180/500
+
+Epoch 180: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_180/weights
+10/10 - 0s - loss: 4.2453 - val_loss: 4.5626 - 131ms/epoch - 13ms/step
+Epoch 181/500
+10/10 - 0s - loss: 4.2414 - val_loss: 4.5588 - 109ms/epoch - 11ms/step
+Epoch 182/500
+10/10 - 0s - loss: 4.2377 - val_loss: 4.5551 - 107ms/epoch - 11ms/step
+Epoch 183/500
+10/10 - 0s - loss: 4.2339 - val_loss: 4.5515 - 110ms/epoch - 11ms/step
+Epoch 184/500
+10/10 - 0s - loss: 4.2303 - val_loss: 4.5483 - 108ms/epoch - 11ms/step
+Epoch 185/500
+10/10 - 0s - loss: 4.2267 - val_loss: 4.5449 - 109ms/epoch - 11ms/step
+Epoch 186/500
+10/10 - 0s - loss: 4.2231 - val_loss: 4.5413 - 107ms/epoch - 11ms/step
+Epoch 187/500
+10/10 - 0s - loss: 4.2196 - val_loss: 4.5381 - 119ms/epoch - 12ms/step
+Epoch 188/500
+10/10 - 0s - loss: 4.2162 - val_loss: 4.5348 - 108ms/epoch - 11ms/step
+Epoch 189/500
+10/10 - 0s - loss: 4.2128 - val_loss: 4.5318 - 108ms/epoch - 11ms/step
+Epoch 190/500
+
+Epoch 190: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_190/weights
+10/10 - 0s - loss: 4.2094 - val_loss: 4.5286 - 129ms/epoch - 13ms/step
+Epoch 191/500
+10/10 - 0s - loss: 4.2061 - val_loss: 4.5253 - 111ms/epoch - 11ms/step
+Epoch 192/500
+10/10 - 0s - loss: 4.2028 - val_loss: 4.5221 - 108ms/epoch - 11ms/step
+Epoch 193/500
+10/10 - 0s - loss: 4.1996 - val_loss: 4.5195 - 107ms/epoch - 11ms/step
+Epoch 194/500
+10/10 - 0s - loss: 4.1965 - val_loss: 4.5163 - 107ms/epoch - 11ms/step
+Epoch 195/500
+10/10 - 0s - loss: 4.1934 - val_loss: 4.5134 - 106ms/epoch - 11ms/step
+Epoch 196/500
+10/10 - 0s - loss: 4.1903 - val_loss: 4.5106 - 107ms/epoch - 11ms/step
+Epoch 197/500
+10/10 - 0s - loss: 4.1873 - val_loss: 4.5079 - 109ms/epoch - 11ms/step
+Epoch 198/500
+10/10 - 0s - loss: 4.1843 - val_loss: 4.5049 - 107ms/epoch - 11ms/step
+Epoch 199/500
+10/10 - 0s - loss: 4.1814 - val_loss: 4.5022 - 107ms/epoch - 11ms/step
+Epoch 200/500
+
+Epoch 200: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_200/weights
+10/10 - 0s - loss: 4.1785 - val_loss: 4.4993 - 131ms/epoch - 13ms/step
+Epoch 201/500
+10/10 - 0s - loss: 4.1756 - val_loss: 4.4968 - 108ms/epoch - 11ms/step
+Epoch 202/500
+10/10 - 0s - loss: 4.1728 - val_loss: 4.4942 - 107ms/epoch - 11ms/step
+Epoch 203/500
+10/10 - 0s - loss: 4.1701 - val_loss: 4.4917 - 108ms/epoch - 11ms/step
+Epoch 204/500
+10/10 - 0s - loss: 4.1674 - val_loss: 4.4894 - 108ms/epoch - 11ms/step
+Epoch 205/500
+10/10 - 0s - loss: 4.1646 - val_loss: 4.4870 - 109ms/epoch - 11ms/step
+Epoch 206/500
+10/10 - 0s - loss: 4.1620 - val_loss: 4.4844 - 108ms/epoch - 11ms/step
+Epoch 207/500
+10/10 - 0s - loss: 4.1594 - val_loss: 4.4819 - 107ms/epoch - 11ms/step
+Epoch 208/500
+10/10 - 0s - loss: 4.1568 - val_loss: 4.4794 - 108ms/epoch - 11ms/step
+Epoch 209/500
+10/10 - 0s - loss: 4.1542 - val_loss: 4.4770 - 109ms/epoch - 11ms/step
+Epoch 210/500
+
+Epoch 210: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_210/weights
+10/10 - 0s - loss: 4.1517 - val_loss: 4.4752 - 134ms/epoch - 13ms/step
+Epoch 211/500
+10/10 - 0s - loss: 4.1492 - val_loss: 4.4727 - 108ms/epoch - 11ms/step
+Epoch 212/500
+10/10 - 0s - loss: 4.1467 - val_loss: 4.4703 - 107ms/epoch - 11ms/step
+Epoch 213/500
+10/10 - 0s - loss: 4.1443 - val_loss: 4.4685 - 107ms/epoch - 11ms/step
+Epoch 214/500
+10/10 - 0s - loss: 4.1419 - val_loss: 4.4661 - 107ms/epoch - 11ms/step
+Epoch 215/500
+10/10 - 0s - loss: 4.1395 - val_loss: 4.4638 - 109ms/epoch - 11ms/step
+Epoch 216/500
+10/10 - 0s - loss: 4.1372 - val_loss: 4.4617 - 107ms/epoch - 11ms/step
+Epoch 217/500
+10/10 - 0s - loss: 4.1348 - val_loss: 4.4596 - 107ms/epoch - 11ms/step
+Epoch 218/500
+10/10 - 0s - loss: 4.1325 - val_loss: 4.4577 - 107ms/epoch - 11ms/step
+Epoch 219/500
+10/10 - 0s - loss: 4.1302 - val_loss: 4.4554 - 107ms/epoch - 11ms/step
+Epoch 220/500
+
+Epoch 220: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_220/weights
+10/10 - 0s - loss: 4.1280 - val_loss: 4.4532 - 129ms/epoch - 13ms/step
+Epoch 221/500
+10/10 - 0s - loss: 4.1257 - val_loss: 4.4512 - 110ms/epoch - 11ms/step
+Epoch 222/500
+10/10 - 0s - loss: 4.1236 - val_loss: 4.4488 - 107ms/epoch - 11ms/step
+Epoch 223/500
+10/10 - 0s - loss: 4.1213 - val_loss: 4.4469 - 107ms/epoch - 11ms/step
+Epoch 224/500
+10/10 - 0s - loss: 4.1192 - val_loss: 4.4455 - 107ms/epoch - 11ms/step
+Epoch 225/500
+10/10 - 0s - loss: 4.1170 - val_loss: 4.4432 - 107ms/epoch - 11ms/step
+Epoch 226/500
+10/10 - 0s - loss: 4.1149 - val_loss: 4.4413 - 108ms/epoch - 11ms/step
+Epoch 227/500
+10/10 - 0s - loss: 4.1128 - val_loss: 4.4393 - 109ms/epoch - 11ms/step
+Epoch 228/500
+10/10 - 0s - loss: 4.1107 - val_loss: 4.4375 - 107ms/epoch - 11ms/step
+Epoch 229/500
+10/10 - 0s - loss: 4.1087 - val_loss: 4.4355 - 107ms/epoch - 11ms/step
+Epoch 230/500
+
+Epoch 230: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_230/weights
+10/10 - 0s - loss: 4.1066 - val_loss: 4.4340 - 131ms/epoch - 13ms/step
+Epoch 231/500
+10/10 - 0s - loss: 4.1046 - val_loss: 4.4318 - 108ms/epoch - 11ms/step
+Epoch 232/500
+10/10 - 0s - loss: 4.1026 - val_loss: 4.4303 - 110ms/epoch - 11ms/step
+Epoch 233/500
+10/10 - 0s - loss: 4.1007 - val_loss: 4.4285 - 109ms/epoch - 11ms/step
+Epoch 234/500
+10/10 - 0s - loss: 4.0987 - val_loss: 4.4266 - 107ms/epoch - 11ms/step
+Epoch 235/500
+10/10 - 0s - loss: 4.0967 - val_loss: 4.4248 - 107ms/epoch - 11ms/step
+Epoch 236/500
+10/10 - 0s - loss: 4.0948 - val_loss: 4.4232 - 107ms/epoch - 11ms/step
+Epoch 237/500
+10/10 - 0s - loss: 4.0930 - val_loss: 4.4215 - 107ms/epoch - 11ms/step
+Epoch 238/500
+10/10 - 0s - loss: 4.0911 - val_loss: 4.4196 - 107ms/epoch - 11ms/step
+Epoch 239/500
+10/10 - 0s - loss: 4.0892 - val_loss: 4.4176 - 109ms/epoch - 11ms/step
+Epoch 240/500
+
+Epoch 240: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_240/weights
+10/10 - 0s - loss: 4.0874 - val_loss: 4.4158 - 186ms/epoch - 19ms/step
+Epoch 241/500
+10/10 - 0s - loss: 4.0856 - val_loss: 4.4141 - 109ms/epoch - 11ms/step
+Epoch 242/500
+10/10 - 0s - loss: 4.0838 - val_loss: 4.4128 - 107ms/epoch - 11ms/step
+Epoch 243/500
+10/10 - 0s - loss: 4.0821 - val_loss: 4.4112 - 107ms/epoch - 11ms/step
+Epoch 244/500
+10/10 - 0s - loss: 4.0804 - val_loss: 4.4098 - 107ms/epoch - 11ms/step
+Epoch 245/500
+10/10 - 0s - loss: 4.0787 - val_loss: 4.4080 - 109ms/epoch - 11ms/step
+Epoch 246/500
+10/10 - 0s - loss: 4.0770 - val_loss: 4.4065 - 108ms/epoch - 11ms/step
+Epoch 247/500
+10/10 - 0s - loss: 4.0753 - val_loss: 4.4050 - 107ms/epoch - 11ms/step
+Epoch 248/500
+10/10 - 0s - loss: 4.0737 - val_loss: 4.4034 - 111ms/epoch - 11ms/step
+Epoch 249/500
+10/10 - 0s - loss: 4.0721 - val_loss: 4.4017 - 109ms/epoch - 11ms/step
+Epoch 250/500
+
+Epoch 250: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_250/weights
+10/10 - 0s - loss: 4.0705 - val_loss: 4.4001 - 132ms/epoch - 13ms/step
+Epoch 251/500
+10/10 - 0s - loss: 4.0689 - val_loss: 4.3985 - 110ms/epoch - 11ms/step
+Epoch 252/500
+10/10 - 0s - loss: 4.0674 - val_loss: 4.3972 - 107ms/epoch - 11ms/step
+Epoch 253/500
+10/10 - 0s - loss: 4.0659 - val_loss: 4.3958 - 107ms/epoch - 11ms/step
+Epoch 254/500
+10/10 - 0s - loss: 4.0644 - val_loss: 4.3940 - 108ms/epoch - 11ms/step
+Epoch 255/500
+10/10 - 0s - loss: 4.0629 - val_loss: 4.3927 - 107ms/epoch - 11ms/step
+Epoch 256/500
+10/10 - 0s - loss: 4.0614 - val_loss: 4.3913 - 107ms/epoch - 11ms/step
+Epoch 257/500
+10/10 - 0s - loss: 4.0600 - val_loss: 4.3901 - 109ms/epoch - 11ms/step
+Epoch 258/500
+10/10 - 0s - loss: 4.0586 - val_loss: 4.3883 - 108ms/epoch - 11ms/step
+Epoch 259/500
+10/10 - 0s - loss: 4.0572 - val_loss: 4.3871 - 109ms/epoch - 11ms/step
+Epoch 260/500
+
+Epoch 260: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_260/weights
+10/10 - 0s - loss: 4.0558 - val_loss: 4.3856 - 172ms/epoch - 17ms/step
+Epoch 261/500
+10/10 - 0s - loss: 4.0545 - val_loss: 4.3846 - 108ms/epoch - 11ms/step
+Epoch 262/500
+10/10 - 0s - loss: 4.0531 - val_loss: 4.3832 - 108ms/epoch - 11ms/step
+Epoch 263/500
+10/10 - 0s - loss: 4.0518 - val_loss: 4.3821 - 114ms/epoch - 11ms/step
+Epoch 264/500
+10/10 - 0s - loss: 4.0505 - val_loss: 4.3805 - 109ms/epoch - 11ms/step
+Epoch 265/500
+10/10 - 0s - loss: 4.0492 - val_loss: 4.3795 - 108ms/epoch - 11ms/step
+Epoch 266/500
+10/10 - 0s - loss: 4.0480 - val_loss: 4.3786 - 107ms/epoch - 11ms/step
+Epoch 267/500
+10/10 - 0s - loss: 4.0467 - val_loss: 4.3768 - 108ms/epoch - 11ms/step
+Epoch 268/500
+10/10 - 0s - loss: 4.0455 - val_loss: 4.3755 - 107ms/epoch - 11ms/step
+Epoch 269/500
+10/10 - 0s - loss: 4.0442 - val_loss: 4.3746 - 109ms/epoch - 11ms/step
+Epoch 270/500
+
+Epoch 270: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_270/weights
+10/10 - 0s - loss: 4.0430 - val_loss: 4.3739 - 153ms/epoch - 15ms/step
+Epoch 271/500
+10/10 - 0s - loss: 4.0419 - val_loss: 4.3719 - 108ms/epoch - 11ms/step
+Epoch 272/500
+10/10 - 0s - loss: 4.0407 - val_loss: 4.3709 - 109ms/epoch - 11ms/step
+Epoch 273/500
+10/10 - 0s - loss: 4.0395 - val_loss: 4.3698 - 108ms/epoch - 11ms/step
+Epoch 274/500
+10/10 - 0s - loss: 4.0384 - val_loss: 4.3690 - 107ms/epoch - 11ms/step
+Epoch 275/500
+10/10 - 0s - loss: 4.0373 - val_loss: 4.3680 - 109ms/epoch - 11ms/step
+Epoch 276/500
+10/10 - 0s - loss: 4.0361 - val_loss: 4.3668 - 111ms/epoch - 11ms/step
+Epoch 277/500
+10/10 - 0s - loss: 4.0350 - val_loss: 4.3652 - 108ms/epoch - 11ms/step
+Epoch 278/500
+10/10 - 0s - loss: 4.0340 - val_loss: 4.3644 - 108ms/epoch - 11ms/step
+Epoch 279/500
+10/10 - 0s - loss: 4.0329 - val_loss: 4.3631 - 107ms/epoch - 11ms/step
+Epoch 280/500
+
+Epoch 280: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_280/weights
+10/10 - 0s - loss: 4.0318 - val_loss: 4.3621 - 130ms/epoch - 13ms/step
+Epoch 281/500
+10/10 - 0s - loss: 4.0308 - val_loss: 4.3614 - 110ms/epoch - 11ms/step
+Epoch 282/500
+10/10 - 0s - loss: 4.0298 - val_loss: 4.3605 - 108ms/epoch - 11ms/step
+Epoch 283/500
+10/10 - 0s - loss: 4.0287 - val_loss: 4.3591 - 107ms/epoch - 11ms/step
+Epoch 284/500
+10/10 - 0s - loss: 4.0277 - val_loss: 4.3585 - 107ms/epoch - 11ms/step
+Epoch 285/500
+10/10 - 0s - loss: 4.0267 - val_loss: 4.3577 - 108ms/epoch - 11ms/step
+Epoch 286/500
+10/10 - 0s - loss: 4.0258 - val_loss: 4.3568 - 107ms/epoch - 11ms/step
+Epoch 287/500
+10/10 - 0s - loss: 4.0248 - val_loss: 4.3554 - 109ms/epoch - 11ms/step
+Epoch 288/500
+10/10 - 0s - loss: 4.0238 - val_loss: 4.3547 - 107ms/epoch - 11ms/step
+Epoch 289/500
+10/10 - 0s - loss: 4.0229 - val_loss: 4.3544 - 107ms/epoch - 11ms/step
+Epoch 290/500
+
+Epoch 290: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_290/weights
+10/10 - 0s - loss: 4.0219 - val_loss: 4.3537 - 131ms/epoch - 13ms/step
+Epoch 291/500
+10/10 - 0s - loss: 4.0210 - val_loss: 4.3525 - 109ms/epoch - 11ms/step
+Epoch 292/500
+10/10 - 0s - loss: 4.0201 - val_loss: 4.3512 - 108ms/epoch - 11ms/step
+Epoch 293/500
+10/10 - 0s - loss: 4.0192 - val_loss: 4.3508 - 109ms/epoch - 11ms/step
+Epoch 294/500
+10/10 - 0s - loss: 4.0183 - val_loss: 4.3495 - 108ms/epoch - 11ms/step
+Epoch 295/500
+10/10 - 0s - loss: 4.0174 - val_loss: 4.3490 - 109ms/epoch - 11ms/step
+Epoch 296/500
+10/10 - 0s - loss: 4.0166 - val_loss: 4.3482 - 108ms/epoch - 11ms/step
+Epoch 297/500
+10/10 - 0s - loss: 4.0157 - val_loss: 4.3478 - 107ms/epoch - 11ms/step
+Epoch 298/500
+10/10 - 0s - loss: 4.0149 - val_loss: 4.3468 - 108ms/epoch - 11ms/step
+Epoch 299/500
+10/10 - 0s - loss: 4.0140 - val_loss: 4.3456 - 109ms/epoch - 11ms/step
+Epoch 300/500
+
+Epoch 300: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_300/weights
+10/10 - 0s - loss: 4.0132 - val_loss: 4.3449 - 131ms/epoch - 13ms/step
+Epoch 301/500
+10/10 - 0s - loss: 4.0123 - val_loss: 4.3446 - 108ms/epoch - 11ms/step
+Epoch 302/500
+10/10 - 0s - loss: 4.0115 - val_loss: 4.3437 - 108ms/epoch - 11ms/step
+Epoch 303/500
+10/10 - 0s - loss: 4.0107 - val_loss: 4.3430 - 108ms/epoch - 11ms/step
+Epoch 304/500
+10/10 - 0s - loss: 4.0099 - val_loss: 4.3417 - 107ms/epoch - 11ms/step
+Epoch 305/500
+10/10 - 0s - loss: 4.0091 - val_loss: 4.3415 - 109ms/epoch - 11ms/step
+Epoch 306/500
+10/10 - 0s - loss: 4.0083 - val_loss: 4.3407 - 108ms/epoch - 11ms/step
+Epoch 307/500
+10/10 - 0s - loss: 4.0076 - val_loss: 4.3407 - 108ms/epoch - 11ms/step
+Epoch 308/500
+10/10 - 0s - loss: 4.0068 - val_loss: 4.3398 - 108ms/epoch - 11ms/step
+Epoch 309/500
+10/10 - 0s - loss: 4.0060 - val_loss: 4.3386 - 108ms/epoch - 11ms/step
+Epoch 310/500
+
+Epoch 310: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_310/weights
+10/10 - 0s - loss: 4.0053 - val_loss: 4.3386 - 129ms/epoch - 13ms/step
+Epoch 311/500
+10/10 - 0s - loss: 4.0045 - val_loss: 4.3378 - 109ms/epoch - 11ms/step
+Epoch 312/500
+10/10 - 0s - loss: 4.0038 - val_loss: 4.3369 - 108ms/epoch - 11ms/step
+Epoch 313/500
+10/10 - 0s - loss: 4.0030 - val_loss: 4.3366 - 107ms/epoch - 11ms/step
+Epoch 314/500
+10/10 - 0s - loss: 4.0023 - val_loss: 4.3363 - 107ms/epoch - 11ms/step
+Epoch 315/500
+10/10 - 0s - loss: 4.0016 - val_loss: 4.3355 - 108ms/epoch - 11ms/step
+Epoch 316/500
+10/10 - 0s - loss: 4.0009 - val_loss: 4.3351 - 107ms/epoch - 11ms/step
+Epoch 317/500
+10/10 - 0s - loss: 4.0002 - val_loss: 4.3345 - 108ms/epoch - 11ms/step
+Epoch 318/500
+10/10 - 0s - loss: 3.9995 - val_loss: 4.3338 - 120ms/epoch - 12ms/step
+Epoch 319/500
+10/10 - 0s - loss: 3.9988 - val_loss: 4.3331 - 110ms/epoch - 11ms/step
+Epoch 320/500
+
+Epoch 320: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_320/weights
+10/10 - 0s - loss: 3.9981 - val_loss: 4.3324 - 139ms/epoch - 14ms/step
+Epoch 321/500
+10/10 - 0s - loss: 3.9974 - val_loss: 4.3319 - 109ms/epoch - 11ms/step
+Epoch 322/500
+10/10 - 0s - loss: 3.9967 - val_loss: 4.3313 - 107ms/epoch - 11ms/step
+Epoch 323/500
+10/10 - 0s - loss: 3.9961 - val_loss: 4.3311 - 109ms/epoch - 11ms/step
+Epoch 324/500
+10/10 - 0s - loss: 3.9954 - val_loss: 4.3308 - 108ms/epoch - 11ms/step
+Epoch 325/500
+10/10 - 0s - loss: 3.9948 - val_loss: 4.3298 - 109ms/epoch - 11ms/step
+Epoch 326/500
+10/10 - 0s - loss: 3.9941 - val_loss: 4.3295 - 107ms/epoch - 11ms/step
+Epoch 327/500
+10/10 - 0s - loss: 3.9934 - val_loss: 4.3288 - 108ms/epoch - 11ms/step
+Epoch 328/500
+10/10 - 0s - loss: 3.9928 - val_loss: 4.3286 - 107ms/epoch - 11ms/step
+Epoch 329/500
+10/10 - 0s - loss: 3.9921 - val_loss: 4.3278 - 109ms/epoch - 11ms/step
+Epoch 330/500
+
+Epoch 330: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_330/weights
+10/10 - 0s - loss: 3.9915 - val_loss: 4.3274 - 145ms/epoch - 14ms/step
+Epoch 331/500
+10/10 - 0s - loss: 3.9909 - val_loss: 4.3273 - 107ms/epoch - 11ms/step
+Epoch 332/500
+10/10 - 0s - loss: 3.9902 - val_loss: 4.3270 - 107ms/epoch - 11ms/step
+Epoch 333/500
+10/10 - 0s - loss: 3.9896 - val_loss: 4.3262 - 107ms/epoch - 11ms/step
+Epoch 334/500
+10/10 - 0s - loss: 3.9890 - val_loss: 4.3261 - 107ms/epoch - 11ms/step
+Epoch 335/500
+10/10 - 0s - loss: 3.9884 - val_loss: 4.3255 - 108ms/epoch - 11ms/step
+Epoch 336/500
+10/10 - 0s - loss: 3.9878 - val_loss: 4.3253 - 107ms/epoch - 11ms/step
+Epoch 337/500
+10/10 - 0s - loss: 3.9872 - val_loss: 4.3250 - 107ms/epoch - 11ms/step
+Epoch 338/500
+10/10 - 0s - loss: 3.9866 - val_loss: 4.3245 - 107ms/epoch - 11ms/step
+Epoch 339/500
+10/10 - 0s - loss: 3.9860 - val_loss: 4.3236 - 107ms/epoch - 11ms/step
+Epoch 340/500
+
+Epoch 340: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_340/weights
+10/10 - 0s - loss: 3.9854 - val_loss: 4.3233 - 128ms/epoch - 13ms/step
+Epoch 341/500
+10/10 - 0s - loss: 3.9848 - val_loss: 4.3229 - 111ms/epoch - 11ms/step
+Epoch 342/500
+10/10 - 0s - loss: 3.9842 - val_loss: 4.3225 - 108ms/epoch - 11ms/step
+Epoch 343/500
+10/10 - 0s - loss: 3.9837 - val_loss: 4.3225 - 107ms/epoch - 11ms/step
+Epoch 344/500
+10/10 - 0s - loss: 3.9831 - val_loss: 4.3224 - 107ms/epoch - 11ms/step
+Epoch 345/500
+10/10 - 0s - loss: 3.9825 - val_loss: 4.3218 - 107ms/epoch - 11ms/step
+Epoch 346/500
+10/10 - 0s - loss: 3.9819 - val_loss: 4.3213 - 107ms/epoch - 11ms/step
+Epoch 347/500
+10/10 - 0s - loss: 3.9813 - val_loss: 4.3206 - 111ms/epoch - 11ms/step
+Epoch 348/500
+10/10 - 0s - loss: 3.9808 - val_loss: 4.3203 - 108ms/epoch - 11ms/step
+Epoch 349/500
+10/10 - 0s - loss: 3.9802 - val_loss: 4.3199 - 107ms/epoch - 11ms/step
+Epoch 350/500
+
+Epoch 350: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_350/weights
+10/10 - 0s - loss: 3.9797 - val_loss: 4.3196 - 131ms/epoch - 13ms/step
+Epoch 351/500
+10/10 - 0s - loss: 3.9791 - val_loss: 4.3193 - 109ms/epoch - 11ms/step
+Epoch 352/500
+10/10 - 0s - loss: 3.9786 - val_loss: 4.3187 - 108ms/epoch - 11ms/step
+Epoch 353/500
+10/10 - 0s - loss: 3.9780 - val_loss: 4.3185 - 109ms/epoch - 11ms/step
+Epoch 354/500
+10/10 - 0s - loss: 3.9774 - val_loss: 4.3189 - 107ms/epoch - 11ms/step
+Epoch 355/500
+10/10 - 0s - loss: 3.9769 - val_loss: 4.3182 - 107ms/epoch - 11ms/step
+Epoch 356/500
+10/10 - 0s - loss: 3.9764 - val_loss: 4.3178 - 108ms/epoch - 11ms/step
+Epoch 357/500
+10/10 - 0s - loss: 3.9758 - val_loss: 4.3174 - 107ms/epoch - 11ms/step
+Epoch 358/500
+10/10 - 0s - loss: 3.9753 - val_loss: 4.3176 - 107ms/epoch - 11ms/step
+Epoch 359/500
+10/10 - 0s - loss: 3.9747 - val_loss: 4.3170 - 109ms/epoch - 11ms/step
+Epoch 360/500
+
+Epoch 360: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_360/weights
+10/10 - 0s - loss: 3.9742 - val_loss: 4.3167 - 129ms/epoch - 13ms/step
+Epoch 361/500
+10/10 - 0s - loss: 3.9737 - val_loss: 4.3164 - 108ms/epoch - 11ms/step
+Epoch 362/500
+10/10 - 0s - loss: 3.9732 - val_loss: 4.3159 - 110ms/epoch - 11ms/step
+Epoch 363/500
+10/10 - 0s - loss: 3.9726 - val_loss: 4.3158 - 110ms/epoch - 11ms/step
+Epoch 364/500
+10/10 - 0s - loss: 3.9721 - val_loss: 4.3154 - 109ms/epoch - 11ms/step
+Epoch 365/500
+10/10 - 0s - loss: 3.9716 - val_loss: 4.3152 - 112ms/epoch - 11ms/step
+Epoch 366/500
+10/10 - 0s - loss: 3.9711 - val_loss: 4.3147 - 108ms/epoch - 11ms/step
+Epoch 367/500
+10/10 - 0s - loss: 3.9706 - val_loss: 4.3145 - 108ms/epoch - 11ms/step
+Epoch 368/500
+10/10 - 0s - loss: 3.9701 - val_loss: 4.3140 - 107ms/epoch - 11ms/step
+Epoch 369/500
+10/10 - 0s - loss: 3.9696 - val_loss: 4.3142 - 108ms/epoch - 11ms/step
+Epoch 370/500
+
+Epoch 370: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_370/weights
+10/10 - 0s - loss: 3.9690 - val_loss: 4.3135 - 130ms/epoch - 13ms/step
+Epoch 371/500
+10/10 - 0s - loss: 3.9685 - val_loss: 4.3133 - 110ms/epoch - 11ms/step
+Epoch 372/500
+10/10 - 0s - loss: 3.9680 - val_loss: 4.3132 - 107ms/epoch - 11ms/step
+Epoch 373/500
+10/10 - 0s - loss: 3.9675 - val_loss: 4.3132 - 107ms/epoch - 11ms/step
+Epoch 374/500
+10/10 - 0s - loss: 3.9670 - val_loss: 4.3131 - 108ms/epoch - 11ms/step
+Epoch 375/500
+10/10 - 0s - loss: 3.9666 - val_loss: 4.3125 - 107ms/epoch - 11ms/step
+Epoch 376/500
+10/10 - 0s - loss: 3.9660 - val_loss: 4.3122 - 107ms/epoch - 11ms/step
+Epoch 377/500
+10/10 - 0s - loss: 3.9655 - val_loss: 4.3120 - 108ms/epoch - 11ms/step
+Epoch 378/500
+10/10 - 0s - loss: 3.9650 - val_loss: 4.3114 - 107ms/epoch - 11ms/step
+Epoch 379/500
+10/10 - 0s - loss: 3.9645 - val_loss: 4.3117 - 108ms/epoch - 11ms/step
+Epoch 380/500
+
+Epoch 380: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_380/weights
+10/10 - 0s - loss: 3.9640 - val_loss: 4.3114 - 129ms/epoch - 13ms/step
+Epoch 381/500
+10/10 - 0s - loss: 3.9636 - val_loss: 4.3108 - 107ms/epoch - 11ms/step
+Epoch 382/500
+10/10 - 0s - loss: 3.9631 - val_loss: 4.3104 - 107ms/epoch - 11ms/step
+Epoch 383/500
+10/10 - 0s - loss: 3.9626 - val_loss: 4.3106 - 110ms/epoch - 11ms/step
+Epoch 384/500
+10/10 - 0s - loss: 3.9621 - val_loss: 4.3106 - 107ms/epoch - 11ms/step
+Epoch 385/500
+10/10 - 0s - loss: 3.9616 - val_loss: 4.3099 - 107ms/epoch - 11ms/step
+Epoch 386/500
+10/10 - 0s - loss: 3.9611 - val_loss: 4.3098 - 108ms/epoch - 11ms/step
+Epoch 387/500
+10/10 - 0s - loss: 3.9607 - val_loss: 4.3095 - 108ms/epoch - 11ms/step
+Epoch 388/500
+10/10 - 0s - loss: 3.9602 - val_loss: 4.3092 - 108ms/epoch - 11ms/step
+Epoch 389/500
+10/10 - 0s - loss: 3.9597 - val_loss: 4.3090 - 108ms/epoch - 11ms/step
+Epoch 390/500
+
+Epoch 390: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_390/weights
+10/10 - 0s - loss: 3.9592 - val_loss: 4.3085 - 131ms/epoch - 13ms/step
+Epoch 391/500
+10/10 - 0s - loss: 3.9587 - val_loss: 4.3088 - 108ms/epoch - 11ms/step
+Epoch 392/500
+10/10 - 0s - loss: 3.9583 - val_loss: 4.3081 - 108ms/epoch - 11ms/step
+Epoch 393/500
+10/10 - 0s - loss: 3.9578 - val_loss: 4.3082 - 107ms/epoch - 11ms/step
+Epoch 394/500
+10/10 - 0s - loss: 3.9573 - val_loss: 4.3081 - 107ms/epoch - 11ms/step
+Epoch 395/500
+10/10 - 0s - loss: 3.9568 - val_loss: 4.3076 - 109ms/epoch - 11ms/step
+Epoch 396/500
+10/10 - 0s - loss: 3.9564 - val_loss: 4.3074 - 107ms/epoch - 11ms/step
+Epoch 397/500
+10/10 - 0s - loss: 3.9559 - val_loss: 4.3075 - 107ms/epoch - 11ms/step
+Epoch 398/500
+10/10 - 0s - loss: 3.9554 - val_loss: 4.3069 - 107ms/epoch - 11ms/step
+Epoch 399/500
+10/10 - 0s - loss: 3.9550 - val_loss: 4.3068 - 108ms/epoch - 11ms/step
+Epoch 400/500
+
+Epoch 400: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_400/weights
+10/10 - 0s - loss: 3.9545 - val_loss: 4.3067 - 130ms/epoch - 13ms/step
+Epoch 401/500
+10/10 - 0s - loss: 3.9541 - val_loss: 4.3066 - 110ms/epoch - 11ms/step
+Epoch 402/500
+10/10 - 0s - loss: 3.9536 - val_loss: 4.3065 - 107ms/epoch - 11ms/step
+Epoch 403/500
+10/10 - 0s - loss: 3.9531 - val_loss: 4.3063 - 107ms/epoch - 11ms/step
+Epoch 404/500
+10/10 - 0s - loss: 3.9526 - val_loss: 4.3062 - 107ms/epoch - 11ms/step
+Epoch 405/500
+10/10 - 0s - loss: 3.9522 - val_loss: 4.3060 - 107ms/epoch - 11ms/step
+Epoch 406/500
+10/10 - 0s - loss: 3.9517 - val_loss: 4.3056 - 107ms/epoch - 11ms/step
+Epoch 407/500
+10/10 - 0s - loss: 3.9513 - val_loss: 4.3054 - 109ms/epoch - 11ms/step
+Epoch 408/500
+10/10 - 0s - loss: 3.9508 - val_loss: 4.3052 - 107ms/epoch - 11ms/step
+Epoch 409/500
+10/10 - 0s - loss: 3.9503 - val_loss: 4.3050 - 107ms/epoch - 11ms/step
+Epoch 410/500
+
+Epoch 410: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_410/weights
+10/10 - 0s - loss: 3.9499 - val_loss: 4.3049 - 133ms/epoch - 13ms/step
+Epoch 411/500
+10/10 - 0s - loss: 3.9494 - val_loss: 4.3046 - 108ms/epoch - 11ms/step
+Epoch 412/500
+10/10 - 0s - loss: 3.9490 - val_loss: 4.3043 - 107ms/epoch - 11ms/step
+Epoch 413/500
+10/10 - 0s - loss: 3.9485 - val_loss: 4.3038 - 109ms/epoch - 11ms/step
+Epoch 414/500
+10/10 - 0s - loss: 3.9480 - val_loss: 4.3035 - 108ms/epoch - 11ms/step
+Epoch 415/500
+10/10 - 0s - loss: 3.9476 - val_loss: 4.3038 - 107ms/epoch - 11ms/step
+Epoch 416/500
+10/10 - 0s - loss: 3.9472 - val_loss: 4.3033 - 107ms/epoch - 11ms/step
+Epoch 417/500
+10/10 - 0s - loss: 3.9467 - val_loss: 4.3032 - 106ms/epoch - 11ms/step
+Epoch 418/500
+10/10 - 0s - loss: 3.9463 - val_loss: 4.3034 - 107ms/epoch - 11ms/step
+Epoch 419/500
+10/10 - 0s - loss: 3.9458 - val_loss: 4.3033 - 109ms/epoch - 11ms/step
+Epoch 420/500
+
+Epoch 420: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_420/weights
+10/10 - 0s - loss: 3.9454 - val_loss: 4.3026 - 129ms/epoch - 13ms/step
+Epoch 421/500
+10/10 - 0s - loss: 3.9449 - val_loss: 4.3027 - 108ms/epoch - 11ms/step
+Epoch 422/500
+10/10 - 0s - loss: 3.9444 - val_loss: 4.3022 - 108ms/epoch - 11ms/step
+Epoch 423/500
+10/10 - 0s - loss: 3.9440 - val_loss: 4.3029 - 108ms/epoch - 11ms/step
+Epoch 424/500
+10/10 - 0s - loss: 3.9436 - val_loss: 4.3019 - 107ms/epoch - 11ms/step
+Epoch 425/500
+10/10 - 0s - loss: 3.9431 - val_loss: 4.3014 - 109ms/epoch - 11ms/step
+Epoch 426/500
+10/10 - 0s - loss: 3.9427 - val_loss: 4.3021 - 107ms/epoch - 11ms/step
+Epoch 427/500
+10/10 - 0s - loss: 3.9422 - val_loss: 4.3020 - 106ms/epoch - 11ms/step
+Epoch 428/500
+10/10 - 0s - loss: 3.9418 - val_loss: 4.3018 - 107ms/epoch - 11ms/step
+Epoch 429/500
+10/10 - 0s - loss: 3.9413 - val_loss: 4.3015 - 107ms/epoch - 11ms/step
+Epoch 430/500
+
+Epoch 430: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_430/weights
+10/10 - 0s - loss: 3.9409 - val_loss: 4.3009 - 131ms/epoch - 13ms/step
+Epoch 431/500
+10/10 - 0s - loss: 3.9404 - val_loss: 4.3010 - 109ms/epoch - 11ms/step
+Epoch 432/500
+10/10 - 0s - loss: 3.9400 - val_loss: 4.3011 - 109ms/epoch - 11ms/step
+Epoch 433/500
+10/10 - 0s - loss: 3.9395 - val_loss: 4.3008 - 111ms/epoch - 11ms/step
+Epoch 434/500
+10/10 - 0s - loss: 3.9391 - val_loss: 4.3003 - 110ms/epoch - 11ms/step
+Epoch 435/500
+10/10 - 0s - loss: 3.9386 - val_loss: 4.3004 - 108ms/epoch - 11ms/step
+Epoch 436/500
+10/10 - 0s - loss: 3.9382 - val_loss: 4.3004 - 107ms/epoch - 11ms/step
+Epoch 437/500
+10/10 - 0s - loss: 3.9377 - val_loss: 4.2996 - 110ms/epoch - 11ms/step
+Epoch 438/500
+10/10 - 0s - loss: 3.9373 - val_loss: 4.3000 - 108ms/epoch - 11ms/step
+Epoch 439/500
+10/10 - 0s - loss: 3.9368 - val_loss: 4.2996 - 107ms/epoch - 11ms/step
+Epoch 440/500
+
+Epoch 440: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_440/weights
+10/10 - 0s - loss: 3.9364 - val_loss: 4.2996 - 131ms/epoch - 13ms/step
+Epoch 441/500
+10/10 - 0s - loss: 3.9360 - val_loss: 4.2993 - 109ms/epoch - 11ms/step
+Epoch 442/500
+10/10 - 0s - loss: 3.9355 - val_loss: 4.2991 - 108ms/epoch - 11ms/step
+Epoch 443/500
+10/10 - 0s - loss: 3.9351 - val_loss: 4.2991 - 109ms/epoch - 11ms/step
+Epoch 444/500
+10/10 - 0s - loss: 3.9346 - val_loss: 4.2987 - 107ms/epoch - 11ms/step
+Epoch 445/500
+10/10 - 0s - loss: 3.9342 - val_loss: 4.2991 - 107ms/epoch - 11ms/step
+Epoch 446/500
+10/10 - 0s - loss: 3.9338 - val_loss: 4.2985 - 108ms/epoch - 11ms/step
+Epoch 447/500
+10/10 - 0s - loss: 3.9333 - val_loss: 4.2984 - 107ms/epoch - 11ms/step
+Epoch 448/500
+10/10 - 0s - loss: 3.9329 - val_loss: 4.2980 - 107ms/epoch - 11ms/step
+Epoch 449/500
+10/10 - 0s - loss: 3.9324 - val_loss: 4.2982 - 108ms/epoch - 11ms/step
+Epoch 450/500
+
+Epoch 450: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_450/weights
+10/10 - 0s - loss: 3.9320 - val_loss: 4.2980 - 130ms/epoch - 13ms/step
+Epoch 451/500
+10/10 - 0s - loss: 3.9315 - val_loss: 4.2983 - 109ms/epoch - 11ms/step
+Epoch 452/500
+10/10 - 0s - loss: 3.9311 - val_loss: 4.2975 - 110ms/epoch - 11ms/step
+Epoch 453/500
+10/10 - 0s - loss: 3.9307 - val_loss: 4.2974 - 110ms/epoch - 11ms/step
+Epoch 454/500
+10/10 - 0s - loss: 3.9302 - val_loss: 4.2975 - 108ms/epoch - 11ms/step
+Epoch 455/500
+10/10 - 0s - loss: 3.9298 - val_loss: 4.2974 - 113ms/epoch - 11ms/step
+Epoch 456/500
+10/10 - 0s - loss: 3.9293 - val_loss: 4.2972 - 108ms/epoch - 11ms/step
+Epoch 457/500
+10/10 - 0s - loss: 3.9289 - val_loss: 4.2971 - 108ms/epoch - 11ms/step
+Epoch 458/500
+10/10 - 0s - loss: 3.9284 - val_loss: 4.2969 - 108ms/epoch - 11ms/step
+Epoch 459/500
+10/10 - 0s - loss: 3.9280 - val_loss: 4.2968 - 108ms/epoch - 11ms/step
+Epoch 460/500
+
+Epoch 460: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_460/weights
+10/10 - 0s - loss: 3.9275 - val_loss: 4.2968 - 131ms/epoch - 13ms/step
+Epoch 461/500
+10/10 - 0s - loss: 3.9271 - val_loss: 4.2966 - 110ms/epoch - 11ms/step
+Epoch 462/500
+10/10 - 0s - loss: 3.9266 - val_loss: 4.2961 - 107ms/epoch - 11ms/step
+Epoch 463/500
+10/10 - 0s - loss: 3.9262 - val_loss: 4.2961 - 107ms/epoch - 11ms/step
+Epoch 464/500
+10/10 - 0s - loss: 3.9257 - val_loss: 4.2954 - 108ms/epoch - 11ms/step
+Epoch 465/500
+10/10 - 0s - loss: 3.9253 - val_loss: 4.2950 - 107ms/epoch - 11ms/step
+Epoch 466/500
+10/10 - 0s - loss: 3.9249 - val_loss: 4.2954 - 107ms/epoch - 11ms/step
+Epoch 467/500
+10/10 - 0s - loss: 3.9244 - val_loss: 4.2955 - 108ms/epoch - 11ms/step
+Epoch 468/500
+10/10 - 0s - loss: 3.9240 - val_loss: 4.2952 - 108ms/epoch - 11ms/step
+Epoch 469/500
+10/10 - 0s - loss: 3.9235 - val_loss: 4.2950 - 108ms/epoch - 11ms/step
+Epoch 470/500
+
+Epoch 470: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_470/weights
+10/10 - 0s - loss: 3.9231 - val_loss: 4.2946 - 131ms/epoch - 13ms/step
+Epoch 471/500
+10/10 - 0s - loss: 3.9227 - val_loss: 4.2949 - 109ms/epoch - 11ms/step
+Epoch 472/500
+10/10 - 0s - loss: 3.9222 - val_loss: 4.2942 - 108ms/epoch - 11ms/step
+Epoch 473/500
+10/10 - 0s - loss: 3.9217 - val_loss: 4.2949 - 109ms/epoch - 11ms/step
+Epoch 474/500
+10/10 - 0s - loss: 3.9213 - val_loss: 4.2939 - 107ms/epoch - 11ms/step
+Epoch 475/500
+10/10 - 0s - loss: 3.9209 - val_loss: 4.2947 - 107ms/epoch - 11ms/step
+Epoch 476/500
+10/10 - 0s - loss: 3.9204 - val_loss: 4.2942 - 107ms/epoch - 11ms/step
+Epoch 477/500
+10/10 - 0s - loss: 3.9200 - val_loss: 4.2937 - 109ms/epoch - 11ms/step
+Epoch 478/500
+10/10 - 0s - loss: 3.9195 - val_loss: 4.2935 - 108ms/epoch - 11ms/step
+Epoch 479/500
+10/10 - 0s - loss: 3.9191 - val_loss: 4.2934 - 109ms/epoch - 11ms/step
+Epoch 480/500
+
+Epoch 480: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_480/weights
+10/10 - 0s - loss: 3.9186 - val_loss: 4.2931 - 131ms/epoch - 13ms/step
+Epoch 481/500
+10/10 - 0s - loss: 3.9182 - val_loss: 4.2929 - 108ms/epoch - 11ms/step
+Epoch 482/500
+10/10 - 0s - loss: 3.9177 - val_loss: 4.2926 - 108ms/epoch - 11ms/step
+Epoch 483/500
+10/10 - 0s - loss: 3.9173 - val_loss: 4.2927 - 108ms/epoch - 11ms/step
+Epoch 484/500
+10/10 - 0s - loss: 3.9168 - val_loss: 4.2929 - 109ms/epoch - 11ms/step
+Epoch 485/500
+10/10 - 0s - loss: 3.9164 - val_loss: 4.2927 - 109ms/epoch - 11ms/step
+Epoch 486/500
+10/10 - 0s - loss: 3.9160 - val_loss: 4.2924 - 108ms/epoch - 11ms/step
+Epoch 487/500
+10/10 - 0s - loss: 3.9155 - val_loss: 4.2925 - 108ms/epoch - 11ms/step
+Epoch 488/500
+10/10 - 0s - loss: 3.9151 - val_loss: 4.2917 - 107ms/epoch - 11ms/step
+Epoch 489/500
+10/10 - 0s - loss: 3.9146 - val_loss: 4.2916 - 107ms/epoch - 11ms/step
+Epoch 490/500
+
+Epoch 490: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_490/weights
+10/10 - 0s - loss: 3.9141 - val_loss: 4.2912 - 132ms/epoch - 13ms/step
+Epoch 491/500
+10/10 - 0s - loss: 3.9137 - val_loss: 4.2911 - 110ms/epoch - 11ms/step
+Epoch 492/500
+10/10 - 0s - loss: 3.9132 - val_loss: 4.2913 - 108ms/epoch - 11ms/step
+Epoch 493/500
+10/10 - 0s - loss: 3.9128 - val_loss: 4.2914 - 107ms/epoch - 11ms/step
+Epoch 494/500
+10/10 - 0s - loss: 3.9124 - val_loss: 4.2910 - 107ms/epoch - 11ms/step
+Epoch 495/500
+10/10 - 0s - loss: 3.9118 - val_loss: 4.2907 - 112ms/epoch - 11ms/step
+Epoch 496/500
+10/10 - 0s - loss: 3.9114 - val_loss: 4.2898 - 108ms/epoch - 11ms/step
+Epoch 497/500
+10/10 - 0s - loss: 3.9110 - val_loss: 4.2905 - 109ms/epoch - 11ms/step
+Epoch 498/500
+10/10 - 0s - loss: 3.9105 - val_loss: 4.2908 - 107ms/epoch - 11ms/step
+Epoch 499/500
+10/10 - 0s - loss: 3.9101 - val_loss: 4.2908 - 106ms/epoch - 11ms/step
+Epoch 500/500
+
+Epoch 500: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_500/weights
+10/10 - 0s - loss: 3.9096 - val_loss: 4.2900 - 130ms/epoch - 13ms/step
+Trained the model.
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 2
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+load (3000000, 4, 2)
+Loaded N = 1000000 datapoints
+Built the model.
+Epoch 1/10000
+98/98 - 11s - loss: 4.5042 - val_loss: 4.0096 - 11s/epoch - 111ms/step
+Epoch 2/10000
+98/98 - 1s - loss: 4.1179 - val_loss: 3.9205 - 920ms/epoch - 9ms/step
+Epoch 3/10000
+98/98 - 1s - loss: 3.9788 - val_loss: 3.7263 - 921ms/epoch - 9ms/step
+Epoch 4/10000
+98/98 - 1s - loss: 3.7684 - val_loss: 3.5277 - 918ms/epoch - 9ms/step
+Epoch 5/10000
+98/98 - 1s - loss: 3.5777 - val_loss: 3.3659 - 917ms/epoch - 9ms/step
+Epoch 6/10000
+98/98 - 1s - loss: 3.4123 - val_loss: 3.2465 - 915ms/epoch - 9ms/step
+Epoch 7/10000
+98/98 - 1s - loss: 3.2497 - val_loss: 3.0815 - 921ms/epoch - 9ms/step
+Epoch 8/10000
+98/98 - 1s - loss: 3.0678 - val_loss: 2.9055 - 916ms/epoch - 9ms/step
+Epoch 9/10000
+98/98 - 1s - loss: 2.8781 - val_loss: 2.7299 - 916ms/epoch - 9ms/step
+Epoch 10/10000
+
+Epoch 10: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_10/weights
+98/98 - 1s - loss: 2.6985 - val_loss: 2.5792 - 1s/epoch - 11ms/step
+Epoch 11/10000
+98/98 - 1s - loss: 2.5505 - val_loss: 2.4656 - 917ms/epoch - 9ms/step
+Epoch 12/10000
+98/98 - 1s - loss: 2.4181 - val_loss: 2.3654 - 914ms/epoch - 9ms/step
+Epoch 13/10000
+98/98 - 1s - loss: 2.2943 - val_loss: 2.2821 - 919ms/epoch - 9ms/step
+Epoch 14/10000
+98/98 - 1s - loss: 2.1790 - val_loss: 2.1728 - 914ms/epoch - 9ms/step
+Epoch 15/10000
+98/98 - 1s - loss: 2.0766 - val_loss: 2.0985 - 917ms/epoch - 9ms/step
+Epoch 16/10000
+98/98 - 1s - loss: 1.9814 - val_loss: 2.0311 - 912ms/epoch - 9ms/step
+Epoch 17/10000
+98/98 - 1s - loss: 1.8952 - val_loss: 1.9697 - 914ms/epoch - 9ms/step
+Epoch 18/10000
+98/98 - 1s - loss: 1.8184 - val_loss: 1.9235 - 914ms/epoch - 9ms/step
+Epoch 19/10000
+98/98 - 1s - loss: 1.7394 - val_loss: 1.8519 - 915ms/epoch - 9ms/step
+Epoch 20/10000
+
+Epoch 20: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_20/weights
+98/98 - 1s - loss: 1.6680 - val_loss: 1.8050 - 985ms/epoch - 10ms/step
+Epoch 21/10000
+98/98 - 1s - loss: 1.5976 - val_loss: 1.7569 - 914ms/epoch - 9ms/step
+Epoch 22/10000
+98/98 - 1s - loss: 1.5289 - val_loss: 1.7319 - 918ms/epoch - 9ms/step
+Epoch 23/10000
+98/98 - 1s - loss: 1.4677 - val_loss: 1.6847 - 918ms/epoch - 9ms/step
+Epoch 24/10000
+98/98 - 1s - loss: 1.3988 - val_loss: 1.6640 - 915ms/epoch - 9ms/step
+Epoch 25/10000
+98/98 - 1s - loss: 1.3396 - val_loss: 1.6009 - 916ms/epoch - 9ms/step
+Epoch 26/10000
+98/98 - 1s - loss: 1.2962 - val_loss: 1.6033 - 918ms/epoch - 9ms/step
+Epoch 27/10000
+98/98 - 1s - loss: 1.2273 - val_loss: 1.5260 - 913ms/epoch - 9ms/step
+Epoch 28/10000
+98/98 - 1s - loss: 1.1950 - val_loss: 1.4844 - 915ms/epoch - 9ms/step
+Epoch 29/10000
+98/98 - 1s - loss: 1.1155 - val_loss: 1.4514 - 914ms/epoch - 9ms/step
+Epoch 30/10000
+
+Epoch 30: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_30/weights
+98/98 - 1s - loss: 1.0658 - val_loss: 1.4358 - 982ms/epoch - 10ms/step
+Epoch 31/10000
+98/98 - 1s - loss: 1.0984 - val_loss: 1.4286 - 915ms/epoch - 9ms/step
+Epoch 32/10000
+98/98 - 1s - loss: 1.0185 - val_loss: 1.3530 - 1s/epoch - 11ms/step
+Epoch 33/10000
+98/98 - 1s - loss: 0.9522 - val_loss: 1.3923 - 914ms/epoch - 9ms/step
+Epoch 34/10000
+98/98 - 1s - loss: 0.8971 - val_loss: 1.2988 - 916ms/epoch - 9ms/step
+Epoch 35/10000
+98/98 - 1s - loss: 0.8783 - val_loss: 1.3126 - 913ms/epoch - 9ms/step
+Epoch 36/10000
+98/98 - 1s - loss: 0.8205 - val_loss: 1.2584 - 916ms/epoch - 9ms/step
+Epoch 37/10000
+98/98 - 1s - loss: 0.9316 - val_loss: 1.2617 - 917ms/epoch - 9ms/step
+Epoch 38/10000
+98/98 - 1s - loss: 0.7777 - val_loss: 1.2236 - 918ms/epoch - 9ms/step
+Epoch 39/10000
+98/98 - 1s - loss: 0.7322 - val_loss: 1.2144 - 914ms/epoch - 9ms/step
+Epoch 40/10000
+
+Epoch 40: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_40/weights
+98/98 - 1s - loss: 0.6756 - val_loss: 1.3098 - 979ms/epoch - 10ms/step
+Epoch 41/10000
+98/98 - 1s - loss: 0.7855 - val_loss: 1.1762 - 919ms/epoch - 9ms/step
+Epoch 42/10000
+98/98 - 1s - loss: 0.7447 - val_loss: 1.1795 - 924ms/epoch - 9ms/step
+Epoch 43/10000
+98/98 - 1s - loss: 0.6000 - val_loss: 1.1253 - 915ms/epoch - 9ms/step
+Epoch 44/10000
+98/98 - 1s - loss: 0.7057 - val_loss: 1.1467 - 914ms/epoch - 9ms/step
+Epoch 45/10000
+98/98 - 1s - loss: 0.5588 - val_loss: 1.1146 - 915ms/epoch - 9ms/step
+Epoch 46/10000
+98/98 - 1s - loss: 0.5788 - val_loss: 1.1142 - 913ms/epoch - 9ms/step
+Epoch 47/10000
+98/98 - 1s - loss: 0.5448 - val_loss: 1.1016 - 914ms/epoch - 9ms/step
+Epoch 48/10000
+98/98 - 1s - loss: 0.5218 - val_loss: 1.0740 - 920ms/epoch - 9ms/step
+Epoch 49/10000
+98/98 - 1s - loss: 0.6422 - val_loss: 1.2060 - 916ms/epoch - 9ms/step
+Epoch 50/10000
+
+Epoch 50: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_50/weights
+98/98 - 1s - loss: 0.4633 - val_loss: 1.0507 - 976ms/epoch - 10ms/step
+Epoch 51/10000
+98/98 - 1s - loss: 0.5672 - val_loss: 1.0105 - 918ms/epoch - 9ms/step
+Epoch 52/10000
+98/98 - 1s - loss: 0.5892 - val_loss: 1.0935 - 915ms/epoch - 9ms/step
+Epoch 53/10000
+98/98 - 1s - loss: 0.4344 - val_loss: 1.0083 - 918ms/epoch - 9ms/step
+Epoch 54/10000
+98/98 - 1s - loss: 0.3546 - val_loss: 0.9974 - 915ms/epoch - 9ms/step
+Epoch 55/10000
+98/98 - 1s - loss: 0.6518 - val_loss: 1.1862 - 916ms/epoch - 9ms/step
+Epoch 56/10000
+98/98 - 1s - loss: 0.3790 - val_loss: 0.9514 - 914ms/epoch - 9ms/step
+Epoch 57/10000
+98/98 - 1s - loss: 0.4825 - val_loss: 0.9515 - 916ms/epoch - 9ms/step
+Epoch 58/10000
+98/98 - 1s - loss: 0.2838 - val_loss: 0.9530 - 914ms/epoch - 9ms/step
+Epoch 59/10000
+98/98 - 1s - loss: 0.4871 - val_loss: 0.9694 - 918ms/epoch - 9ms/step
+Epoch 60/10000
+
+Epoch 60: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_60/weights
+98/98 - 1s - loss: 0.2618 - val_loss: 0.9630 - 982ms/epoch - 10ms/step
+Epoch 61/10000
+98/98 - 1s - loss: 0.3750 - val_loss: 0.9191 - 919ms/epoch - 9ms/step
+Epoch 62/10000
+98/98 - 1s - loss: 0.3385 - val_loss: 0.9766 - 917ms/epoch - 9ms/step
+Epoch 63/10000
+98/98 - 1s - loss: 0.2694 - val_loss: 0.8672 - 913ms/epoch - 9ms/step
+Epoch 64/10000
+98/98 - 1s - loss: 0.4203 - val_loss: 0.8657 - 915ms/epoch - 9ms/step
+Epoch 65/10000
+98/98 - 1s - loss: 0.3153 - val_loss: 0.8801 - 916ms/epoch - 9ms/step
+Epoch 66/10000
+98/98 - 1s - loss: 0.1596 - val_loss: 0.8268 - 914ms/epoch - 9ms/step
+Epoch 67/10000
+98/98 - 1s - loss: 0.3920 - val_loss: 0.9447 - 916ms/epoch - 9ms/step
+Epoch 68/10000
+98/98 - 1s - loss: 0.2492 - val_loss: 0.9416 - 916ms/epoch - 9ms/step
+Epoch 69/10000
+98/98 - 1s - loss: 0.3312 - val_loss: 0.8872 - 917ms/epoch - 9ms/step
+Epoch 70/10000
+
+Epoch 70: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_70/weights
+98/98 - 1s - loss: 0.3489 - val_loss: 0.9592 - 983ms/epoch - 10ms/step
+Epoch 71/10000
+98/98 - 1s - loss: 0.1119 - val_loss: 0.7974 - 915ms/epoch - 9ms/step
+Epoch 72/10000
+98/98 - 1s - loss: 0.1691 - val_loss: 0.7917 - 914ms/epoch - 9ms/step
+Epoch 73/10000
+98/98 - 1s - loss: 0.2738 - val_loss: 0.7914 - 919ms/epoch - 9ms/step
+Epoch 74/10000
+98/98 - 1s - loss: 0.2463 - val_loss: 0.7954 - 916ms/epoch - 9ms/step
+Epoch 75/10000
+98/98 - 1s - loss: 0.2401 - val_loss: 0.7691 - 918ms/epoch - 9ms/step
+Epoch 76/10000
+98/98 - 1s - loss: 0.1886 - val_loss: 0.7679 - 917ms/epoch - 9ms/step
+Epoch 77/10000
+98/98 - 1s - loss: 0.2176 - val_loss: 0.7577 - 920ms/epoch - 9ms/step
+Epoch 78/10000
+98/98 - 1s - loss: 0.1944 - val_loss: 0.7774 - 914ms/epoch - 9ms/step
+Epoch 79/10000
+98/98 - 1s - loss: 0.1507 - val_loss: 1.0017 - 915ms/epoch - 9ms/step
+Epoch 80/10000
+
+Epoch 80: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_80/weights
+98/98 - 1s - loss: 0.0419 - val_loss: 0.6862 - 978ms/epoch - 10ms/step
+Epoch 81/10000
+98/98 - 1s - loss: 0.1122 - val_loss: 0.6985 - 918ms/epoch - 9ms/step
+Epoch 82/10000
+98/98 - 1s - loss: 0.2147 - val_loss: 0.7225 - 917ms/epoch - 9ms/step
+Epoch 83/10000
+98/98 - 1s - loss: 0.0670 - val_loss: 0.7223 - 916ms/epoch - 9ms/step
+Epoch 84/10000
+98/98 - 1s - loss: 0.0975 - val_loss: 0.8507 - 915ms/epoch - 9ms/step
+Epoch 85/10000
+98/98 - 1s - loss: 0.0564 - val_loss: 0.6642 - 920ms/epoch - 9ms/step
+Epoch 86/10000
+98/98 - 1s - loss: 0.1120 - val_loss: 0.6639 - 916ms/epoch - 9ms/step
+Epoch 87/10000
+98/98 - 1s - loss: 0.0866 - val_loss: 0.8448 - 914ms/epoch - 9ms/step
+Epoch 88/10000
+98/98 - 1s - loss: 0.0694 - val_loss: 0.8370 - 917ms/epoch - 9ms/step
+Epoch 89/10000
+98/98 - 1s - loss: 0.1106 - val_loss: 0.9767 - 919ms/epoch - 9ms/step
+Epoch 90/10000
+
+Epoch 90: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_90/weights
+98/98 - 1s - loss: 0.0347 - val_loss: 0.6457 - 983ms/epoch - 10ms/step
+Epoch 91/10000
+98/98 - 1s - loss: 0.0328 - val_loss: 0.6102 - 919ms/epoch - 9ms/step
+Epoch 92/10000
+98/98 - 1s - loss: 0.0569 - val_loss: 0.6255 - 915ms/epoch - 9ms/step
+Epoch 93/10000
+98/98 - 1s - loss: -1.6761e-01 - val_loss: 1.0365 - 916ms/epoch - 9ms/step
+Epoch 94/10000
+98/98 - 1s - loss: 0.0226 - val_loss: 0.6290 - 915ms/epoch - 9ms/step
+Epoch 95/10000
+98/98 - 1s - loss: -1.3782e-01 - val_loss: 1.4195 - 915ms/epoch - 9ms/step
+Epoch 96/10000
+98/98 - 1s - loss: 0.0701 - val_loss: 0.6464 - 917ms/epoch - 9ms/step
+Epoch 97/10000
+98/98 - 1s - loss: -5.0286e-02 - val_loss: 0.5757 - 918ms/epoch - 9ms/step
+Epoch 98/10000
+98/98 - 1s - loss: 0.0374 - val_loss: 0.5927 - 914ms/epoch - 9ms/step
+Epoch 99/10000
+98/98 - 1s - loss: -1.2093e-01 - val_loss: 0.5321 - 917ms/epoch - 9ms/step
+Epoch 100/10000
+
+Epoch 100: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_100/weights
+98/98 - 1s - loss: -6.8142e-02 - val_loss: 0.5945 - 982ms/epoch - 10ms/step
+Epoch 101/10000
+98/98 - 1s - loss: -1.3429e-01 - val_loss: 0.6577 - 917ms/epoch - 9ms/step
+Epoch 102/10000
+98/98 - 1s - loss: -1.1546e-01 - val_loss: 0.5756 - 917ms/epoch - 9ms/step
+Epoch 103/10000
+98/98 - 1s - loss: -7.3635e-02 - val_loss: 0.8180 - 915ms/epoch - 9ms/step
+Epoch 104/10000
+98/98 - 1s - loss: -6.4989e-02 - val_loss: 0.7916 - 921ms/epoch - 9ms/step
+Epoch 105/10000
+98/98 - 1s - loss: -3.6413e-03 - val_loss: 0.6621 - 916ms/epoch - 9ms/step
+Epoch 106/10000
+98/98 - 1s - loss: -2.8390e-01 - val_loss: 0.4729 - 915ms/epoch - 9ms/step
+Epoch 107/10000
+98/98 - 1s - loss: -1.4737e-01 - val_loss: 0.7058 - 914ms/epoch - 9ms/step
+Epoch 108/10000
+98/98 - 1s - loss: -1.7969e-01 - val_loss: 0.9997 - 915ms/epoch - 9ms/step
+Epoch 109/10000
+98/98 - 1s - loss: 0.0367 - val_loss: 0.8544 - 915ms/epoch - 9ms/step
+Epoch 110/10000
+
+Epoch 110: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_110/weights
+98/98 - 1s - loss: -2.6720e-01 - val_loss: 0.5593 - 981ms/epoch - 10ms/step
+Epoch 111/10000
+98/98 - 1s - loss: -6.2203e-02 - val_loss: 1.1910 - 920ms/epoch - 9ms/step
+Epoch 112/10000
+98/98 - 1s - loss: -2.0556e-01 - val_loss: 1.3271 - 917ms/epoch - 9ms/step
+Epoch 113/10000
+98/98 - 1s - loss: -9.8663e-02 - val_loss: 0.6994 - 916ms/epoch - 9ms/step
+Epoch 114/10000
+98/98 - 1s - loss: -1.0425e-01 - val_loss: 0.6943 - 915ms/epoch - 9ms/step
+Epoch 115/10000
+98/98 - 1s - loss: -2.3098e-01 - val_loss: 0.4307 - 914ms/epoch - 9ms/step
+Epoch 116/10000
+98/98 - 1s - loss: -1.7398e-01 - val_loss: 0.4136 - 917ms/epoch - 9ms/step
+Epoch 117/10000
+98/98 - 1s - loss: -4.5413e-01 - val_loss: 0.4303 - 916ms/epoch - 9ms/step
+Epoch 118/10000
+98/98 - 1s - loss: -8.3754e-02 - val_loss: 1.7307 - 915ms/epoch - 9ms/step
+Epoch 119/10000
+98/98 - 1s - loss: -7.3513e-02 - val_loss: 0.7236 - 916ms/epoch - 9ms/step
+Epoch 120/10000
+
+Epoch 120: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_120/weights
+98/98 - 1s - loss: -3.2191e-01 - val_loss: 0.3596 - 983ms/epoch - 10ms/step
+Epoch 121/10000
+98/98 - 1s - loss: -1.7341e-01 - val_loss: 0.3779 - 915ms/epoch - 9ms/step
+Epoch 122/10000
+98/98 - 1s - loss: -3.0233e-01 - val_loss: 0.3866 - 915ms/epoch - 9ms/step
+Epoch 123/10000
+98/98 - 1s - loss: -2.2708e-01 - val_loss: 0.3977 - 920ms/epoch - 9ms/step
+Epoch 124/10000
+98/98 - 1s - loss: -4.6041e-01 - val_loss: 0.4204 - 915ms/epoch - 9ms/step
+Epoch 125/10000
+98/98 - 1s - loss: -2.0271e-01 - val_loss: 0.4726 - 915ms/epoch - 9ms/step
+Epoch 126/10000
+98/98 - 1s - loss: -2.5042e-01 - val_loss: 0.5677 - 915ms/epoch - 9ms/step
+Epoch 127/10000
+98/98 - 1s - loss: -2.1889e-01 - val_loss: 0.3973 - 917ms/epoch - 9ms/step
+Epoch 128/10000
+98/98 - 1s - loss: -2.5059e-01 - val_loss: 0.3408 - 916ms/epoch - 9ms/step
+Epoch 129/10000
+98/98 - 1s - loss: -4.1140e-01 - val_loss: 0.3289 - 914ms/epoch - 9ms/step
+Epoch 130/10000
+
+Epoch 130: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_130/weights
+98/98 - 1s - loss: -3.5147e-01 - val_loss: 0.3434 - 976ms/epoch - 10ms/step
+Epoch 131/10000
+98/98 - 1s - loss: -2.2435e-01 - val_loss: 0.3436 - 914ms/epoch - 9ms/step
+Epoch 132/10000
+98/98 - 1s - loss: -4.5003e-01 - val_loss: 0.3479 - 913ms/epoch - 9ms/step
+Epoch 133/10000
+98/98 - 1s - loss: -2.5622e-01 - val_loss: 1.6795 - 919ms/epoch - 9ms/step
+Epoch 134/10000
+98/98 - 1s - loss: -1.3218e-01 - val_loss: 0.9130 - 917ms/epoch - 9ms/step
+Epoch 135/10000
+98/98 - 1s - loss: -2.7578e-01 - val_loss: 0.7010 - 915ms/epoch - 9ms/step
+Epoch 136/10000
+98/98 - 1s - loss: -3.5883e-01 - val_loss: 0.4633 - 915ms/epoch - 9ms/step
+Epoch 137/10000
+98/98 - 1s - loss: -2.5619e-01 - val_loss: 0.4529 - 916ms/epoch - 9ms/step
+Epoch 138/10000
+98/98 - 1s - loss: -3.5968e-01 - val_loss: 0.4798 - 916ms/epoch - 9ms/step
+Epoch 139/10000
+98/98 - 1s - loss: -4.9668e-01 - val_loss: 0.4346 - 919ms/epoch - 9ms/step
+Epoch 140/10000
+
+Epoch 140: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_140/weights
+98/98 - 1s - loss: -3.0145e-01 - val_loss: 0.3772 - 979ms/epoch - 10ms/step
+Epoch 141/10000
+98/98 - 1s - loss: -2.6310e-01 - val_loss: 0.3203 - 918ms/epoch - 9ms/step
+Epoch 142/10000
+98/98 - 1s - loss: -3.9932e-01 - val_loss: 0.2488 - 915ms/epoch - 9ms/step
+Epoch 143/10000
+98/98 - 1s - loss: -4.6990e-01 - val_loss: 0.3316 - 915ms/epoch - 9ms/step
+Epoch 144/10000
+98/98 - 1s - loss: -3.7908e-01 - val_loss: 0.2702 - 915ms/epoch - 9ms/step
+Epoch 145/10000
+98/98 - 1s - loss: -4.1465e-01 - val_loss: 0.2389 - 918ms/epoch - 9ms/step
+Epoch 146/10000
+98/98 - 1s - loss: -3.8193e-01 - val_loss: 0.2531 - 915ms/epoch - 9ms/step
+Epoch 147/10000
+98/98 - 1s - loss: -4.0247e-01 - val_loss: 0.2280 - 914ms/epoch - 9ms/step
+Epoch 148/10000
+98/98 - 1s - loss: -3.6534e-01 - val_loss: 0.2189 - 915ms/epoch - 9ms/step
+Epoch 149/10000
+98/98 - 1s - loss: -3.1282e-01 - val_loss: 0.2049 - 916ms/epoch - 9ms/step
+Epoch 150/10000
+
+Epoch 150: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_150/weights
+98/98 - 1s - loss: -4.9046e-01 - val_loss: 0.2515 - 979ms/epoch - 10ms/step
+Epoch 151/10000
+98/98 - 1s - loss: -3.3773e-01 - val_loss: 0.2544 - 917ms/epoch - 9ms/step
+Epoch 152/10000
+98/98 - 1s - loss: -3.7760e-01 - val_loss: 0.2233 - 916ms/epoch - 9ms/step
+Epoch 153/10000
+98/98 - 1s - loss: -5.4005e-01 - val_loss: 0.2184 - 914ms/epoch - 9ms/step
+Epoch 154/10000
+98/98 - 1s - loss: -4.2768e-01 - val_loss: 0.2014 - 915ms/epoch - 9ms/step
+Epoch 155/10000
+98/98 - 1s - loss: -3.3955e-01 - val_loss: 0.2120 - 914ms/epoch - 9ms/step
+Epoch 156/10000
+98/98 - 1s - loss: -7.5378e-01 - val_loss: 0.3019 - 921ms/epoch - 9ms/step
+Epoch 157/10000
+98/98 - 1s - loss: -3.4736e-01 - val_loss: 0.2128 - 914ms/epoch - 9ms/step
+Epoch 158/10000
+98/98 - 1s - loss: -4.0919e-01 - val_loss: 0.2357 - 914ms/epoch - 9ms/step
+Epoch 159/10000
+98/98 - 1s - loss: -4.5151e-01 - val_loss: 0.2145 - 916ms/epoch - 9ms/step
+Epoch 160/10000
+
+Epoch 160: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_160/weights
+98/98 - 1s - loss: -5.3090e-01 - val_loss: 0.2210 - 987ms/epoch - 10ms/step
+Epoch 161/10000
+98/98 - 1s - loss: -5.2130e-01 - val_loss: 0.2208 - 916ms/epoch - 9ms/step
+Epoch 162/10000
+98/98 - 1s - loss: -4.0418e-01 - val_loss: 0.1982 - 916ms/epoch - 9ms/step
+Epoch 163/10000
+98/98 - 1s - loss: -4.6286e-01 - val_loss: 0.2712 - 916ms/epoch - 9ms/step
+Epoch 164/10000
+98/98 - 1s - loss: -7.1523e-02 - val_loss: 0.1984 - 914ms/epoch - 9ms/step
+Epoch 165/10000
+98/98 - 1s - loss: -5.5016e-01 - val_loss: 0.1653 - 915ms/epoch - 9ms/step
+Epoch 166/10000
+98/98 - 1s - loss: -5.4245e-01 - val_loss: 0.2915 - 917ms/epoch - 9ms/step
+Epoch 167/10000
+98/98 - 1s - loss: -4.7746e-01 - val_loss: 1.3810 - 916ms/epoch - 9ms/step
+Epoch 168/10000
+98/98 - 1s - loss: -4.7451e-01 - val_loss: 0.2431 - 915ms/epoch - 9ms/step
+Epoch 169/10000
+98/98 - 1s - loss: -4.5452e-01 - val_loss: 0.1497 - 913ms/epoch - 9ms/step
+Epoch 170/10000
+
+Epoch 170: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_170/weights
+98/98 - 1s - loss: -4.3898e-01 - val_loss: 0.1543 - 985ms/epoch - 10ms/step
+Epoch 171/10000
+98/98 - 1s - loss: -7.2998e-01 - val_loss: 1.5317 - 917ms/epoch - 9ms/step
+Epoch 172/10000
+98/98 - 1s - loss: -5.6257e-01 - val_loss: 1.9213 - 916ms/epoch - 9ms/step
+Epoch 173/10000
+98/98 - 1s - loss: -3.4732e-01 - val_loss: 1.8329 - 920ms/epoch - 9ms/step
+Epoch 174/10000
+98/98 - 1s - loss: -4.0004e-01 - val_loss: 0.6492 - 916ms/epoch - 9ms/step
+Epoch 175/10000
+98/98 - 1s - loss: -6.7201e-01 - val_loss: 1.0341 - 915ms/epoch - 9ms/step
+Epoch 176/10000
+98/98 - 1s - loss: -3.3696e-01 - val_loss: 0.2089 - 914ms/epoch - 9ms/step
+Epoch 177/10000
+98/98 - 1s - loss: -4.8081e-01 - val_loss: 0.1695 - 922ms/epoch - 9ms/step
+Epoch 178/10000
+98/98 - 1s - loss: -5.2859e-01 - val_loss: 2.1779 - 917ms/epoch - 9ms/step
+Epoch 179/10000
+98/98 - 1s - loss: -4.3658e-01 - val_loss: 0.9377 - 916ms/epoch - 9ms/step
+Epoch 180/10000
+
+Epoch 180: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_180/weights
+98/98 - 1s - loss: -5.8078e-01 - val_loss: 1.0323 - 982ms/epoch - 10ms/step
+Epoch 181/10000
+98/98 - 1s - loss: -4.5119e-01 - val_loss: 0.3035 - 915ms/epoch - 9ms/step
+Epoch 182/10000
+98/98 - 1s - loss: -4.9205e-01 - val_loss: 0.3417 - 914ms/epoch - 9ms/step
+Epoch 183/10000
+98/98 - 1s - loss: -5.6568e-01 - val_loss: 0.2304 - 916ms/epoch - 9ms/step
+Epoch 184/10000
+98/98 - 1s - loss: -4.7182e-01 - val_loss: 0.2422 - 921ms/epoch - 9ms/step
+Epoch 185/10000
+98/98 - 1s - loss: -5.1606e-01 - val_loss: 0.1373 - 917ms/epoch - 9ms/step
+Epoch 186/10000
+98/98 - 1s - loss: -4.5475e-01 - val_loss: 0.1165 - 917ms/epoch - 9ms/step
+Epoch 187/10000
+98/98 - 1s - loss: -9.1272e-01 - val_loss: 0.0845 - 914ms/epoch - 9ms/step
+Epoch 188/10000
+98/98 - 1s - loss: -5.4224e-01 - val_loss: 0.4650 - 916ms/epoch - 9ms/step
+Epoch 189/10000
+98/98 - 1s - loss: -4.9018e-01 - val_loss: 0.2558 - 916ms/epoch - 9ms/step
+Epoch 190/10000
+
+Epoch 190: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_190/weights
+98/98 - 1s - loss: -4.8441e-01 - val_loss: 0.1165 - 983ms/epoch - 10ms/step
+Epoch 191/10000
+98/98 - 1s - loss: -4.2171e-01 - val_loss: 0.1016 - 917ms/epoch - 9ms/step
+Epoch 192/10000
+98/98 - 1s - loss: -5.8293e-01 - val_loss: 0.9158 - 916ms/epoch - 9ms/step
+Epoch 193/10000
+98/98 - 1s - loss: -5.5485e-01 - val_loss: 1.8033 - 917ms/epoch - 9ms/step
+Epoch 194/10000
+98/98 - 1s - loss: -5.6773e-01 - val_loss: 0.7444 - 916ms/epoch - 9ms/step
+Epoch 195/10000
+98/98 - 1s - loss: -7.2632e-01 - val_loss: 1.3364 - 915ms/epoch - 9ms/step
+Epoch 196/10000
+98/98 - 1s - loss: -7.5292e-01 - val_loss: 1.3640 - 915ms/epoch - 9ms/step
+Epoch 197/10000
+98/98 - 1s - loss: -6.2290e-01 - val_loss: 0.4505 - 913ms/epoch - 9ms/step
+Epoch 198/10000
+98/98 - 1s - loss: -3.5078e-01 - val_loss: 0.9931 - 916ms/epoch - 9ms/step
+Epoch 199/10000
+98/98 - 1s - loss: -6.3467e-01 - val_loss: 1.8688 - 918ms/epoch - 9ms/step
+Epoch 200/10000
+
+Epoch 200: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_200/weights
+98/98 - 1s - loss: -5.1706e-01 - val_loss: 1.5824 - 984ms/epoch - 10ms/step
+Epoch 201/10000
+98/98 - 1s - loss: -5.2475e-01 - val_loss: 0.2885 - 916ms/epoch - 9ms/step
+Epoch 202/10000
+98/98 - 1s - loss: -6.8317e-01 - val_loss: 0.2393 - 916ms/epoch - 9ms/step
+Epoch 203/10000
+98/98 - 1s - loss: -5.6269e-01 - val_loss: 0.0108 - 916ms/epoch - 9ms/step
+Epoch 204/10000
+98/98 - 1s - loss: -6.8970e-01 - val_loss: 0.3844 - 916ms/epoch - 9ms/step
+Epoch 205/10000
+98/98 - 1s - loss: -5.8529e-01 - val_loss: 0.1708 - 916ms/epoch - 9ms/step
+Epoch 206/10000
+98/98 - 1s - loss: -6.1742e-01 - val_loss: 0.0771 - 915ms/epoch - 9ms/step
+Epoch 207/10000
+98/98 - 1s - loss: -6.4912e-01 - val_loss: 0.0457 - 918ms/epoch - 9ms/step
+Epoch 208/10000
+98/98 - 1s - loss: -6.8871e-01 - val_loss: 0.0308 - 917ms/epoch - 9ms/step
+Epoch 209/10000
+98/98 - 1s - loss: -5.8724e-01 - val_loss: 0.0409 - 915ms/epoch - 9ms/step
+Epoch 210/10000
+
+Epoch 210: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_210/weights
+98/98 - 1s - loss: -7.4567e-01 - val_loss: -3.9182e-02 - 982ms/epoch - 10ms/step
+Epoch 211/10000
+98/98 - 1s - loss: -5.1782e-01 - val_loss: -3.9136e-02 - 915ms/epoch - 9ms/step
+Epoch 212/10000
+98/98 - 1s - loss: -6.6583e-01 - val_loss: -6.4615e-03 - 915ms/epoch - 9ms/step
+Epoch 213/10000
+98/98 - 1s - loss: -6.9129e-01 - val_loss: -4.3405e-02 - 915ms/epoch - 9ms/step
+Epoch 214/10000
+98/98 - 1s - loss: -7.4916e-01 - val_loss: -2.5526e-02 - 916ms/epoch - 9ms/step
+Epoch 215/10000
+98/98 - 1s - loss: -6.9962e-01 - val_loss: -2.9118e-02 - 917ms/epoch - 9ms/step
+Epoch 216/10000
+98/98 - 1s - loss: -6.2441e-01 - val_loss: -3.6420e-02 - 916ms/epoch - 9ms/step
+Epoch 217/10000
+98/98 - 1s - loss: -7.7107e-01 - val_loss: -4.7944e-02 - 916ms/epoch - 9ms/step
+Epoch 218/10000
+98/98 - 1s - loss: -6.4462e-01 - val_loss: -3.3844e-02 - 915ms/epoch - 9ms/step
+Epoch 219/10000
+98/98 - 1s - loss: -6.6403e-01 - val_loss: -3.2786e-02 - 917ms/epoch - 9ms/step
+Epoch 220/10000
+
+Epoch 220: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_220/weights
+98/98 - 1s - loss: -6.4346e-01 - val_loss: -3.0824e-02 - 986ms/epoch - 10ms/step
+Epoch 221/10000
+98/98 - 1s - loss: -6.3624e-01 - val_loss: -4.4580e-02 - 916ms/epoch - 9ms/step
+Epoch 222/10000
+98/98 - 1s - loss: -6.1842e-01 - val_loss: -7.5633e-02 - 914ms/epoch - 9ms/step
+Epoch 223/10000
+98/98 - 1s - loss: -6.1755e-01 - val_loss: -4.3067e-02 - 915ms/epoch - 9ms/step
+Epoch 224/10000
+98/98 - 1s - loss: -6.9862e-01 - val_loss: -4.7119e-02 - 913ms/epoch - 9ms/step
+Epoch 225/10000
+98/98 - 1s - loss: -7.0790e-01 - val_loss: -4.3153e-02 - 917ms/epoch - 9ms/step
+Epoch 226/10000
+98/98 - 1s - loss: -7.9975e-01 - val_loss: -4.3826e-02 - 915ms/epoch - 9ms/step
+Epoch 227/10000
+98/98 - 1s - loss: -8.1662e-01 - val_loss: -2.9680e-02 - 920ms/epoch - 9ms/step
+Epoch 228/10000
+98/98 - 1s - loss: -6.9039e-01 - val_loss: -3.0028e-02 - 915ms/epoch - 9ms/step
+Epoch 229/10000
+98/98 - 1s - loss: -6.5971e-01 - val_loss: -4.1788e-02 - 916ms/epoch - 9ms/step
+Epoch 230/10000
+
+Epoch 230: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_230/weights
+98/98 - 1s - loss: -7.3638e-01 - val_loss: -3.4205e-02 - 985ms/epoch - 10ms/step
+Epoch 231/10000
+98/98 - 1s - loss: -7.1900e-01 - val_loss: -3.2709e-02 - 917ms/epoch - 9ms/step
+Epoch 232/10000
+98/98 - 1s - loss: -7.5337e-01 - val_loss: -2.6718e-02 - 914ms/epoch - 9ms/step
+Epoch 233/10000
+98/98 - 1s - loss: -7.5952e-01 - val_loss: -5.4746e-03 - 915ms/epoch - 9ms/step
+Epoch 234/10000
+98/98 - 1s - loss: -6.4632e-01 - val_loss: -5.0910e-02 - 914ms/epoch - 9ms/step
+Epoch 235/10000
+98/98 - 1s - loss: -7.9822e-01 - val_loss: -5.0018e-02 - 915ms/epoch - 9ms/step
+Epoch 236/10000
+98/98 - 1s - loss: -8.1344e-01 - val_loss: -1.0356e-01 - 920ms/epoch - 9ms/step
+Epoch 237/10000
+98/98 - 1s - loss: -6.3006e-01 - val_loss: -9.3849e-02 - 914ms/epoch - 9ms/step
+Epoch 238/10000
+98/98 - 1s - loss: -5.7620e-01 - val_loss: -9.0040e-02 - 915ms/epoch - 9ms/step
+Epoch 239/10000
+98/98 - 1s - loss: -7.8111e-01 - val_loss: -3.1990e-02 - 915ms/epoch - 9ms/step
+Epoch 240/10000
+
+Epoch 240: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_240/weights
+98/98 - 1s - loss: -8.6516e-01 - val_loss: -5.1259e-02 - 979ms/epoch - 10ms/step
+Epoch 241/10000
+98/98 - 1s - loss: -7.9518e-01 - val_loss: -3.8060e-02 - 918ms/epoch - 9ms/step
+Epoch 242/10000
+98/98 - 1s - loss: -7.8260e-01 - val_loss: -4.3397e-02 - 960ms/epoch - 10ms/step
+Epoch 243/10000
+98/98 - 1s - loss: -8.0949e-01 - val_loss: -5.8674e-02 - 963ms/epoch - 10ms/step
+Epoch 244/10000
+98/98 - 1s - loss: -6.8809e-01 - val_loss: -6.2010e-02 - 1s/epoch - 10ms/step
+Epoch 245/10000
+98/98 - 1s - loss: -8.0435e-01 - val_loss: -3.8171e-02 - 934ms/epoch - 10ms/step
+Epoch 246/10000
+98/98 - 1s - loss: -8.2563e-01 - val_loss: -5.9552e-02 - 940ms/epoch - 10ms/step
+Epoch 247/10000
+98/98 - 1s - loss: -8.4286e-01 - val_loss: -6.6109e-02 - 940ms/epoch - 10ms/step
+Epoch 248/10000
+98/98 - 1s - loss: -7.7926e-01 - val_loss: -4.0150e-02 - 942ms/epoch - 10ms/step
+Epoch 249/10000
+98/98 - 1s - loss: -8.4810e-01 - val_loss: 0.0340 - 941ms/epoch - 10ms/step
+Epoch 250/10000
+
+Epoch 250: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_250/weights
+98/98 - 1s - loss: -9.4743e-01 - val_loss: 0.0297 - 1s/epoch - 10ms/step
+Epoch 251/10000
+98/98 - 1s - loss: -8.1505e-01 - val_loss: -3.5100e-02 - 932ms/epoch - 10ms/step
+Epoch 252/10000
+98/98 - 1s - loss: -8.4557e-01 - val_loss: -5.2645e-02 - 929ms/epoch - 9ms/step
+Epoch 253/10000
+98/98 - 1s - loss: -8.1898e-01 - val_loss: -5.6113e-02 - 929ms/epoch - 9ms/step
+Epoch 254/10000
+98/98 - 1s - loss: -9.6456e-01 - val_loss: 0.1642 - 929ms/epoch - 9ms/step
+Epoch 255/10000
+98/98 - 1s - loss: -7.1841e-01 - val_loss: 0.5519 - 956ms/epoch - 10ms/step
+Epoch 256/10000
+98/98 - 1s - loss: -7.4876e-01 - val_loss: 1.7978 - 961ms/epoch - 10ms/step
+Epoch 257/10000
+98/98 - 1s - loss: -8.8767e-01 - val_loss: 1.8032 - 924ms/epoch - 9ms/step
+Epoch 258/10000
+98/98 - 1s - loss: -8.0860e-01 - val_loss: 1.7216 - 929ms/epoch - 9ms/step
+Epoch 259/10000
+98/98 - 1s - loss: -8.7109e-01 - val_loss: -9.5477e-02 - 926ms/epoch - 9ms/step
+Epoch 260/10000
+
+Epoch 260: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_260/weights
+98/98 - 1s - loss: -7.5892e-01 - val_loss: -6.3225e-02 - 995ms/epoch - 10ms/step
+Epoch 261/10000
+98/98 - 1s - loss: -7.4086e-01 - val_loss: -3.1285e-02 - 921ms/epoch - 9ms/step
+Epoch 262/10000
+98/98 - 1s - loss: -7.7697e-01 - val_loss: -7.7583e-02 - 976ms/epoch - 10ms/step
+Epoch 263/10000
+98/98 - 1s - loss: -8.9702e-01 - val_loss: -9.9164e-02 - 926ms/epoch - 9ms/step
+Epoch 264/10000
+98/98 - 1s - loss: -8.9494e-01 - val_loss: -3.7148e-02 - 937ms/epoch - 10ms/step
+Epoch 265/10000
+98/98 - 1s - loss: -7.5532e-01 - val_loss: 1.0657 - 919ms/epoch - 9ms/step
+Epoch 266/10000
+98/98 - 1s - loss: -8.7877e-01 - val_loss: 0.6835 - 916ms/epoch - 9ms/step
+Epoch 267/10000
+98/98 - 1s - loss: -9.5130e-01 - val_loss: 0.8490 - 918ms/epoch - 9ms/step
+Epoch 268/10000
+98/98 - 1s - loss: -9.2140e-01 - val_loss: 0.2481 - 917ms/epoch - 9ms/step
+Epoch 269/10000
+98/98 - 1s - loss: -8.5056e-01 - val_loss: 0.0735 - 916ms/epoch - 9ms/step
+Epoch 270/10000
+
+Epoch 270: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_270/weights
+98/98 - 1s - loss: -9.3466e-01 - val_loss: 0.4073 - 1s/epoch - 10ms/step
+Epoch 271/10000
+98/98 - 1s - loss: -8.8800e-01 - val_loss: 0.2774 - 915ms/epoch - 9ms/step
+Epoch 272/10000
+98/98 - 1s - loss: -8.3653e-01 - val_loss: 0.0746 - 915ms/epoch - 9ms/step
+Epoch 273/10000
+98/98 - 1s - loss: -9.8051e-01 - val_loss: 0.8509 - 915ms/epoch - 9ms/step
+Epoch 274/10000
+98/98 - 1s - loss: -9.8053e-01 - val_loss: 1.3282 - 917ms/epoch - 9ms/step
+Epoch 275/10000
+98/98 - 1s - loss: -1.0267e+00 - val_loss: 1.9168 - 916ms/epoch - 9ms/step
+Epoch 276/10000
+98/98 - 1s - loss: -9.9304e-01 - val_loss: 0.0227 - 919ms/epoch - 9ms/step
+Epoch 277/10000
+98/98 - 1s - loss: -7.7409e-01 - val_loss: -9.6452e-02 - 915ms/epoch - 9ms/step
+Epoch 278/10000
+98/98 - 1s - loss: -8.1182e-01 - val_loss: -1.0712e-02 - 915ms/epoch - 9ms/step
+Epoch 279/10000
+98/98 - 1s - loss: -8.3945e-01 - val_loss: -1.0512e-01 - 916ms/epoch - 9ms/step
+Epoch 280/10000
+
+Epoch 280: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_280/weights
+98/98 - 1s - loss: -1.0240e+00 - val_loss: -1.5569e-01 - 980ms/epoch - 10ms/step
+Epoch 281/10000
+98/98 - 1s - loss: -7.2805e-01 - val_loss: -1.6937e-01 - 915ms/epoch - 9ms/step
+Epoch 282/10000
+98/98 - 1s - loss: -8.5236e-01 - val_loss: -1.1692e-01 - 918ms/epoch - 9ms/step
+Epoch 283/10000
+98/98 - 1s - loss: -5.7711e-01 - val_loss: -1.1622e-01 - 916ms/epoch - 9ms/step
+Epoch 284/10000
+98/98 - 1s - loss: -9.2724e-01 - val_loss: -9.0104e-02 - 915ms/epoch - 9ms/step
+Epoch 285/10000
+98/98 - 1s - loss: -9.3637e-01 - val_loss: -9.7851e-02 - 914ms/epoch - 9ms/step
+Epoch 286/10000
+98/98 - 1s - loss: -7.3366e-01 - val_loss: -1.0538e-01 - 914ms/epoch - 9ms/step
+Epoch 287/10000
+98/98 - 1s - loss: -8.9047e-01 - val_loss: -8.4600e-02 - 916ms/epoch - 9ms/step
+Epoch 288/10000
+98/98 - 1s - loss: -9.3467e-01 - val_loss: -1.6204e-01 - 916ms/epoch - 9ms/step
+Epoch 289/10000
+98/98 - 1s - loss: -8.9352e-01 - val_loss: -1.2126e-01 - 915ms/epoch - 9ms/step
+Epoch 290/10000
+
+Epoch 290: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_290/weights
+98/98 - 1s - loss: -8.6486e-01 - val_loss: -1.9680e-01 - 985ms/epoch - 10ms/step
+Epoch 291/10000
+98/98 - 1s - loss: -1.0275e+00 - val_loss: -1.8514e-01 - 915ms/epoch - 9ms/step
+Epoch 292/10000
+98/98 - 1s - loss: -9.6558e-01 - val_loss: -1.4870e-01 - 915ms/epoch - 9ms/step
+Epoch 293/10000
+98/98 - 1s - loss: -8.7157e-01 - val_loss: -1.6015e-01 - 918ms/epoch - 9ms/step
+Epoch 294/10000
+98/98 - 1s - loss: -8.9142e-01 - val_loss: -1.8022e-01 - 916ms/epoch - 9ms/step
+Epoch 295/10000
+98/98 - 1s - loss: -1.0063e+00 - val_loss: -1.3108e-01 - 916ms/epoch - 9ms/step
+Epoch 296/10000
+98/98 - 1s - loss: -1.0683e+00 - val_loss: -1.3560e-01 - 915ms/epoch - 9ms/step
+Epoch 297/10000
+98/98 - 1s - loss: -6.9751e-01 - val_loss: -2.0228e-01 - 914ms/epoch - 9ms/step
+Epoch 298/10000
+98/98 - 1s - loss: -7.6027e-01 - val_loss: -2.3641e-01 - 917ms/epoch - 9ms/step
+Epoch 299/10000
+98/98 - 1s - loss: -9.1956e-01 - val_loss: -2.0923e-01 - 915ms/epoch - 9ms/step
+Epoch 300/10000
+
+Epoch 300: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_300/weights
+98/98 - 1s - loss: -9.0946e-01 - val_loss: -1.8821e-01 - 983ms/epoch - 10ms/step
+Epoch 301/10000
+98/98 - 1s - loss: -9.7116e-01 - val_loss: -1.8468e-01 - 914ms/epoch - 9ms/step
+Epoch 302/10000
+98/98 - 1s - loss: -8.0417e-01 - val_loss: -1.7693e-01 - 919ms/epoch - 9ms/step
+Epoch 303/10000
+98/98 - 1s - loss: -1.0147e+00 - val_loss: -1.9744e-01 - 913ms/epoch - 9ms/step
+Epoch 304/10000
+98/98 - 1s - loss: -5.5786e-01 - val_loss: -2.4119e-01 - 913ms/epoch - 9ms/step
+Epoch 305/10000
+98/98 - 1s - loss: -1.0144e+00 - val_loss: -1.1527e-01 - 916ms/epoch - 9ms/step
+Epoch 306/10000
+98/98 - 1s - loss: -8.6379e-01 - val_loss: 2.7877 - 918ms/epoch - 9ms/step
+Epoch 307/10000
+98/98 - 1s - loss: -7.7046e-01 - val_loss: 0.0886 - 918ms/epoch - 9ms/step
+Epoch 308/10000
+98/98 - 1s - loss: -9.3239e-01 - val_loss: -1.4689e-01 - 915ms/epoch - 9ms/step
+Epoch 309/10000
+98/98 - 1s - loss: -9.0092e-01 - val_loss: -2.5450e-01 - 916ms/epoch - 9ms/step
+Epoch 310/10000
+
+Epoch 310: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_310/weights
+98/98 - 1s - loss: -8.5147e-01 - val_loss: -2.6240e-01 - 979ms/epoch - 10ms/step
+Epoch 311/10000
+98/98 - 1s - loss: -1.0372e+00 - val_loss: -2.3199e-01 - 916ms/epoch - 9ms/step
+Epoch 312/10000
+98/98 - 1s - loss: -9.1236e-01 - val_loss: -2.1320e-01 - 915ms/epoch - 9ms/step
+Epoch 313/10000
+98/98 - 1s - loss: -1.1558e+00 - val_loss: -1.1852e-01 - 915ms/epoch - 9ms/step
+Epoch 314/10000
+98/98 - 1s - loss: -9.1036e-01 - val_loss: -6.8665e-02 - 914ms/epoch - 9ms/step
+Epoch 315/10000
+98/98 - 1s - loss: -9.0463e-01 - val_loss: 2.1879 - 916ms/epoch - 9ms/step
+Epoch 316/10000
+98/98 - 1s - loss: -7.4642e-01 - val_loss: 0.4647 - 914ms/epoch - 9ms/step
+Epoch 317/10000
+98/98 - 1s - loss: -1.0155e+00 - val_loss: -3.0911e-02 - 915ms/epoch - 9ms/step
+Epoch 318/10000
+98/98 - 1s - loss: -1.0064e+00 - val_loss: 0.0255 - 914ms/epoch - 9ms/step
+Epoch 319/10000
+98/98 - 1s - loss: -9.2184e-01 - val_loss: -6.2092e-02 - 914ms/epoch - 9ms/step
+Epoch 320/10000
+
+Epoch 320: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_320/weights
+98/98 - 1s - loss: -1.1573e+00 - val_loss: -9.2586e-02 - 982ms/epoch - 10ms/step
+Epoch 321/10000
+98/98 - 1s - loss: -1.0703e+00 - val_loss: -9.3025e-02 - 915ms/epoch - 9ms/step
+Epoch 322/10000
+98/98 - 1s - loss: -1.0564e+00 - val_loss: -1.4009e-01 - 917ms/epoch - 9ms/step
+Epoch 323/10000
+98/98 - 1s - loss: -7.5177e-01 - val_loss: -4.7062e-02 - 914ms/epoch - 9ms/step
+Epoch 324/10000
+98/98 - 1s - loss: -9.9410e-01 - val_loss: -1.3567e-01 - 916ms/epoch - 9ms/step
+Epoch 325/10000
+98/98 - 1s - loss: -1.0462e+00 - val_loss: -1.9042e-01 - 915ms/epoch - 9ms/step
+Epoch 326/10000
+98/98 - 1s - loss: -1.0003e+00 - val_loss: -2.8198e-01 - 914ms/epoch - 9ms/step
+Epoch 327/10000
+98/98 - 1s - loss: -7.5808e-01 - val_loss: -2.4825e-01 - 915ms/epoch - 9ms/step
+Epoch 328/10000
+98/98 - 1s - loss: -1.0278e+00 - val_loss: -2.7043e-01 - 916ms/epoch - 9ms/step
+Epoch 329/10000
+98/98 - 1s - loss: -1.0087e+00 - val_loss: -2.6634e-01 - 913ms/epoch - 9ms/step
+Epoch 330/10000
+
+Epoch 330: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_330/weights
+98/98 - 1s - loss: -9.7089e-01 - val_loss: -2.4587e-01 - 977ms/epoch - 10ms/step
+Epoch 331/10000
+98/98 - 1s - loss: -1.0793e+00 - val_loss: -1.7436e-01 - 915ms/epoch - 9ms/step
+Epoch 332/10000
+98/98 - 1s - loss: -1.0418e+00 - val_loss: -9.9392e-02 - 915ms/epoch - 9ms/step
+Epoch 333/10000
+98/98 - 1s - loss: -1.0947e+00 - val_loss: 1.9833 - 916ms/epoch - 9ms/step
+Epoch 334/10000
+98/98 - 1s - loss: -8.4470e-01 - val_loss: 0.7522 - 914ms/epoch - 9ms/step
+Epoch 335/10000
+98/98 - 1s - loss: -1.0596e+00 - val_loss: -9.5366e-02 - 919ms/epoch - 9ms/step
+Epoch 336/10000
+98/98 - 1s - loss: -8.5971e-01 - val_loss: -1.7531e-01 - 917ms/epoch - 9ms/step
+Epoch 337/10000
+98/98 - 1s - loss: -1.0159e+00 - val_loss: -2.6231e-01 - 918ms/epoch - 9ms/step
+Epoch 338/10000
+98/98 - 1s - loss: -9.8967e-01 - val_loss: -2.8203e-01 - 916ms/epoch - 9ms/step
+Epoch 339/10000
+98/98 - 1s - loss: -1.0743e+00 - val_loss: -2.7242e-01 - 916ms/epoch - 9ms/step
+Epoch 340/10000
+
+Epoch 340: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_340/weights
+98/98 - 1s - loss: -1.0071e+00 - val_loss: -2.0182e-01 - 977ms/epoch - 10ms/step
+Epoch 341/10000
+98/98 - 1s - loss: -1.0727e+00 - val_loss: -2.1923e-01 - 914ms/epoch - 9ms/step
+Epoch 342/10000
+98/98 - 1s - loss: -1.0062e+00 - val_loss: -2.3989e-01 - 914ms/epoch - 9ms/step
+Epoch 343/10000
+98/98 - 1s - loss: -1.0232e+00 - val_loss: -2.1785e-01 - 914ms/epoch - 9ms/step
+Epoch 344/10000
+98/98 - 1s - loss: -9.3508e-01 - val_loss: -2.2655e-01 - 914ms/epoch - 9ms/step
+Epoch 345/10000
+98/98 - 1s - loss: -1.0467e+00 - val_loss: -1.5453e-01 - 916ms/epoch - 9ms/step
+Epoch 346/10000
+98/98 - 1s - loss: -9.8990e-01 - val_loss: -2.2028e-01 - 918ms/epoch - 9ms/step
+Epoch 347/10000
+98/98 - 1s - loss: -1.1073e+00 - val_loss: -1.8625e-01 - 915ms/epoch - 9ms/step
+Epoch 348/10000
+98/98 - 1s - loss: -9.6343e-01 - val_loss: -1.7053e-01 - 913ms/epoch - 9ms/step
+Epoch 349/10000
+98/98 - 1s - loss: -1.1037e+00 - val_loss: 0.0496 - 916ms/epoch - 9ms/step
+Epoch 350/10000
+
+Epoch 350: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_350/weights
+98/98 - 1s - loss: -1.1323e+00 - val_loss: 1.0301 - 984ms/epoch - 10ms/step
+Epoch 351/10000
+98/98 - 1s - loss: -9.1248e-01 - val_loss: 1.6065 - 915ms/epoch - 9ms/step
+Epoch 352/10000
+98/98 - 1s - loss: -9.5767e-01 - val_loss: 0.0779 - 918ms/epoch - 9ms/step
+Epoch 353/10000
+98/98 - 1s - loss: -1.1563e+00 - val_loss: -2.3668e-01 - 914ms/epoch - 9ms/step
+Epoch 354/10000
+98/98 - 1s - loss: -1.1017e+00 - val_loss: -2.9277e-01 - 916ms/epoch - 9ms/step
+Epoch 355/10000
+98/98 - 1s - loss: -1.0634e+00 - val_loss: -2.8344e-01 - 914ms/epoch - 9ms/step
+Epoch 356/10000
+98/98 - 1s - loss: -1.2052e+00 - val_loss: -2.9065e-01 - 917ms/epoch - 9ms/step
+Epoch 357/10000
+98/98 - 1s - loss: -1.0894e+00 - val_loss: -3.1899e-01 - 915ms/epoch - 9ms/step
+Epoch 358/10000
+98/98 - 1s - loss: -1.0603e+00 - val_loss: -2.9899e-01 - 915ms/epoch - 9ms/step
+Epoch 359/10000
+98/98 - 1s - loss: -1.0494e+00 - val_loss: -3.0763e-01 - 916ms/epoch - 9ms/step
+Epoch 360/10000
+
+Epoch 360: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_360/weights
+98/98 - 1s - loss: -1.1123e+00 - val_loss: -2.8219e-01 - 978ms/epoch - 10ms/step
+Epoch 361/10000
+98/98 - 1s - loss: -1.0307e+00 - val_loss: -3.2939e-01 - 913ms/epoch - 9ms/step
+Epoch 362/10000
+98/98 - 1s - loss: -9.6257e-01 - val_loss: -3.0047e-01 - 915ms/epoch - 9ms/step
+Epoch 363/10000
+98/98 - 1s - loss: -1.1139e+00 - val_loss: -2.6591e-01 - 916ms/epoch - 9ms/step
+Epoch 364/10000
+98/98 - 1s - loss: -9.8701e-01 - val_loss: -2.8487e-01 - 915ms/epoch - 9ms/step
+Epoch 365/10000
+98/98 - 1s - loss: -1.2748e+00 - val_loss: -2.0634e-01 - 919ms/epoch - 9ms/step
+Epoch 366/10000
+98/98 - 1s - loss: -6.0432e-01 - val_loss: -2.5167e-01 - 914ms/epoch - 9ms/step
+Epoch 367/10000
+98/98 - 1s - loss: -1.1483e+00 - val_loss: -1.8547e-01 - 915ms/epoch - 9ms/step
+Epoch 368/10000
+98/98 - 1s - loss: -1.0833e+00 - val_loss: 2.4804 - 917ms/epoch - 9ms/step
+Epoch 369/10000
+98/98 - 1s - loss: -8.5135e-01 - val_loss: 1.8224 - 915ms/epoch - 9ms/step
+Epoch 370/10000
+
+Epoch 370: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_370/weights
+98/98 - 1s - loss: -9.0372e-01 - val_loss: 1.8877 - 972ms/epoch - 10ms/step
+Epoch 371/10000
+98/98 - 1s - loss: -7.6844e-01 - val_loss: 0.1727 - 915ms/epoch - 9ms/step
+Epoch 372/10000
+98/98 - 1s - loss: -1.0540e+00 - val_loss: -1.7893e-05 - 912ms/epoch - 9ms/step
+Epoch 373/10000
+98/98 - 1s - loss: -1.0576e+00 - val_loss: -8.4417e-02 - 915ms/epoch - 9ms/step
+Epoch 374/10000
+98/98 - 1s - loss: -1.1655e+00 - val_loss: -2.1168e-01 - 913ms/epoch - 9ms/step
+Epoch 375/10000
+98/98 - 1s - loss: -6.2671e-01 - val_loss: 0.0327 - 913ms/epoch - 9ms/step
+Epoch 376/10000
+98/98 - 1s - loss: -1.1322e+00 - val_loss: -2.9863e-01 - 916ms/epoch - 9ms/step
+Epoch 377/10000
+98/98 - 1s - loss: -1.0580e+00 - val_loss: -3.3695e-01 - 915ms/epoch - 9ms/step
+Epoch 378/10000
+98/98 - 1s - loss: -1.2004e+00 - val_loss: -2.8560e-01 - 914ms/epoch - 9ms/step
+Epoch 379/10000
+98/98 - 1s - loss: -1.0541e+00 - val_loss: -2.4370e-01 - 918ms/epoch - 9ms/step
+Epoch 380/10000
+
+Epoch 380: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_380/weights
+98/98 - 1s - loss: -1.2063e+00 - val_loss: -1.5136e-01 - 979ms/epoch - 10ms/step
+Epoch 381/10000
+98/98 - 1s - loss: -1.1923e+00 - val_loss: -1.6394e-01 - 914ms/epoch - 9ms/step
+Epoch 382/10000
+98/98 - 1s - loss: -1.0727e+00 - val_loss: -1.7094e-01 - 915ms/epoch - 9ms/step
+Epoch 383/10000
+98/98 - 1s - loss: -1.2755e+00 - val_loss: -1.3135e-01 - 915ms/epoch - 9ms/step
+Epoch 384/10000
+98/98 - 1s - loss: -1.1361e+00 - val_loss: -1.4717e-01 - 915ms/epoch - 9ms/step
+Epoch 385/10000
+98/98 - 1s - loss: -1.1331e+00 - val_loss: -1.6015e-01 - 915ms/epoch - 9ms/step
+Epoch 386/10000
+98/98 - 1s - loss: -1.2470e+00 - val_loss: -9.4904e-02 - 914ms/epoch - 9ms/step
+Epoch 387/10000
+98/98 - 1s - loss: -8.3512e-01 - val_loss: 1.9421 - 917ms/epoch - 9ms/step
+Epoch 388/10000
+98/98 - 1s - loss: -1.2797e+00 - val_loss: 0.3389 - 914ms/epoch - 9ms/step
+Epoch 389/10000
+98/98 - 1s - loss: -1.1871e+00 - val_loss: 1.8161 - 914ms/epoch - 9ms/step
+Epoch 390/10000
+
+Epoch 390: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_390/weights
+98/98 - 1s - loss: -1.2282e+00 - val_loss: 1.5468 - 983ms/epoch - 10ms/step
+Epoch 391/10000
+98/98 - 1s - loss: -1.0711e+00 - val_loss: 1.7350 - 914ms/epoch - 9ms/step
+Epoch 392/10000
+98/98 - 1s - loss: -1.1251e+00 - val_loss: 0.1548 - 916ms/epoch - 9ms/step
+Epoch 393/10000
+98/98 - 1s - loss: -1.2603e+00 - val_loss: -6.0413e-02 - 916ms/epoch - 9ms/step
+Epoch 394/10000
+98/98 - 1s - loss: -1.1496e+00 - val_loss: -5.1657e-02 - 919ms/epoch - 9ms/step
+Epoch 395/10000
+98/98 - 1s - loss: -1.2336e+00 - val_loss: 0.2773 - 916ms/epoch - 9ms/step
+Epoch 396/10000
+98/98 - 1s - loss: -1.2488e+00 - val_loss: 0.7396 - 915ms/epoch - 9ms/step
+Epoch 397/10000
+98/98 - 1s - loss: -1.2368e+00 - val_loss: 0.6431 - 914ms/epoch - 9ms/step
+Epoch 398/10000
+98/98 - 1s - loss: -1.0603e+00 - val_loss: 0.4110 - 915ms/epoch - 9ms/step
+Epoch 399/10000
+98/98 - 1s - loss: -1.1491e+00 - val_loss: -8.2261e-02 - 915ms/epoch - 9ms/step
+Epoch 400/10000
+
+Epoch 400: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_400/weights
+98/98 - 1s - loss: -1.2221e+00 - val_loss: -1.8980e-01 - 984ms/epoch - 10ms/step
+Epoch 401/10000
+98/98 - 1s - loss: -1.2015e+00 - val_loss: -2.1690e-01 - 914ms/epoch - 9ms/step
+Epoch 402/10000
+98/98 - 1s - loss: -1.1689e+00 - val_loss: -2.5047e-01 - 918ms/epoch - 9ms/step
+Epoch 403/10000
+98/98 - 1s - loss: -1.0613e+00 - val_loss: -2.2621e-01 - 915ms/epoch - 9ms/step
+Epoch 404/10000
+98/98 - 1s - loss: -1.2832e+00 - val_loss: -2.6655e-01 - 916ms/epoch - 9ms/step
+Epoch 405/10000
+98/98 - 1s - loss: -9.9539e-01 - val_loss: -2.7989e-01 - 913ms/epoch - 9ms/step
+Epoch 406/10000
+98/98 - 1s - loss: -7.4685e-01 - val_loss: -2.6680e-01 - 916ms/epoch - 9ms/step
+Epoch 407/10000
+98/98 - 1s - loss: -9.6710e-01 - val_loss: -3.0694e-01 - 915ms/epoch - 9ms/step
+Epoch 408/10000
+98/98 - 1s - loss: -1.2269e+00 - val_loss: -2.6845e-01 - 917ms/epoch - 9ms/step
+Epoch 409/10000
+98/98 - 1s - loss: -1.2859e+00 - val_loss: -1.9493e-01 - 915ms/epoch - 9ms/step
+Epoch 410/10000
+
+Epoch 410: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_410/weights
+98/98 - 1s - loss: -1.3457e+00 - val_loss: -1.3359e-01 - 977ms/epoch - 10ms/step
+Epoch 411/10000
+98/98 - 1s - loss: -1.2732e+00 - val_loss: 0.1046 - 920ms/epoch - 9ms/step
+Epoch 412/10000
+98/98 - 1s - loss: -8.4624e-01 - val_loss: 2.2529 - 914ms/epoch - 9ms/step
+Epoch 413/10000
+98/98 - 1s - loss: -9.6445e-01 - val_loss: 0.7199 - 916ms/epoch - 9ms/step
+Epoch 414/10000
+98/98 - 1s - loss: -1.1146e+00 - val_loss: 0.2613 - 917ms/epoch - 9ms/step
+Epoch 415/10000
+98/98 - 1s - loss: -1.2595e+00 - val_loss: -2.0430e-01 - 914ms/epoch - 9ms/step
+Epoch 416/10000
+98/98 - 1s - loss: -1.2841e+00 - val_loss: -2.2075e-01 - 914ms/epoch - 9ms/step
+Epoch 417/10000
+98/98 - 1s - loss: -9.4183e-01 - val_loss: -3.0355e-01 - 914ms/epoch - 9ms/step
+Epoch 418/10000
+98/98 - 1s - loss: -1.3401e+00 - val_loss: -2.9729e-01 - 916ms/epoch - 9ms/step
+Epoch 419/10000
+98/98 - 1s - loss: -1.2830e+00 - val_loss: -2.1699e-01 - 919ms/epoch - 9ms/step
+Epoch 420/10000
+
+Epoch 420: saving model to models/james/GDP_4day_NC15/checkpoint_epoch_420/weights
+98/98 - 1s - loss: -1.2095e+00 - val_loss: -2.2908e-01 - 982ms/epoch - 10ms/step
+Epoch 421/10000
+98/98 - 1s - loss: -1.2090e+00 - val_loss: -1.4245e-01 - 916ms/epoch - 9ms/step
+Epoch 422/10000
+98/98 - 1s - loss: -6.9585e-01 - val_loss: -3.2472e-01 - 916ms/epoch - 9ms/step
+Epoch 423/10000
+98/98 - 1s - loss: -1.4096e+00 - val_loss: -1.2413e-01 - 915ms/epoch - 9ms/step
+Epoch 424/10000
+98/98 - 1s - loss: -1.4109e+00 - val_loss: 0.9728 - 915ms/epoch - 9ms/step
+Epoch 425/10000
+98/98 - 1s - loss: -1.0446e+00 - val_loss: 0.7759 - 918ms/epoch - 9ms/step
+Epoch 426/10000
+98/98 - 1s - loss: -1.2103e+00 - val_loss: 2.5905 - 914ms/epoch - 9ms/step
+Epoch 427/10000
+98/98 - 1s - loss: -1.1112e+00 - val_loss: 2.2782 - 914ms/epoch - 9ms/step
+Trained the model.

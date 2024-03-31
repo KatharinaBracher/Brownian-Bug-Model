@@ -26,7 +26,10 @@
 # Where to pipe the python output to.
 #$ -o models/james/model_gpu.out
 #$ -e models/james/model_gpu.err
-
+#
+# Send emails at the start, end, abortion, suspension of jobs 
+#$ -m beas
+#
 # Initialise the environment modules
 . /etc/profile.d/modules.sh
 
@@ -34,7 +37,7 @@
 module load anaconda
 
 # Load cuda
-module load cuda/11.0.2
+# module load cuda/11.0.2
 
 # Activate conda environment
 source activate plankton

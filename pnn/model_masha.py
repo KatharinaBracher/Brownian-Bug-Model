@@ -2,18 +2,14 @@
 Script for constructing and training MDN model of transition density.
 """
 
-print("Importing packages")
-
 import pickle
 from pathlib import Path
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 import tensorflow_probability as tfp
 from tensorflow.keras import callbacks as cb
-from preprocessing import Scaler  # noqa: E402
-from preprocessing import load_training_data
-from preprocessing import transform_to_dx
-
+from preprocessing import Scaler, load_training_data, transform_to_dx
 
 tfkl = tf.keras.layers
 tfpl = tfp.layers
@@ -51,9 +47,6 @@ data = transform_to_dx(data)
 
 X = data[:, 0:2, :].reshape(N, 4)
 Y = data[:, 2:4, :].reshape(N, 4)
-
-# X = np.load(DATA_DIR + "X0_train.npy")
-# Y = np.load(DATA_DIR + "DX_train.npy")
 
 # Xws = X.copy()
 # Xws[:, 0] -= 360.0
@@ -100,8 +93,6 @@ CHECKPOINT_FILE = "checkpoint_epoch_{epoch:02d}/weights"
 TRAINED_FILE = "trained/weights"
 
 # Training configuration
-
-
 def nll(data_point, tf_distribution):
     """Negative log likelihood."""
     return -tf_distribution.log_prob(data_point)
@@ -143,5 +134,8 @@ History = model.fit(
 )
 
 model.save_weights(MODEL_DIR + TRAINED_FILE)
+df = pd.DataFrame(history.history)
+file = MODEL_DIR+'loss.csv'
+df.to_csv(file, index=False)  
 
 print("Trained the model.")
