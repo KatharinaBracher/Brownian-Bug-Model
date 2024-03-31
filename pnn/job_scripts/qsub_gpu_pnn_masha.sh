@@ -34,7 +34,7 @@
 module load anaconda
 
 # Load cuda
-#module load cuda/11.0.2
+#cs bmodule load cuda/11.0.2
 
 # Activate conda environment
 source activate plankton
