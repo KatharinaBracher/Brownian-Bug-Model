@@ -15,7 +15,7 @@
 #$ -pe gpu-a100 1
 #
 # Requested memory per core
-#$ -l h_vmem=512G
+#$ -l h_vmem=256G
 #
 # Email address for notifications
 #$ -M s2445937@ed.ac.uk
@@ -24,8 +24,8 @@
 #$ -R y
 #
 # Where to pipe the python output to.
-#$ -o pnn/models/masha/model_gpu.out
-#$ -e pnn/models/masha/model_gpu.err
+#$ -o models/masha/model_gpu.out
+#$ -e models/masha/model_gpu.err
 
 # Initialise the environment modules
 . /etc/profile.d/modules.sh
@@ -34,7 +34,7 @@
 module load anaconda
 
 # Load cuda
-module load cuda/11.0.2
+#module load cuda/11.0.2
 
 # Activate conda environment
 source activate plankton
