@@ -5,6 +5,7 @@ Script for constructing and training MDN model of transition density.
 import pickle
 from pathlib import Path
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 import tensorflow_probability as tfp
 from tensorflow.keras import callbacks as cb
@@ -38,11 +39,7 @@ DATA_FILE = "training_data.npy"
 # DATA_DIR = f"data/GDP/{DT:.0f}day/"
 
 
-<<<<<<< HEAD
-data = load_training_data(DATA_DIR + DATA_FILE, N=1000000)  
-=======
 data = load_training_data(DATA_DIR + DATA_FILE, N=10000000)  
->>>>>>> 8192a4b9fedbbd4c2153730ac5e6c5e98d063c0e
 N = data.shape[0]
 print(f"Loaded {N = } datapoints")
 
@@ -137,5 +134,8 @@ History = model.fit(
 )
 
 model.save_weights(MODEL_DIR + TRAINED_FILE)
+df = pd.DataFrame(history.history)
+file = MODEL_DIR+'loss.csv'
+df.to_csv(file, index=False)  
 
 print("Trained the model.")
