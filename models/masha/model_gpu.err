@@ -1,0 +1,171 @@
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+2024-03-30 23:43:00.423202: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-03-30 23:43:01.092464: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-30 23:43:01.092590: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-30 23:43:01.097816: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-30 23:43:01.351964: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-30 23:43:19.851652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1886] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79087 MB memory:  -> device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:17:00.0, compute capability: 8.0
+2024-03-30 23:43:24.891131: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:24.956374: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:25.190516: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:25.258689: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:25.362924: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:25.430688: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:25.502212: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:25.569680: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:25.698677: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:25.766693: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:25.999507: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.067805: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.071328: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.134893: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.139013: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.201703: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.206370: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.268726: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.273923: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.334109: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.339967: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.400730: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.407275: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.467220: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.474521: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.536257: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:26.544161: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:26.605212: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.024066: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:27.093995: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.223166: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:27.291339: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.379843: I tensorflow/core/util/cuda_solvers.cc:179] Creating GpuSolver handles for stream 0x55728c543570
+2024-03-30 23:43:27.452907: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:27.529480: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.695846: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:27.764679: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.771518: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:27.835244: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.842371: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:27.904679: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.907937: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:27.969212: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:27.973009: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:28.035152: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:28.039399: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:28.101647: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:28.106473: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:28.169669: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:28.174859: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:28.236581: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:28.608087: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:28.677167: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:28.819615: E tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:114] *** WARNING *** You are using ptxas 11.0.194, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+2024-03-30 23:43:28.888703: W tensorflow/compiler/mlir/tools/kernel_gen/transforms/gpu_kernel_to_blob_pass.cc:191] Failed to compile generated PTX with ptxas. Falling back to compilation by driver.
+2024-03-30 23:43:29.063532: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2b6473d54e60 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-03-30 23:43:29.063574: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA A100 80GB PCIe, Compute Capability 8.0
+2024-03-30 23:43:29.080572: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-03-30 23:43:30.141593: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.143467: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.143524: I tensorflow/core/framework/local_rendezvous.cc:421] Local rendezvous recv item cancelled. Key hash: 9700514473269560184
+2024-03-30 23:43:30.143537: I tensorflow/core/framework/local_rendezvous.cc:421] Local rendezvous recv item cancelled. Key hash: 13193057365251846037
+2024-03-30 23:43:30.157327: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.158431: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.184315: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.185382: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.199034: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.200079: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.212786: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.213822: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.226302: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.227339: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.240364: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.241422: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.254054: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.255100: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.267902: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.268954: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.281679: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.282735: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.296625: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.297682: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.310416: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.311475: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.324464: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.325517: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+2024-03-30 23:43:30.338197: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:435] Loaded runtime CuDNN library: 8.1.1 but source was compiled with: 8.6.0.  CuDNN library needs to have matching major version and equal or higher minor version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2024-03-30 23:43:30.339256: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at xla_ops.cc:624 : FAILED_PRECONDITION: DNN library initialization failed. Look at the errors above for more details.
+Traceback (most recent call last):
+  File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/model_masha.py", line 134, in <module>
+    History = model.fit(
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 60, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.FailedPreconditionError: Graph execution error:
+
+Detected at node Adam/update_0_12/StatefulPartitionedCall defined at (most recent call last):
+  File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/model_masha.py", line 134, in <module>
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/engine/training.py", line 1783, in fit
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/engine/training.py", line 1377, in train_function
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/engine/training.py", line 1360, in step_function
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py", line 1345, in _distributed_apply_gradients_fn
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py", line 1340, in apply_grad_to_update_var
+
+Detected at node Adam/update_0_12/StatefulPartitionedCall defined at (most recent call last):
+  File "/exports/eddie3_homes_local/s2445937/Brownian-Bug-Model/pnn/model_masha.py", line 134, in <module>
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/engine/training.py", line 1783, in fit
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/engine/training.py", line 1377, in train_function
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/engine/training.py", line 1360, in step_function
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py", line 1345, in _distributed_apply_gradients_fn
+
+  File "/exports/eddie/scratch/s2445937/anaconda/envs/plankton/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py", line 1340, in apply_grad_to_update_var
+
+2 root error(s) found.
+  (0) FAILED_PRECONDITION:  DNN library initialization failed. Look at the errors above for more details.
+	 [[{{node Adam/update_0_12/StatefulPartitionedCall}}]]
+	 [[div_no_nan/Identity/_49]]
+  (1) FAILED_PRECONDITION:  DNN library initialization failed. Look at the errors above for more details.
+	 [[{{node Adam/update_0_12/StatefulPartitionedCall}}]]
+0 successful operations.
+0 derived errors ignored. [Op:__inference_train_function_5720]

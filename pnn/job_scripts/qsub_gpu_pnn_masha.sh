@@ -24,8 +24,8 @@
 #$ -R y
 #
 # Where to pipe the python output to.
-#$ -o pnn/models/masha/model_gpu.out
-#$ -e pnn/models/masha/model_gpu.err
+#$ -o models/masha/model_gpu.out
+#$ -e models/masha/model_gpu.err
 
 # Initialise the environment modules
 . /etc/profile.d/modules.sh
