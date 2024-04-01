@@ -23,7 +23,7 @@ print(tf.config.list_physical_devices())
 # Model hyperparameters
 
 # 15 here comes from the number of alphas, the number of mu's and the entries of the covariance matrix.
-N_C = 15
+N_C = 32
 DT = 4
 
 MODEL_DIR = (f"models/masha/GDP_{DT:.0f}day_NC{N_C}/")
@@ -81,8 +81,8 @@ with mirrored_strategy.scope():
          tfkl.Dense(256, activation='tanh'),
          tfkl.Dense(512, activation='tanh'),
          tfkl.Dense(512, activation='tanh'),
-         tfkl.Dense(N_C * 2, activation=None),
-         tfpl.MixtureSameFamily(2, tfpl.MultivariateNormalTriL(4))])
+         tfkl.Dense(N_C * 15, activation=None),
+         tfpl.MixtureSameFamily(N_C, tfpl.MultivariateNormalTriL(4))])
 
 print("Built the model.")
 
@@ -116,7 +116,7 @@ CHECKPOINTING = cb.ModelCheckpoint(
     verbose=1,
     save_weights_only=True)
 EARLY_STOPPING = cb.EarlyStopping(monitor="val_loss",
-                                  patience=50, min_delta=0.0)
+                                  patience=5, min_delta=0.0)
 CALLBACKS = [CHECKPOINTING, CSV_LOGGER, EARLY_STOPPING]
 
 # Model compilation and training
