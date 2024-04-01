@@ -301,3 +301,105 @@ Epoch 62/500
 2450/2450 - 29s - loss: 1.3123 - val_loss: 1.9617 - 29s/epoch - 12ms/step
 Epoch 63/500
 2450/2450 - 29s - loss: 1.3091 - val_loss: 1.9578 - 29s/epoch - 12ms/step
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (1084549, 4, 2)
+Loaded N = 25084550 datapoints
+Built the model.
+Epoch 1/500
+2450/2450 - 41s - loss: 1.3848 - val_loss: 0.9875 - 41s/epoch - 17ms/step
+Epoch 2/500
+2450/2450 - 30s - loss: 0.8254 - val_loss: 0.9345 - 30s/epoch - 12ms/step
+Epoch 3/500
+2450/2450 - 30s - loss: 0.6961 - val_loss: 0.8998 - 30s/epoch - 12ms/step
+Epoch 4/500
+2450/2450 - 30s - loss: 0.6043 - val_loss: 0.8741 - 30s/epoch - 12ms/step
+Epoch 5/500
+2450/2450 - 30s - loss: 0.5295 - val_loss: 0.8531 - 30s/epoch - 12ms/step
+Epoch 6/500
+2450/2450 - 30s - loss: 0.4640 - val_loss: 0.8731 - 30s/epoch - 12ms/step
+Epoch 7/500
+2450/2450 - 30s - loss: 0.4040 - val_loss: 0.8653 - 30s/epoch - 12ms/step
+Epoch 8/500
+2450/2450 - 30s - loss: 0.3492 - val_loss: 0.8646 - 30s/epoch - 12ms/step
+Epoch 9/500
+2450/2450 - 30s - loss: 0.2983 - val_loss: 0.8777 - 30s/epoch - 12ms/step
+Epoch 10/500
+
+Epoch 10: saving model to models/masha/GDP_4day_NC32/checkpoint_epoch_10/weights
+2450/2450 - 30s - loss: 0.2505 - val_loss: 0.8896 - 30s/epoch - 12ms/step
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 3
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (1084549, 4, 2)
+Loaded N = 25084550 datapoints
+Built the model.
+Epoch 1/500
+2450/2450 - 39s - loss: 1.3401 - val_loss: 0.9935 - 39s/epoch - 16ms/step
+Epoch 2/500
+2450/2450 - 29s - loss: 0.8257 - val_loss: 0.9304 - 29s/epoch - 12ms/step
+Epoch 3/500
+2450/2450 - 29s - loss: 0.6829 - val_loss: 0.9126 - 29s/epoch - 12ms/step
+Epoch 4/500
+2450/2450 - 29s - loss: 0.5749 - val_loss: 0.9397 - 29s/epoch - 12ms/step
+Epoch 5/500
+2450/2450 - 29s - loss: 0.4818 - val_loss: 0.9242 - 29s/epoch - 12ms/step
+Epoch 6/500
+2450/2450 - 29s - loss: 0.4067 - val_loss: 0.9271 - 29s/epoch - 12ms/step
+Epoch 7/500
+2450/2450 - 29s - loss: 0.3425 - val_loss: 0.9267 - 29s/epoch - 12ms/step
+Epoch 8/500
+2450/2450 - 30s - loss: 0.2848 - val_loss: 0.9600 - 30s/epoch - 12ms/step
+Epoch 9/500
+2450/2450 - 29s - loss: 0.2302 - val_loss: 0.9970 - 29s/epoch - 12ms/step
+Epoch 10/500
+
+Epoch 10: saving model to models/masha/GDP_4day_NC32/checkpoint_epoch_10/weights
+2450/2450 - 29s - loss: 0.1741 - val_loss: 1.0136 - 29s/epoch - 12ms/step
+Epoch 11/500
+2450/2450 - 29s - loss: 0.1192 - val_loss: 1.0427 - 29s/epoch - 12ms/step
+Epoch 12/500
+2450/2450 - 29s - loss: 0.0642 - val_loss: 1.0782 - 29s/epoch - 12ms/step
+Epoch 13/500
+2450/2450 - 29s - loss: 0.0129 - val_loss: 1.0989 - 29s/epoch - 12ms/step
+Epoch 14/500
+2450/2450 - 29s - loss: -3.3094e-02 - val_loss: 1.1273 - 29s/epoch - 12ms/step
+Epoch 15/500
+2450/2450 - 29s - loss: -6.9686e-02 - val_loss: 1.1493 - 29s/epoch - 12ms/step
+Epoch 16/500
+2450/2450 - 29s - loss: -1.0466e-01 - val_loss: 1.1512 - 29s/epoch - 12ms/step
+Epoch 17/500
+2450/2450 - 29s - loss: -1.3580e-01 - val_loss: 1.1742 - 29s/epoch - 12ms/step
+Epoch 18/500
+2450/2450 - 29s - loss: -1.6571e-01 - val_loss: 1.1971 - 29s/epoch - 12ms/step
+Epoch 19/500
+2450/2450 - 29s - loss: -1.9580e-01 - val_loss: 1.2059 - 29s/epoch - 12ms/step
+Epoch 20/500
+
+Epoch 20: saving model to models/masha/GDP_4day_NC32/checkpoint_epoch_20/weights
+2450/2450 - 29s - loss: -2.2399e-01 - val_loss: 1.1877 - 29s/epoch - 12ms/step
+Epoch 21/500
+2450/2450 - 29s - loss: -2.5790e-01 - val_loss: 1.2249 - 29s/epoch - 12ms/step
+Epoch 22/500
+2450/2450 - 29s - loss: -2.8302e-01 - val_loss: 1.2546 - 29s/epoch - 12ms/step
+Epoch 23/500
+2450/2450 - 29s - loss: -3.1351e-01 - val_loss: 1.1960 - 29s/epoch - 12ms/step
