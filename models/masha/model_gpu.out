@@ -403,3 +403,84 @@ Epoch 22/500
 2450/2450 - 29s - loss: -2.8302e-01 - val_loss: 1.2546 - 29s/epoch - 12ms/step
 Epoch 23/500
 2450/2450 - 29s - loss: -3.1351e-01 - val_loss: 1.1960 - 29s/epoch - 12ms/step
+CUDA_VISIBLE_DEVICES: 
+CUDA_VISIBLE_DEVICES: 1
+Loaded the libraries.
+[PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU'), PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (3000000, 4, 2)
+load (1084549, 4, 2)
+Loaded N = 25084550 datapoints
+Built the model.
+Epoch 1/500
+1004/1004 - 35s - loss: 1.7327 - val_loss: 1.1008 - 35s/epoch - 35ms/step
+Epoch 2/500
+1004/1004 - 23s - loss: 0.9188 - val_loss: 0.9161 - 23s/epoch - 23ms/step
+Epoch 3/500
+1004/1004 - 23s - loss: 0.7499 - val_loss: 0.8837 - 23s/epoch - 23ms/step
+Epoch 4/500
+1004/1004 - 23s - loss: 0.6558 - val_loss: 0.8632 - 23s/epoch - 23ms/step
+Epoch 5/500
+1004/1004 - 23s - loss: 0.5847 - val_loss: 0.8565 - 23s/epoch - 23ms/step
+Epoch 6/500
+1004/1004 - 23s - loss: 0.5262 - val_loss: 0.8623 - 23s/epoch - 23ms/step
+Epoch 7/500
+1004/1004 - 23s - loss: 0.4747 - val_loss: 0.8553 - 23s/epoch - 23ms/step
+Epoch 8/500
+1004/1004 - 23s - loss: 0.4270 - val_loss: 0.8508 - 23s/epoch - 23ms/step
+Epoch 9/500
+1004/1004 - 23s - loss: 0.3787 - val_loss: 0.8585 - 23s/epoch - 23ms/step
+Epoch 10/500
+
+Epoch 10: saving model to models/masha/GDP_4day_NC32/checkpoint_epoch_10/weights
+1004/1004 - 23s - loss: 0.3311 - val_loss: 0.8434 - 23s/epoch - 23ms/step
+Epoch 11/500
+1004/1004 - 23s - loss: 0.2862 - val_loss: 0.8580 - 23s/epoch - 23ms/step
+Epoch 12/500
+1004/1004 - 23s - loss: 0.2434 - val_loss: 0.8689 - 23s/epoch - 23ms/step
+Epoch 13/500
+1004/1004 - 23s - loss: 0.2024 - val_loss: 0.8789 - 23s/epoch - 23ms/step
+Epoch 14/500
+1004/1004 - 23s - loss: 0.1636 - val_loss: 0.8804 - 23s/epoch - 23ms/step
+Epoch 15/500
+1004/1004 - 23s - loss: 0.1298 - val_loss: 0.8987 - 23s/epoch - 23ms/step
+Epoch 16/500
+1004/1004 - 23s - loss: 0.0976 - val_loss: 0.9036 - 23s/epoch - 23ms/step
+Epoch 17/500
+1004/1004 - 23s - loss: 0.0666 - val_loss: 0.9015 - 23s/epoch - 23ms/step
+Epoch 18/500
+1004/1004 - 23s - loss: 0.0414 - val_loss: 0.9237 - 23s/epoch - 23ms/step
+Epoch 19/500
+1004/1004 - 23s - loss: 0.0153 - val_loss: 0.9317 - 23s/epoch - 23ms/step
+Epoch 20/500
+
+Epoch 20: saving model to models/masha/GDP_4day_NC32/checkpoint_epoch_20/weights
+1004/1004 - 23s - loss: -1.0549e-02 - val_loss: 0.9330 - 23s/epoch - 23ms/step
+Epoch 21/500
+1004/1004 - 23s - loss: -3.5280e-02 - val_loss: 0.9550 - 23s/epoch - 23ms/step
+Epoch 22/500
+1004/1004 - 23s - loss: -5.1688e-02 - val_loss: 0.9325 - 23s/epoch - 23ms/step
+Epoch 23/500
+1004/1004 - 23s - loss: -7.3011e-02 - val_loss: 0.9421 - 23s/epoch - 23ms/step
+Epoch 24/500
+1004/1004 - 23s - loss: -9.3726e-02 - val_loss: 0.9357 - 23s/epoch - 23ms/step
+Epoch 25/500
+1004/1004 - 23s - loss: -1.1366e-01 - val_loss: 0.9838 - 23s/epoch - 23ms/step
+Epoch 26/500
+1004/1004 - 23s - loss: -1.3180e-01 - val_loss: 0.9762 - 23s/epoch - 23ms/step
+Epoch 27/500
+1004/1004 - 23s - loss: -1.4786e-01 - val_loss: 0.9491 - 23s/epoch - 23ms/step
+Epoch 28/500
+1004/1004 - 23s - loss: -1.6385e-01 - val_loss: 0.9549 - 23s/epoch - 23ms/step
+Epoch 29/500
+1004/1004 - 23s - loss: -1.8198e-01 - val_loss: 0.9704 - 23s/epoch - 23ms/step
+Epoch 30/500
+
+Epoch 30: saving model to models/masha/GDP_4day_NC32/checkpoint_epoch_30/weights
+1004/1004 - 23s - loss: -1.9813e-01 - val_loss: 0.9902 - 23s/epoch - 23ms/step
