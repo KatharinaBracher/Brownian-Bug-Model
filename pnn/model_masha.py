@@ -99,10 +99,10 @@ def nll(data_point, tf_distribution):
 
 
 LOSS = nll
-BATCH_SIZE = 20000
+BATCH_SIZE = 16000
 LEARNING_RATE = 5e-5
 EPOCHS = 500
-# EPOCHS = 10000
+# EPOCHS = 100000
 OPTIMISER = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
 VALIDATION_SPLIT = 0.2
 
@@ -116,7 +116,7 @@ CHECKPOINTING = cb.ModelCheckpoint(
     verbose=1,
     save_weights_only=True)
 EARLY_STOPPING = cb.EarlyStopping(monitor="val_loss",
-                                  patience=20, min_delta=0.0)
+                                  patience=5, min_delta=0.0)
 CALLBACKS = [CHECKPOINTING, CSV_LOGGER, EARLY_STOPPING]
 
 # Model compilation and training
