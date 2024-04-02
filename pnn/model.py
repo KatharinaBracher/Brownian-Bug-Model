@@ -21,8 +21,9 @@ print(tf.config.list_physical_devices())
 
 # Model hyperparameters
 
+# 15 is needed but N_C is not the correct variable to assign it to.
 # 15 here comes from the number of alphas, the number of mu's and the entries of the covariance matrix.
-N_C = 15
+N_C = 32
 DT = 4
 
 MODEL_DIR = (f"models/james/GDP_{DT:.0f}day_NC{N_C}/")
@@ -37,7 +38,7 @@ DATA_DIR = "data/"
 DATA_FILE = "training_data.npy"
 # DATA_DIR = f"data/GDP/{DT:.0f}day/"
 
-data = load_training_data(DATA_DIR + DATA_FILE, N=1000000)  
+data = load_training_data(DATA_DIR + DATA_FILE)  
 N = data.shape[0]
 print(f"Loaded {N = } datapoints")
 
@@ -79,8 +80,8 @@ with mirrored_strategy.scope():
          tfkl.Dense(256, activation='tanh'),
          tfkl.Dense(512, activation='tanh'),
          tfkl.Dense(512, activation='tanh'),
-         tfkl.Dense(N_C * 2, activation=None),
-         tfpl.MixtureSameFamily(2, tfpl.MultivariateNormalTriL(4))])
+         tfkl.Dense(N_C * 15, activation=None),
+         tfpl.MixtureSameFamily(N_C, tfpl.MultivariateNormalTriL(4))])
 
 print("Built the model.")
 
@@ -101,7 +102,7 @@ def nll(data_point, tf_distribution):
 LOSS = nll
 BATCH_SIZE = 8192
 LEARNING_RATE = 5e-5
-EPOCHS = 10000
+EPOCHS = 1000
 # EPOCHS = 100000
 OPTIMISER = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
 VALIDATION_SPLIT = 0.2
@@ -116,7 +117,7 @@ CHECKPOINTING = cb.ModelCheckpoint(
     verbose=1,
     save_weights_only=True)
 EARLY_STOPPING = cb.EarlyStopping(monitor="val_loss",
-                                  patience=50, min_delta=0.0)
+                                  patience=3, min_delta=0.0)
 CALLBACKS = [CHECKPOINTING, CSV_LOGGER, EARLY_STOPPING]
 
 # Model compilation and training

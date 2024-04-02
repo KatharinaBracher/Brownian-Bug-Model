@@ -1,0 +1,8 @@
+Running simulation for U_tot = 0.0, gamma = -2.82e-15
+Running simulation for U_tot = 0.1, gamma = 0.0264
+Running simulation for U_tot = 0.5, gamma = 0.506
+Running simulation for U_tot = 2.5, gamma = 2.43
+Number of plankton after the simulation for 0.0: 180498.
+Number of plankton after the simulation for 0.1: 208714.
+Number of plankton after the simulation for 2.5: 210014.
+Number of plankton after the simulation for 0.5: 201020.
