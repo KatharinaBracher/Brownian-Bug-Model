@@ -116,7 +116,7 @@ CHECKPOINTING = cb.ModelCheckpoint(
     verbose=1,
     save_weights_only=True)
 EARLY_STOPPING = cb.EarlyStopping(monitor="val_loss",
-                                  patience=5, min_delta=0.0)
+                                  patience=20, min_delta=0.0)
 CALLBACKS = [CHECKPOINTING, CSV_LOGGER, EARLY_STOPPING]
 
 # Model compilation and training
